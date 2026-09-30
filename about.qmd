@@ -10,13 +10,7 @@ title: "About"
 		<a href="smoking.html">Smoking</a>
 		<a href="fitness.html">Fitness</a>
 		<a href="predictors.html">Predictors</a>
-		<a href="story.html">Story</a>
-		<a href="about.html" aria-current="page">About</a>
-	</nav>
 
-	<header class="story-heading">
-		<p class="story-kicker">ABOUT THE PROJECT</p>
-		<h1>About</h1>
 		<p>A global cardiovascular health project exploring how behavioral risk factors relate to cardiovascular mortality.</p>
 	</header>
 

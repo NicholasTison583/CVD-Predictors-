@@ -10,7 +10,6 @@ title: "Fitness and Cardiovascular Health"
     <a href="smoking.html">Smoking</a>
     <a href="fitness.html" aria-current="page">Fitness</a>
     <a href="predictors.html">Predictors</a>
-    <a href="story.html">Story</a>
     <a href="about.html">About</a>
   </nav>
 

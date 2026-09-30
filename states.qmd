@@ -10,7 +10,6 @@ title: "U.S. State Cardiovascular Health"
     <a href="smoking.html">Smoking</a>
     <a href="fitness.html">Fitness</a>
     <a href="predictors.html">Predictors</a>
-    <a href="story.html">Story</a>
     <a href="about.html">About</a>
   </nav>
 
@@ -54,42 +53,26 @@ title: "U.S. State Cardiovascular Health"
     <p class="state-missing-note" id="scatterCoverageNote"></p>
   </section>
 
-  <section class="story-section state-map-section" aria-labelledby="state-map-heading">
+  <section class="story-section state-map-section" aria-labelledby="state-profile-heading">
     <div class="story-section-heading">
       <div>
-        <p class="story-kicker">STATE MAP</p>
-        <h2 id="state-map-heading">Explore a measure by state</h2>
+        <p class="story-kicker">STATE PROFILE</p>
+        <h2 id="state-profile-heading">Choose a state and review its measures</h2>
       </div>
     </div>
     <div class="state-viz-controls">
-      <div class="scatter-field">
-        <label for="mapMetricSelect">Map measure</label>
-        <select id="mapMetricSelect">
-          <option value="PhysicalActivity2023">Meets aerobic activity guideline (2023, %)</option>
-          <option value="PhysicalInactivity2022">No leisure-time activity (2022, %)</option>
-          <option value="Smoking2022">Current smoking (2022, %)</option>
-          <option value="CvdMortality2022">Heart-disease mortality (2022, per 100,000)</option>
-        </select>
-      </div>
       <div class="scatter-field">
         <label for="stateSelect">Selected state</label>
         <select id="stateSelect"><option value="">Select a state</option></select>
       </div>
     </div>
-    <div class="state-map-layout">
-      <figure class="state-map-figure">
-        <svg id="usStateMap" viewBox="0 0 960 620" role="img" aria-label="Map of the 50 states and Washington, D.C., colored by selected measure"></svg>
-        <figcaption id="mapLegend" class="state-map-legend"></figcaption>
-        <p class="state-missing-note" id="mapCoverageNote"></p>
-      </figure>
-      <aside class="state-detail-panel" aria-live="polite" aria-labelledby="state-detail-heading">
-        <p class="story-kicker">STATE PROFILE</p>
-        <h3 id="state-detail-heading">Select a state</h3>
-        <dl id="stateDetails" class="state-detail-list">
-          <div class="state-detail-empty">Choose a state on the map or from the selector to see its values.</div>
-        </dl>
-      </aside>
-    </div>
+    <aside class="state-detail-panel" aria-live="polite" aria-labelledby="state-detail-heading">
+      <p class="story-kicker">STATE PROFILE</p>
+      <h3 id="state-detail-heading">Select a state</h3>
+      <dl id="stateDetails" class="state-detail-list">
+        <div class="state-detail-empty">Choose a state from the selector to see its values.</div>
+      </dl>
+    </aside>
   </section>
 
   <aside class="state-method-note">

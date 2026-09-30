@@ -10,7 +10,6 @@ title: "Cardiovascular Disease Around the World"
     <a href="smoking.html">Smoking</a>
     <a href="fitness.html">Fitness</a>
     <a href="predictors.html">Predictors</a>
-    <a href="story.html">Story</a>
     <a href="about.html">About</a>
   </nav>
 

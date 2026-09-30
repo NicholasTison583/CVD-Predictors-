@@ -589,6 +589,8 @@ body {
   display: block;
   width: 100%;
   height: auto;
+  background: #f7fafc;
+  border-radius: 12px;
 }
 
 .state-axis path,
@@ -666,6 +668,7 @@ body {
   stroke-width: 1.2px;
   cursor: pointer;
   transition: opacity 120ms ease, stroke-width 120ms ease;
+  shape-rendering: geometricPrecision;
 }
 
 .state-shape:hover,

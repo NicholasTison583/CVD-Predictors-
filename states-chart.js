@@ -3,14 +3,11 @@
   if (scatterSvg.empty()) return;
 
   const scatterNode = scatterSvg.node();
-  const mapSvg = d3.select('#usStateMap');
   const relationshipSelect = document.getElementById('relationshipSelect');
-  const mapMetricSelect = document.getElementById('mapMetricSelect');
   const stateSelect = document.getElementById('stateSelect');
   const tooltip = d3.select('body').append('div').attr('class', 'state-tooltip').attr('role', 'status');
   const stateRows = new Map();
   let rows = [];
-  let features = [];
   let selectedState = '';
 
   const measures = {
@@ -97,7 +94,6 @@
     selectedState = abbreviation;
     stateSelect.value = abbreviation;
     renderScatter();
-    renderMap();
     renderStateDetails();
   }
 
@@ -164,77 +160,17 @@
       });
   }
 
-  function renderLegend(scale, domain, unit) {
-    const legend = d3.select('#mapLegend');
-    legend.selectAll('*').remove();
-    const colors = scale.range();
-    const bandWidth = (domain[1] - domain[0]) / colors.length;
-    colors.forEach((color, index) => {
-      const start = domain[0] + bandWidth * index;
-      const end = index === colors.length - 1 ? domain[1] : start + bandWidth;
-      const item = legend.append('span').attr('class', 'state-map-legend-item');
-      item.append('i').style('background-color', color);
-      item.append('span').text(`${start.toFixed(0)}–${end.toFixed(0)}${unit}`);
-    });
-    const missing = legend.append('span').attr('class', 'state-map-legend-item');
-    missing.append('i').attr('class', 'state-map-missing-swatch');
-    missing.append('span').text('No estimate');
-  }
-
-  function mapTooltipLines(row, key) {
-    const measure = measures[key];
-    return [row.State, `${measure.label} (${measure.year}): ${formatValue(row[key], measure.unit)}`];
-  }
-
-  function renderMap() {
-    const key = mapMetricSelect.value;
-    const measure = measures[key];
-    const dataValues = rows.map((row) => row[key]).filter(Number.isFinite);
-    mapSvg.selectAll('*').remove();
-    if (!features.length || !dataValues.length) return;
-
-    const domain = d3.extent(dataValues);
-    if (domain[0] === domain[1]) domain[1] = domain[0] + 1;
-    const colors = d3.quantize(d3.interpolateYlGnBu, 6);
-    const color = d3.scaleQuantize().domain(domain).range(colors);
-    const collection = { type: 'FeatureCollection', features };
-    const projection = d3.geoAlbersUsa().fitSize([950, 590], collection);
-    const path = d3.geoPath(projection);
-    const stateMap = new Map(rows.map((row) => [keyName(row.State), row]));
-
-    mapSvg.selectAll('.state-shape').data(features, (feature) => feature.properties.name).join('path')
-      .attr('class', (feature) => {
-        const row = stateMap.get(keyName(feature.properties.name));
-        return `state-shape${row && row.Abbreviation === selectedState ? ' selected' : ''}`;
-      })
-      .attr('d', path)
-      .attr('fill', (feature) => {
-        const row = stateMap.get(keyName(feature.properties.name));
-        return row && Number.isFinite(row[key]) ? color(row[key]) : '#d9dee5';
-      })
-      .attr('tabindex', 0).attr('role', 'button')
-      .attr('aria-label', (feature) => {
-        const row = stateMap.get(keyName(feature.properties.name));
-        return row ? `${row.State}: ${formatValue(row[key], measure.unit)}` : feature.properties.name;
-      })
-      .on('pointerenter focus', (event, feature) => {
-        const row = stateMap.get(keyName(feature.properties.name));
-        if (row) showTooltip(event, mapTooltipLines(row, key));
-      })
-      .on('pointermove', (event) => tooltip.style('left', `${Math.min(event.clientX + 14, window.innerWidth - 300)}px`).style('top', `${Math.min(event.clientY + 14, window.innerHeight - 100)}px`))
-      .on('pointerleave blur', hideTooltip)
-      .on('click keydown', (event, feature) => {
-        if (event.type === 'keydown' && event.key !== 'Enter' && event.key !== ' ') return;
-        if (event.type === 'keydown') event.preventDefault();
-        const row = stateMap.get(keyName(feature.properties.name));
-        if (row) selectState(row.Abbreviation);
-      });
-
-    renderLegend(color, domain, measure.unit);
-    const missingStates = rows.filter((row) => !Number.isFinite(row[key])).map((row) => row.State);
-    document.getElementById('mapCoverageNote').textContent = missingStates.length
-      ? `No ${measure.year} estimate is available for ${missingStates.join(' and ')}.`
-      : `All 50 states and Washington, D.C. have ${measure.year} estimates.`;
+  function renderStateProfile() {
+    const selected = rows.find((row) => row.Abbreviation === selectedState);
+    if (!selected) {
+      const heading = document.getElementById('state-detail-heading');
+      const details = d3.select('#stateDetails');
+      heading.textContent = 'Select a state';
+      details.selectAll('*').remove();
+      details.append('div').attr('class', 'state-detail-empty').text('Choose a state from the selector to see its values.');
+      return;
+    }
+    renderStateDetails();
   }
 
   function renderStateDetails() {
@@ -244,7 +180,7 @@
     details.selectAll('*').remove();
     if (!selected) {
       heading.textContent = 'Select a state';
-      details.append('div').attr('class', 'state-detail-empty').text('Choose a state on the map or from the selector to see its values.');
+      details.append('div').attr('class', 'state-detail-empty').text('Choose a state from the selector to see its values.');
       return;
     }
     heading.textContent = selected.State;
@@ -271,21 +207,17 @@
   }
 
   relationshipSelect.addEventListener('change', renderScatter);
-  mapMetricSelect.addEventListener('change', renderMap);
   stateSelect.addEventListener('change', () => {
     selectedState = stateSelect.value;
     renderScatter();
-    renderMap();
     renderStateDetails();
   });
 
-  Promise.all([d3.csv('data/us_state_health_data.csv'), d3.json('data/us-states-geojson.json')])
-    .then(([csvRows, geojson]) => {
+  d3.csv('data/us_state_health_data.csv')
+    .then((csvRows) => {
       readRows(csvRows);
-      features = geojson.features.filter((feature) => stateRows.has(keyName(feature.properties.name)));
       populateStates();
       renderScatter();
-      renderMap();
       renderStateDetails();
     })
     .catch((error) => {
