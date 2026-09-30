@@ -10,11 +10,12 @@
     <div class="observatory-page story-page">
       <nav class="page-tabs" aria-label="Project pages">
         <a href="index.html">Map</a>
+        <a href="states.html">U.S. States</a>
         <a href="smoking.html" aria-current="page">Smoking</a>
-        <a href="alcohol.html">Alcohol</a>
         <a href="fitness.html">Fitness</a>
         <a href="predictors.html">Predictors</a>
         <a href="story.html">Story</a>
+        <a href="about.html">About</a>
       </nav>
 
       <header class="story-heading">
@@ -43,8 +44,25 @@
           <p class="graph-note">Ranges convert the cited 2–4× risks into percent higher than the comparison group.</p>
         </figure>
 
+        <section class="story-section" aria-labelledby="tobacco-model-heading">
+          <div class="story-section-heading">
+            <div>
+              <p class="story-kicker">COUNTRY-YEAR REGRESSION</p>
+              <h2 id="tobacco-model-heading">Is higher tobacco use associated with higher CVD mortality?</h2>
+            </div>
+          </div>
+          <p>Across 1,902 country-year observations from 98 countries, a one-percentage-point increase in tobacco-use prevalence was associated with 5.46 additional age-standardized CVD deaths per 100,000 people.</p>
+          <div class="predictor-grid">
+            <article class="predictor-card"><p class="predictor-value">5.46</p><h3>Regression slope</h3><p>Additional CVD deaths per 100,000 for each 1-point increase in tobacco prevalence.</p></article>
+            <article class="predictor-card"><p class="predictor-value">0.362</p><h3>Correlation (r)</h3><p>Positive pooled association between tobacco prevalence and CVD mortality.</p></article>
+            <article class="predictor-card"><p class="predictor-value">0.131</p><h3>R-squared</h3><p>Share of pooled outcome variation described by the simple linear model.</p></article>
+            <article class="predictor-card"><p class="predictor-value">1,902</p><h3>Observations</h3><p>Matched country-year records spanning 2000–2023.</p></article>
+          </div>
+          <p class="chart-caveat">Model: ŷ = 77.33 + 5.46x, where x is tobacco-use prevalence in percent. This is an unadjusted country-level association, not evidence of causation. Of the tobacco values, 576 are WHO estimates and 1,326 are interpolated between estimate years. Repeated country observations are not independent, so no p-value is reported.</p>
+        </section>
+
         <p class="smoking-process">Tobacco exposure → blood-vessel damage → plaque and clot formation → reduced blood flow → heart attack or stroke</p>
-        <p class="smoking-note">Smoking damages vessel linings, increases hypertension, lowers HDL cholesterol, and promotes atherosclerosis and clotting. Secondhand smoke is also harmful. These estimates are relative-risk associations, not a full explanation of all deaths in a country.</p>
+        <p class="smoking-note">Smoking damages vessel linings, increases hypertension, lowers HDL cholesterol, and promotes atherosclerosis and clotting. Secondhand smoke is also harmful. These estimates are relative-risk associations, not a full explanation of all deaths in a country. Explore the country-year tobacco graph on the <a href="predictors.html">Predictors tab</a>.</p>
       </section>
     </div>
   </body>

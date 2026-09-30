@@ -3,6 +3,8 @@ project:
   resources:
     - data/*.json
     - data/*.csv
+    - tobacco-chart.js
+    - states-chart.js
 
 website:
   title: "CVD Predictors"

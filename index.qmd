@@ -6,11 +6,12 @@ title: "Cardiovascular Disease Around the World"
 <div class="observatory-page">
   <nav class="page-tabs" aria-label="Project pages">
     <a href="index.html" aria-current="page">Map</a>
+    <a href="states.html">U.S. States</a>
     <a href="smoking.html">Smoking</a>
-    <a href="alcohol.html">Alcohol</a>
     <a href="fitness.html">Fitness</a>
     <a href="predictors.html">Predictors</a>
     <a href="story.html">Story</a>
+    <a href="about.html">About</a>
   </nav>
 
   <div class="intro-block">

@@ -6,404 +6,58 @@ title: "Behavioral Predictors of Cardiovascular Disease"
 <div class="observatory-page story-page">
   <nav class="page-tabs" aria-label="Project pages">
     <a href="index.html">Map</a>
+    <a href="states.html">U.S. States</a>
     <a href="smoking.html">Smoking</a>
-    <a href="alcohol.html">Alcohol</a>
     <a href="fitness.html">Fitness</a>
     <a href="predictors.html" aria-current="page">Predictors</a>
     <a href="story.html">Story</a>
+    <a href="about.html">About</a>
   </nav>
 
   <header class="story-heading">
-    <p class="story-kicker">COUNTRY-YEAR ANALYSIS</p>
-    <h1>How Do Behavioral Factors Predict Cardiovascular Disease Worldwide?</h1>
-    <p>
-      Each dot is one country-year observation comparing WHO tobacco-use prevalence with age-standardized cardiovascular mortality. The dataset contains 1,902 matched observations across 98 countries from 2000 to 2023.
-    </p>
+    <p class="story-kicker">BEHAVIORAL RISK ANALYSIS</p>
+    <h1>Predictors of Cardiovascular Disease</h1>
+    <p>The joined sources contain 2,206 country-year mortality records across 116 countries from 2000 to 2023. Each selected predictor uses only country-years with a matching WHO value.</p>
   </header>
 
-  <section class="story-section" aria-labelledby="predictor-plot-heading">
+  <section class="story-section" aria-labelledby="smoking-analysis-heading">
     <div class="story-section-heading">
       <div>
-        <p class="story-kicker">EXPLORATORY MODEL</p>
-        <h2 id="predictor-plot-heading">Tobacco prevalence and CVD mortality</h2>
+        <p class="story-kicker">COUNTRY-YEAR ANALYSIS · 2000–2023</p>
+        <h2 id="smoking-analysis-heading">Behavioral predictors and CVD mortality</h2>
       </div>
     </div>
-
     <div class="scatter-card">
       <div class="scatter-controls">
         <div class="scatter-field">
-          <label for="yearSelect">Year</label>
-          <select id="yearSelect"></select>
-        </div>
-        <div class="scatter-field">
-            <label for="regionSelect">WHO region</label>
-          <select id="regionSelect">
-              <option value="All WHO regions">All WHO regions</option>
+          <label for="predictorSelect">Predictor</label>
+          <select id="predictorSelect">
+            <option value="Tobacco">Tobacco use (%)</option>
+            <option value="PhysicalInactivity">Physical inactivity (%)</option>
           </select>
         </div>
-        <div class="scatter-field">
-          <label for="countrySelect">Country</label>
-          <select id="countrySelect">
-            <option value="All countries">All countries</option>
-          </select>
-        </div>
+        <div class="scatter-field"><label for="yearSelect">Year</label><select id="yearSelect"></select></div>
+        <div class="scatter-field"><label for="regionSelect">WHO region</label><select id="regionSelect"></select></div>
+        <div class="scatter-field"><label for="countrySelect">Country</label><select id="countrySelect"></select></div>
       </div>
-
       <div class="axis-summary">
         <div><strong>Y-axis:</strong> CVD mortality rate (per 100,000)</div>
-        <div><strong>X-axis:</strong> Tobacco-use prevalence (%)</div>
+        <div><strong>X-axis:</strong> Selectable predictor</div>
       </div>
-
       <div class="regression-stats" aria-live="polite" aria-label="Regression statistics">
         <div><span>Observations (n)</span><strong id="statN">Loading</strong></div>
         <div><span>Correlation (r)</span><strong id="statR">-</strong></div>
         <div><span>R-squared</span><strong id="statR2">-</strong></div>
         <div><span>OLS equation</span><strong id="statEquation">-</strong></div>
       </div>
-
-      <p class="data-source-note">Dots are colored by WHO region. Hover over a dot to see whether its tobacco value is a WHO estimate or a linear interpolation between WHO estimate years. No tobacco values are extrapolated beyond the available WHO years.</p>
-
+      <p class="data-source-note">Available WHO country-year values are plotted; unmatched values are omitted for the selected predictor. Tobacco values between WHO estimate years are interpolated. WHO inactivity estimates cover adults aged 18+.</p>
       <div class="scatter-plot-wrap">
-        <svg id="cvdScatter" viewBox="0 0 900 500" role="img" aria-label="Scatter plot of tobacco-use prevalence and age-standardized cardiovascular mortality by country-year, with an ordinary least-squares trendline"></svg>
+        <svg id="cvdScatter" viewBox="0 0 900 500" role="img" aria-label="Scatter plot of selected behavioral predictor and cardiovascular mortality by country-year, with a linear regression line"></svg>
         <div id="scatterTooltip" class="scatter-tooltip" aria-live="polite"></div>
       </div>
-    </div>
-  </section>
-
-  <section class="story-section" aria-labelledby="guide-heading">
-    <div class="story-section-heading">
-      <div>
-        <p class="story-kicker">GUIDE</p>
-        <h2 id="guide-heading">How to interpret this chart</h2>
-      </div>
-    </div>
-
-    <div class="predictor-grid">
-      <article class="predictor-card">
-        <p class="predictor-value">1,902</p>
-        <h3>Observations</h3>
-        <p>Unique country-year pairs with both a tobacco estimate and a CVD mortality rate.</p>
-      </article>
-      <article class="predictor-card">
-        <p class="predictor-value">98</p>
-        <h3>Countries</h3>
-        <p>Country identifiers are matched using ISO alpha-3 codes.</p>
-      </article>
-      <article class="predictor-card">
-        <p class="predictor-value">2000–2023</p>
-        <h3>Years</h3>
-        <p>Annual mortality observations are paired with WHO tobacco estimates.</p>
-      </article>
-      <article class="predictor-card">
-        <p class="predictor-value">576 + 1,326</p>
-        <h3>WHO / interpolated</h3>
-        <p>WHO reports tobacco estimates for selected years; intermediate annual values are linearly interpolated.</p>
-      </article>
     </div>
   </section>
 </div>
 ```
 
-<script>
-  (function () {
-    const regionColors = {
-      Africa: '#1d4e89',
-      Americas: '#2a9d8f',
-      'Eastern Mediterranean': '#e76f51',
-      Europe: '#f4a261',
-      'South-East Asia': '#6a4c93',
-      'Western Pacific': '#168aad'
-    };
-
-    const svg = document.getElementById('cvdScatter');
-    const yearSelect = document.getElementById('yearSelect');
-    const regionSelect = document.getElementById('regionSelect');
-    const countrySelect = document.getElementById('countrySelect');
-    const tooltip = document.getElementById('scatterTooltip');
-    const statN = document.getElementById('statN');
-    const statR = document.getElementById('statR');
-    const statR2 = document.getElementById('statR2');
-    const statEquation = document.getElementById('statEquation');
-
-    let data = [];
-
-    function parseCSV(text) {
-      const rows = [];
-      let row = [];
-      let field = '';
-      let quoted = false;
-
-      for (let index = 0; index < text.length; index += 1) {
-        const character = text[index];
-        if (quoted && character === '"' && text[index + 1] === '"') {
-          field += '"';
-          index += 1;
-        } else if (character === '"') {
-          quoted = !quoted;
-        } else if (!quoted && character === ',') {
-          row.push(field);
-          field = '';
-        } else if (!quoted && character === '\n') {
-          row.push(field.replace(/\r$/, ''));
-          rows.push(row);
-          row = [];
-          field = '';
-        } else {
-          field += character;
-        }
-      }
-      if (field || row.length) {
-        row.push(field.replace(/\r$/, ''));
-        rows.push(row);
-      }
-
-      const header = rows.shift() || [];
-      return rows.filter((values) => values.length === header.length).map((values) => {
-        const obj = Object.fromEntries(header.map((key, index) => [key.trim(), values[index]?.trim()]));
-        return {
-          Country: obj.Country,
-          Code: obj.Code,
-          Year: Number(obj.Year),
-          Region: obj.WHORegion,
-          Tobacco: Number(obj.Tobacco),
-          CVDMortality: Number(obj.CVDMortality),
-          TobaccoMethod: obj.TobaccoMethod
-        };
-      });
-    }
-
-    function populateControl(select, values, placeholder) {
-      select.innerHTML = '';
-      const placeholderOption = document.createElement('option');
-      placeholderOption.value = placeholder;
-      placeholderOption.textContent = placeholder;
-      select.appendChild(placeholderOption);
-      values.forEach((value) => {
-        const option = document.createElement('option');
-        option.value = String(value);
-        option.textContent = String(value);
-        select.appendChild(option);
-      });
-    }
-
-    function updateControls() {
-      const years = [...new Set(data.map((d) => d.Year))].sort((a, b) => a - b);
-      populateControl(yearSelect, years, 'All years');
-      yearSelect.value = 'All years';
-
-      const regions = [...new Set(data.map((d) => d.Region))].sort();
-      populateControl(regionSelect, regions, 'All WHO regions');
-      regionSelect.value = 'All WHO regions';
-
-      const countries = [...new Set(data.map((d) => d.Country))].sort();
-      populateControl(countrySelect, countries, 'All countries');
-      countrySelect.value = 'All countries';
-    }
-
-    function getFilteredData() {
-      const selectedYear = yearSelect.value;
-      const selectedRegion = regionSelect.value;
-      const selectedCountry = countrySelect.value;
-
-      return data.filter((d) => {
-        const yearMatch = selectedYear === 'All years' || Number(selectedYear) === d.Year;
-        const regionMatch = selectedRegion === 'All WHO regions' || d.Region === selectedRegion;
-        const countryMatch = selectedCountry === 'All countries' || d.Country === selectedCountry;
-        return yearMatch && regionMatch && countryMatch && Number.isFinite(d.Tobacco) && Number.isFinite(d.CVDMortality);
-      });
-    }
-
-    function showTooltip(event, row, xValue, yValue) {
-      tooltip.innerHTML = `
-        <strong>${row.Country}</strong>
-        ${row.Region}<br>
-        Year: ${row.Year}<br>
-        Tobacco use: ${xValue.toFixed(2)}%<br>
-        CVD mortality: ${yValue.toFixed(1)} per 100,000<br>
-        Tobacco value: ${row.TobaccoMethod}
-      `;
-      tooltip.style.display = 'block';
-      tooltip.style.left = `${(event.clientX ?? 0) + 14}px`;
-      tooltip.style.top = `${(event.clientY ?? 0) + 14}px`;
-    }
-
-    function hideTooltip() {
-      tooltip.style.display = 'none';
-    }
-
-    function calculateRegression(rows) {
-      if (rows.length < 2) return null;
-      const meanX = rows.reduce((sum, row) => sum + row.Tobacco, 0) / rows.length;
-      const meanY = rows.reduce((sum, row) => sum + row.CVDMortality, 0) / rows.length;
-      const sxx = rows.reduce((sum, row) => sum + (row.Tobacco - meanX) ** 2, 0);
-      const syy = rows.reduce((sum, row) => sum + (row.CVDMortality - meanY) ** 2, 0);
-      const sxy = rows.reduce((sum, row) => sum + (row.Tobacco - meanX) * (row.CVDMortality - meanY), 0);
-      if (!sxx || !syy) return null;
-      const slope = sxy / sxx;
-      return { slope, intercept: meanY - slope * meanX, r: sxy / Math.sqrt(sxx * syy) };
-    }
-
-    function updateRegressionStats(rows, regression) {
-      statN.textContent = rows.length.toLocaleString();
-      statR.textContent = regression ? regression.r.toFixed(3) : '-';
-      statR2.textContent = regression ? (regression.r ** 2).toFixed(3) : '-';
-      statEquation.textContent = regression
-        ? `CVD = ${regression.intercept.toFixed(2)} + ${regression.slope.toFixed(2)}x`
-        : '-';
-    }
-
-    function renderChart() {
-      const filtered = getFilteredData();
-      const regression = calculateRegression(filtered);
-      updateRegressionStats(filtered, regression);
-      const width = 900;
-      const height = 500;
-      const margin = { top: 20, right: 25, bottom: 60, left: 75 };
-      const innerWidth = width - margin.left - margin.right;
-      const innerHeight = height - margin.top - margin.bottom;
-
-      svg.innerHTML = '';
-
-      if (!filtered.length) {
-        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        text.setAttribute('x', width / 2);
-        text.setAttribute('y', height / 2);
-        text.setAttribute('text-anchor', 'middle');
-        text.setAttribute('fill', '#425468');
-        text.setAttribute('font-size', '16');
-        text.textContent = 'No observations match the current filters.';
-        svg.appendChild(text);
-        return;
-      }
-
-      const xMin = Math.min(...filtered.map((d) => d.Tobacco));
-      const xMax = Math.max(...filtered.map((d) => d.Tobacco));
-      const predicted = regression
-        ? [regression.intercept + regression.slope * xMin, regression.intercept + regression.slope * xMax]
-        : [];
-      const yMin = Math.min(0, ...predicted);
-      const yMax = Math.max(...filtered.map((d) => d.CVDMortality), ...predicted, 1) * 1.08;
-
-      const xScale = (value) => margin.left + ((value - xMin) / Math.max(xMax - xMin, 1e-6)) * innerWidth;
-      const yScale = (value) => height - margin.bottom - ((value - yMin) / Math.max(yMax - yMin, 1e-6)) * innerHeight;
-
-      const axisGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-      const xAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-      xAxis.setAttribute('class', 'scatter-axis');
-      xAxis.setAttribute('x1', margin.left);
-      xAxis.setAttribute('x2', width - margin.right);
-      xAxis.setAttribute('y1', height - margin.bottom);
-      xAxis.setAttribute('y2', height - margin.bottom);
-      axisGroup.appendChild(xAxis);
-
-      const yAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-      yAxis.setAttribute('class', 'scatter-axis');
-      yAxis.setAttribute('x1', margin.left);
-      yAxis.setAttribute('x2', margin.left);
-      yAxis.setAttribute('y1', margin.top);
-      yAxis.setAttribute('y2', height - margin.bottom);
-      axisGroup.appendChild(yAxis);
-
-      for (let i = 0; i <= 5; i += 1) {
-        const yTickValue = yMin + ((yMax - yMin) / 5) * i;
-        const xGrid = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-        xGrid.setAttribute('class', 'scatter-grid');
-        xGrid.setAttribute('x1', margin.left);
-        xGrid.setAttribute('x2', width - margin.right);
-        xGrid.setAttribute('y1', yScale(yTickValue));
-        xGrid.setAttribute('y2', yScale(yTickValue));
-        axisGroup.appendChild(xGrid);
-
-        const yLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        yLabel.setAttribute('class', 'scatter-label');
-        yLabel.setAttribute('x', margin.left - 12);
-        yLabel.setAttribute('y', yScale(yTickValue) + 4);
-        yLabel.setAttribute('text-anchor', 'end');
-        yLabel.textContent = Math.round(yTickValue);
-        axisGroup.appendChild(yLabel);
-      }
-
-      for (let i = 0; i <= 5; i += 1) {
-        const xTickValue = xMin + ((xMax - xMin) / 5) * i;
-        const yGrid = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-        yGrid.setAttribute('class', 'scatter-grid');
-        yGrid.setAttribute('x1', xScale(xTickValue));
-        yGrid.setAttribute('x2', xScale(xTickValue));
-        yGrid.setAttribute('y1', margin.top);
-        yGrid.setAttribute('y2', height - margin.bottom);
-        axisGroup.appendChild(yGrid);
-
-        const xLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        xLabel.setAttribute('class', 'scatter-label');
-        xLabel.setAttribute('x', xScale(xTickValue));
-        xLabel.setAttribute('y', height - margin.bottom + 20);
-        xLabel.setAttribute('text-anchor', 'middle');
-        xLabel.textContent = Number(xTickValue).toFixed(0);
-        axisGroup.appendChild(xLabel);
-      }
-
-      const xAxisLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      xAxisLabel.setAttribute('class', 'scatter-label');
-      xAxisLabel.setAttribute('x', width / 2);
-      xAxisLabel.setAttribute('y', height - 10);
-      xAxisLabel.setAttribute('text-anchor', 'middle');
-      xAxisLabel.textContent = 'Tobacco-use prevalence (%)';
-      axisGroup.appendChild(xAxisLabel);
-
-      const yAxisLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      yAxisLabel.setAttribute('class', 'scatter-label');
-      yAxisLabel.setAttribute('x', -height / 2);
-      yAxisLabel.setAttribute('y', 18);
-      yAxisLabel.setAttribute('text-anchor', 'middle');
-      yAxisLabel.setAttribute('transform', 'rotate(-90)');
-      yAxisLabel.textContent = 'CVD mortality rate (per 100,000)';
-      axisGroup.appendChild(yAxisLabel);
-      svg.appendChild(axisGroup);
-
-      if (regression) {
-        const trendline = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-        trendline.setAttribute('class', 'scatter-trendline');
-        trendline.setAttribute('x1', xScale(xMin));
-        trendline.setAttribute('x2', xScale(xMax));
-        trendline.setAttribute('y1', yScale(regression.intercept + regression.slope * xMin));
-        trendline.setAttribute('y2', yScale(regression.intercept + regression.slope * xMax));
-        svg.appendChild(trendline);
-      }
-
-      filtered.forEach((row) => {
-        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        const xValue = row.Tobacco;
-        const yValue = row.CVDMortality;
-        circle.setAttribute('class', 'scatter-dot');
-        circle.setAttribute('cx', xScale(xValue));
-        circle.setAttribute('cy', yScale(yValue));
-        circle.setAttribute('r', 4.8);
-        circle.setAttribute('fill', regionColors[row.Region] || '#3d8ad6');
-        circle.setAttribute('tabindex', '0');
-        circle.setAttribute('aria-label', `${row.Country}, ${row.Year}: tobacco use ${xValue.toFixed(2)} percent, CVD mortality ${yValue.toFixed(1)} per 100,000, ${row.TobaccoMethod}`);
-        circle.addEventListener('mousemove', (event) => showTooltip(event, row, xValue, yValue));
-        circle.addEventListener('mouseleave', hideTooltip);
-        circle.addEventListener('focus', (event) => showTooltip(event, row, xValue, yValue));
-        circle.addEventListener('blur', hideTooltip);
-        svg.appendChild(circle);
-      });
-    }
-
-    yearSelect.addEventListener('change', renderChart);
-    regionSelect.addEventListener('change', renderChart);
-    countrySelect.addEventListener('change', renderChart);
-
-    fetch('data/cvd_tobacco_country_year_data.csv')
-      .then((response) => response.text())
-      .then((text) => {
-        data = parseCSV(text);
-        updateControls();
-        renderChart();
-      })
-      .catch((error) => {
-        console.error('Scatter plot data could not be loaded:', error);
-        svg.innerHTML = '<text x="450" y="250" text-anchor="middle" fill="#425468" font-size="16">Data failed to load.</text>';
-      });
-  })();
-</script>
-```
+<script src="tobacco-chart.js"></script>

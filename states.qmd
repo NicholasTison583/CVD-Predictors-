@@ -1,0 +1,105 @@
+---
+title: "U.S. State Cardiovascular Health"
+---
+
+```{=html}
+<div class="observatory-page story-page states-page">
+  <nav class="page-tabs" aria-label="Project pages">
+    <a href="index.html">Map</a>
+    <a href="states.html" aria-current="page">U.S. States</a>
+    <a href="smoking.html">Smoking</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="predictors.html">Predictors</a>
+    <a href="story.html">Story</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <header class="story-heading">
+    <p class="story-kicker">STATE-LEVEL COMPARISON · 50 STATES + D.C.</p>
+    <h1>How Do U.S. States Differ in Physical Activity and Smoking?</h1>
+    <p>Explore state-level survey estimates of physical activity, inactivity, and smoking alongside heart-disease mortality. Associations are descriptive and do not show that one behavior causes another.</p>
+  </header>
+
+  <section class="story-section state-viz-section" aria-labelledby="state-scatter-heading">
+    <div class="story-section-heading">
+      <div>
+        <p class="story-kicker">STATE SCATTERPLOT</p>
+        <h2 id="state-scatter-heading">Compare two measures</h2>
+      </div>
+    </div>
+    <div class="state-viz-controls">
+      <div class="scatter-field">
+        <label for="relationshipSelect">Relationship</label>
+        <select id="relationshipSelect">
+          <option value="activitySmoking">Physical activity vs. smoking</option>
+          <option value="inactivitySmoking">Physical inactivity vs. smoking</option>
+          <option value="activityCvd">Physical activity vs. heart-disease mortality</option>
+        </select>
+      </div>
+    </div>
+    <div class="state-axis-summary" id="relationshipSummary"></div>
+    <div class="state-stat-row" aria-live="polite">
+      <div><span>States with both values</span><strong id="stateN">-</strong></div>
+      <div><span>Correlation (r)</span><strong id="stateR">-</strong></div>
+      <div><span>R-squared</span><strong id="stateR2">-</strong></div>
+    </div>
+    <div class="state-legend" aria-label="Scatterplot legend">
+      <span><i class="state-dot-key"></i>State estimate</span>
+      <span><i class="state-line-key"></i>Linear trendline</span>
+      <span>Click a dot to highlight its state</span>
+    </div>
+    <div class="state-chart-wrap">
+      <svg id="stateScatter" viewBox="0 0 900 520" role="img" aria-label="Interactive state-level scatterplot with regression trendline"></svg>
+    </div>
+    <p class="state-missing-note" id="scatterCoverageNote"></p>
+  </section>
+
+  <section class="story-section state-map-section" aria-labelledby="state-map-heading">
+    <div class="story-section-heading">
+      <div>
+        <p class="story-kicker">STATE MAP</p>
+        <h2 id="state-map-heading">Explore a measure by state</h2>
+      </div>
+    </div>
+    <div class="state-viz-controls">
+      <div class="scatter-field">
+        <label for="mapMetricSelect">Map measure</label>
+        <select id="mapMetricSelect">
+          <option value="PhysicalActivity2023">Meets aerobic activity guideline (2023, %)</option>
+          <option value="PhysicalInactivity2022">No leisure-time activity (2022, %)</option>
+          <option value="Smoking2022">Current smoking (2022, %)</option>
+          <option value="CvdMortality2022">Heart-disease mortality (2022, per 100,000)</option>
+        </select>
+      </div>
+      <div class="scatter-field">
+        <label for="stateSelect">Selected state</label>
+        <select id="stateSelect"><option value="">Select a state</option></select>
+      </div>
+    </div>
+    <div class="state-map-layout">
+      <figure class="state-map-figure">
+        <svg id="usStateMap" viewBox="0 0 960 620" role="img" aria-label="Map of the 50 states and Washington, D.C., colored by selected measure"></svg>
+        <figcaption id="mapLegend" class="state-map-legend"></figcaption>
+        <p class="state-missing-note" id="mapCoverageNote"></p>
+      </figure>
+      <aside class="state-detail-panel" aria-live="polite" aria-labelledby="state-detail-heading">
+        <p class="story-kicker">STATE PROFILE</p>
+        <h3 id="state-detail-heading">Select a state</h3>
+        <dl id="stateDetails" class="state-detail-list">
+          <div class="state-detail-empty">Choose a state on the map or from the selector to see its values.</div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <aside class="state-method-note">
+    <h2>Sources and method</h2>
+    <p>Physical activity and inactivity estimates are from CDC BRFSS state-level survey data. Meeting the aerobic guideline means at least 150 minutes of moderate activity, 75 minutes of vigorous activity, or an equivalent combination per week. Inactivity means no leisure-time physical activity. Current smoking is self-reported adult cigarette smoking (currently smokes every day or some days and has smoked at least 100 cigarettes in their lifetime). Activity and inactivity are shown for 2023 and 2022 respectively; smoking is shown for the year selected in each comparison. The mortality layer measures heart disease, a subset of cardiovascular disease: it is an age-adjusted three-year average for 2021–2023, published as 2022, per 100,000 population.</p>
+    <p>The 2023 activity-guideline file has estimates for 49 of 51 jurisdictions; Kentucky and Pennsylvania are left blank rather than filled with another year's data. The 2022 inactivity, smoking, and mortality measures cover all 50 states and D.C. Percentages are state-level estimates, not individual-level records. Correlations are unweighted across states and describe association only.</p>
+    <p>Sources: <a href="https://data.cdc.gov/d/hn4x-zwk7" target="_blank" rel="noopener noreferrer">CDC BRFSS Physical Activity and Nutrition</a>, <a href="https://data.cdc.gov/d/dttw-5yxu" target="_blank" rel="noopener noreferrer">CDC BRFSS Prevalence Data</a>, and <a href="https://data.cdc.gov/d/th8y-thx5" target="_blank" rel="noopener noreferrer">CDC Heart Disease Mortality Data</a>. State boundaries: <a href="https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/us-states.json" target="_blank" rel="noopener noreferrer">U.S. states GeoJSON from PublicaMundi</a>.</p>
+  </aside>
+</div>
+```
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="states-chart.js"></script>

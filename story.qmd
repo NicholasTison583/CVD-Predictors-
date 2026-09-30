@@ -6,11 +6,12 @@ title: "Why Is the Cardiovascular Disease Burden So Different?"
 <div class="observatory-page story-page">
   <nav class="page-tabs" aria-label="Project pages">
     <a href="index.html">Map</a>
+    <a href="states.html">U.S. States</a>
     <a href="smoking.html">Smoking</a>
-    <a href="alcohol.html">Alcohol</a>
     <a href="fitness.html">Fitness</a>
     <a href="predictors.html">Predictors</a>
     <a href="story.html" aria-current="page">Story</a>
+    <a href="about.html">About</a>
   </nav>
 
   <header class="story-heading">
@@ -121,11 +122,5 @@ title: "Why Is the Cardiovascular Disease Burden So Different?"
     <p>Alcohol, tobacco, inactivity, hypertension, diet, obesity, healthcare access, and socioeconomic conditions can overlap and interact. Country-level comparisons cannot establish that one factor explains the entire mortality gap, and they should not be used to infer an individual's risk.</p>
   </aside>
 
-  <section class="story-section next-analysis" aria-labelledby="next-analysis-heading">
-    <p class="story-kicker">TOBACCO AND CVD MORTALITY · 2000–2023</p>
-    <h2 id="next-analysis-heading">Country-year regression</h2>
-    <p>Across 1,902 country-year observations from 98 countries, a one-percentage-point increase in tobacco-use prevalence was associated with 5.46 additional age-standardized CVD deaths per 100,000 people (ŷ = 77.33 + 5.46x, r = 0.362, R² = 0.131).</p>
-    <p class="chart-caveat">This is an unadjusted pooled association, not evidence of causation. WHO tobacco estimates are available for selected years; intervening annual values were linearly interpolated. Repeated country observations are not independent, so no p-value is reported.</p>
-  </section>
 </div>
 ```
