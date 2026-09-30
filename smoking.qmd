@@ -1,0 +1,84 @@
+---
+title: "Smoking and Cardiovascular Disease"
+---
+
+```{=html}
+<div class="observatory-page story-page">
+  <nav class="page-tabs" aria-label="Project pages">
+    <a href="index.html">Map</a>
+    <a href="smoking.html" aria-current="page">Smoking</a>
+    <a href="alcohol.html">Alcohol</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="predictors.html">Predictors</a>
+    <a href="story.html">Story</a>
+  </nav>
+
+  <header class="story-heading">
+    <p class="story-kicker">BEHAVIORAL RISK FACTOR</p>
+    <h1>Smoking and Cardiovascular Disease</h1>
+    <p>
+      Tobacco use is one of the clearest behavioral risk factors linked to cardiovascular disease. It contributes to arterial damage, clot formation, blood pressure increases, and higher risk of heart attack and stroke.
+    </p>
+  </header>
+
+  <section class="story-section" aria-labelledby="smoking-heading">
+    <div class="story-section-heading">
+      <div>
+        <p class="story-kicker">RISK</p>
+        <h2 id="smoking-heading">Health impact of tobacco exposure</h2>
+      </div>
+    </div>
+
+    <div class="smoking-stats" aria-label="Smoking and cardiovascular disease statistics">
+      <article class="smoking-stat">
+        <h3>2–4×</h3>
+        <p>higher risk of coronary heart disease among smokers</p>
+      </article>
+      <article class="smoking-stat">
+        <h3>2–4×</h3>
+        <p>higher risk of stroke compared with nonsmokers</p>
+      </article>
+      <article class="smoking-stat">
+        <h3>1 in 4</h3>
+        <p>U.S. cardiovascular disease deaths attributed to smoking</p>
+      </article>
+      <article class="smoking-stat">
+        <h3>25–30%</h3>
+        <p>higher stroke risk among nonsmokers exposed to secondhand smoke</p>
+      </article>
+    </div>
+
+    <figure class="evidence-graph" aria-labelledby="smoking-chart-title">
+      <figcaption id="smoking-chart-title">
+        <strong>Relative risk linked to tobacco exposure</strong>
+        <span>Percent higher than the comparison group</span>
+      </figcaption>
+      <div class="graph-plot" role="img" aria-label="Smoking is associated with 100 to 300 percent higher coronary heart disease risk and stroke risk.">
+        <div class="graph-row">
+          <span class="graph-label">Smoking: coronary heart disease</span>
+          <div class="graph-track"><span class="range-segment" style="--range-start: 33.33%; --range-width: 66.67%;"></span></div>
+          <strong class="graph-value">100–300%</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">Smoking: stroke</span>
+          <div class="graph-track"><span class="range-segment" style="--range-start: 33.33%; --range-width: 66.67%;"></span></div>
+          <strong class="graph-value">100–300%</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">Secondhand smoke: stroke</span>
+          <div class="graph-track"><span class="range-segment" style="--range-start: 6.67%; --range-width: 3.33%;"></span></div>
+          <strong class="graph-value">20–30%</strong>
+        </div>
+      </div>
+      <div class="graph-axis" aria-hidden="true"><span class="graph-axis-spacer"></span><div class="graph-ticks"><span>0%</span><span>100%</span><span>200%</span><span>300% higher risk</span></div><span class="graph-axis-spacer"></span></div>
+      <p class="graph-note">Ranges convert the cited 2–4× risks into percent higher than the comparison group.</p>
+    </figure>
+
+    <p class="smoking-process">Tobacco exposure <span aria-hidden="true">→</span> blood-vessel damage <span aria-hidden="true">→</span> plaque and clot formation <span aria-hidden="true">→</span> reduced blood flow <span aria-hidden="true">→</span> heart attack or stroke</p>
+
+    <p class="smoking-note">
+      Smoking damages vessel linings, increases hypertension, lowers HDL cholesterol, and promotes atherosclerosis and clotting. Secondhand smoke is also harmful. These estimates are relative-risk associations, not a full explanation of all deaths in a country.
+    </p>
+  </section>
+</div>
+``` 

@@ -1,0 +1,79 @@
+---
+title: "Alcohol Consumption and Cardiovascular Disease"
+---
+
+```{=html}
+<div class="observatory-page story-page">
+  <nav class="page-tabs" aria-label="Project pages">
+    <a href="index.html">Map</a>
+    <a href="smoking.html">Smoking</a>
+    <a href="alcohol.html" aria-current="page">Alcohol</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="predictors.html">Predictors</a>
+    <a href="story.html">Story</a>
+  </nav>
+
+  <header class="story-heading">
+    <p class="story-kicker">BEHAVIORAL RISK FACTOR</p>
+    <h1>Alcohol Consumption and Cardiovascular Disease</h1>
+    <p>
+      Alcohol is another major behavioral exposure linked to cardiovascular disease. It is associated with higher blood pressure, arrhythmia, and increased risk of heart disease and stroke.
+    </p>
+  </header>
+
+  <section class="story-section" aria-labelledby="alcohol-heading">
+    <div class="story-section-heading">
+      <div>
+        <p class="story-kicker">RISK</p>
+        <h2 id="alcohol-heading">Alcohol-attributable cardiovascular burden</h2>
+      </div>
+    </div>
+
+    <div class="smoking-stats" aria-label="Alcohol and cardiovascular disease statistics">
+      <article class="smoking-stat">
+        <h3>474,000</h3>
+        <p>worldwide CVD deaths attributable to alcohol in 2019</p>
+      </article>
+      <article class="smoking-stat">
+        <h3>2.6 million</h3>
+        <p>worldwide deaths from all causes attributable to alcohol in 2019</p>
+      </article>
+      <article class="smoking-stat">
+        <h3>200+</h3>
+        <p>diseases and injuries associated with harmful alcohol use</p>
+      </article>
+      <article class="smoking-stat">
+        <h3>4.2 million</h3>
+        <p>CVD deaths in the WHO European Region in 2019</p>
+      </article>
+    </div>
+
+    <figure class="evidence-graph" aria-labelledby="alcohol-chart-title">
+      <figcaption id="alcohol-chart-title">
+        <strong>Alcohol-attributable deaths worldwide, 2019</strong>
+        <span>Deaths in millions; CVD deaths are a subset of all-cause deaths</span>
+      </figcaption>
+      <div class="graph-plot" role="img" aria-label="In 2019, alcohol was attributable to 2.6 million deaths from all causes, including 0.474 million cardiovascular disease deaths.">
+        <div class="graph-row">
+          <span class="graph-label">All causes</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 100%;"></span></div>
+          <strong class="graph-value">2.6m</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">Cardiovascular disease</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 18.23%;"></span></div>
+          <strong class="graph-value">0.474m</strong>
+        </div>
+      </div>
+      <div class="graph-axis" aria-hidden="true"><span class="graph-axis-spacer"></span><div class="graph-ticks"><span>0</span><span>0.65m</span><span>1.3m</span><span>1.95m</span><span>2.6m deaths</span></div><span class="graph-axis-spacer"></span></div>
+      <p class="graph-note">WHO estimates for 2019; the cardiovascular figure is included within the total, not additional to it.</p>
+    </figure>
+
+    <p class="smoking-process">Alcohol consumption <span aria-hidden="true">→</span> increased blood pressure <span aria-hidden="true">→</span> cardiovascular damage <span aria-hidden="true">→</span> higher risk of heart disease or stroke</p>
+
+    <p class="smoking-note">
+      Alcohol use contributes to hypertension, arrhythmia, and coronary disease. It is an important behavioral predictor to compare across countries and over time, alongside smoking and inactivity.
+    </p>
+  </section>
+</div>
+``` 

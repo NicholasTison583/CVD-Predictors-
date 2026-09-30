@@ -1,0 +1,79 @@
+---
+title: "Fitness and Cardiovascular Health"
+---
+
+```{=html}
+<div class="observatory-page story-page">
+  <nav class="page-tabs" aria-label="Project pages">
+    <a href="index.html">Map</a>
+    <a href="smoking.html">Smoking</a>
+    <a href="alcohol.html">Alcohol</a>
+    <a href="fitness.html" aria-current="page">Fitness</a>
+    <a href="predictors.html">Predictors</a>
+    <a href="story.html">Story</a>
+  </nav>
+
+  <header class="story-heading">
+    <p class="story-kicker">BEHAVIORAL RISK FACTOR</p>
+    <h1>Physical Activity and Cardiovascular Health</h1>
+    <p>
+      Physical activity is a practical population-level predictor because it is measured consistently across countries. Insufficient activity is associated with higher blood pressure, obesity, and cardiovascular mortality.
+    </p>
+  </header>
+
+  <section class="story-section" aria-labelledby="physical-heading">
+    <div class="story-section-heading">
+      <div>
+        <p class="story-kicker">RISK</p>
+        <h2 id="physical-heading">Activity and heart health</h2>
+      </div>
+    </div>
+
+    <div class="physical-stats" aria-label="Physical activity and cardiovascular health statistics">
+      <article class="physical-stat">
+        <h3>20–30%</h3>
+        <p>higher risk of death among insufficiently active people</p>
+      </article>
+      <article class="physical-stat">
+        <h3>150 min</h3>
+        <p>of moderate activity recommended weekly for adults</p>
+      </article>
+      <article class="physical-stat">
+        <h3>14% lower</h3>
+        <p>coronary heart disease risk at the minimum recommended activity level</p>
+      </article>
+      <article class="physical-stat">
+        <h3>47.2%</h3>
+        <p>of U.S. adults met aerobic guidelines in 2024</p>
+      </article>
+    </div>
+
+    <figure class="evidence-graph" aria-labelledby="activity-chart-title">
+      <figcaption id="activity-chart-title">
+        <strong>Activity snapshots</strong>
+        <span>Share of population (%)</span>
+      </figcaption>
+      <div class="graph-plot" role="img" aria-label="In 2022, 31 percent of adults worldwide were insufficiently active. In 2024, 47.2 percent of U.S. adults met federal aerobic activity guidelines.">
+        <div class="graph-row">
+          <span class="graph-label">Worldwide adults insufficiently active (2022)</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 62%;"></span></div>
+          <strong class="graph-value">31%</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">U.S. adults meeting aerobic guidelines (2024)</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 94.4%;"></span></div>
+          <strong class="graph-value">47.2%</strong>
+        </div>
+      </div>
+      <div class="graph-axis" aria-hidden="true"><span class="graph-axis-spacer"></span><div class="graph-ticks"><span>0%</span><span>12.5%</span><span>25%</span><span>37.5%</span><span>50%</span></div><span class="graph-axis-spacer"></span></div>
+      <p class="graph-note">Different populations and measures are shown on the same percentage scale.</p>
+    </figure>
+
+    <p class="physical-process">Physical inactivity <span aria-hidden="true">→</span> higher blood pressure, blood glucose, and obesity <span aria-hidden="true">→</span> increased CVD risk</p>
+
+    <p class="physical-note">
+      WHO recommends at least 150 minutes of moderate activity per week, or 75 minutes of vigorous activity, to reduce cardiovascular risk. Higher activity is associated with lower mortality and better metabolic health.
+    </p>
+  </section>
+</div>
+``` 

@@ -6,6 +6,10 @@ title: "Why Is the Cardiovascular Disease Burden So Different?"
 <div class="observatory-page story-page">
   <nav class="page-tabs" aria-label="Project pages">
     <a href="index.html">Map</a>
+    <a href="smoking.html">Smoking</a>
+    <a href="alcohol.html">Alcohol</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="predictors.html">Predictors</a>
     <a href="story.html" aria-current="page">Story</a>
   </nav>
 
@@ -118,9 +122,10 @@ title: "Why Is the Cardiovascular Disease Burden So Different?"
   </aside>
 
   <section class="story-section next-analysis" aria-labelledby="next-analysis-heading">
-    <p class="story-kicker">NEXT STEP</p>
-    <h2 id="next-analysis-heading">Test the question across thousands of observations</h2>
-    <p>For a stronger statistical story, use the full country-year dataset: identify the largest mortality gaps, align risk-factor measures by country and year, and test whether tobacco, alcohol, inactivity, hypertension, obesity, and diet are associated with mortality differences. Account for missing data and relevant social and health-system measures, and report uncertainty rather than treating the Russia–U.S. comparison as proof.</p>
+    <p class="story-kicker">TOBACCO AND CVD MORTALITY · 2000–2023</p>
+    <h2 id="next-analysis-heading">Country-year regression</h2>
+    <p>Across 1,902 country-year observations from 98 countries, a one-percentage-point increase in tobacco-use prevalence was associated with 5.46 additional age-standardized CVD deaths per 100,000 people (ŷ = 77.33 + 5.46x, r = 0.362, R² = 0.131).</p>
+    <p class="chart-caveat">This is an unadjusted pooled association, not evidence of causation. WHO tobacco estimates are available for selected years; intervening annual values were linearly interpolated. Repeated country observations are not independent, so no p-value is reported.</p>
   </section>
 </div>
 ```

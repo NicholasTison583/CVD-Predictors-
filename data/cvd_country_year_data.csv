@@ -1,0 +1,3001 @@
+Country,Year,Region,Tobacco,PhysicalInactivity,Alcohol,CVDMortality
+Algeria,2000,Africa,39.0,24.1,0.8,176.4
+Algeria,2001,Africa,32.4,15.6,0.7,154.8
+Algeria,2002,Africa,36.4,22.6,2.4,165.5
+Algeria,2003,Africa,30.9,18.9,1.6,157.8
+Algeria,2004,Africa,34.3,17.6,2.5,159.8
+Algeria,2005,Africa,34.5,23.3,3.0,192.7
+Algeria,2006,Africa,28.8,19.8,3.2,183.0
+Algeria,2007,Africa,29.0,22.1,4.3,179.0
+Algeria,2008,Africa,34.3,23.3,3.3,200.2
+Algeria,2009,Africa,35.0,22.2,2.2,178.9
+Algeria,2010,Africa,39.2,20.9,2.9,185.2
+Algeria,2011,Africa,37.6,18.3,4.2,180.4
+Algeria,2012,Africa,31.2,22.7,3.3,190.9
+Algeria,2013,Africa,38.7,20.3,3.7,184.2
+Algeria,2014,Africa,39.4,24.5,3.9,211.9
+Algeria,2015,Africa,32.3,20.8,3.9,191.6
+Algeria,2016,Africa,35.6,16.7,3.6,180.1
+Algeria,2017,Africa,31.4,21.6,1.4,189.2
+Algeria,2018,Africa,38.2,22.1,2.4,180.6
+Algeria,2019,Africa,34.8,12.7,3.7,202.3
+Angola,2000,Africa,36.0,41.7,5.3,144.2
+Angola,2001,Africa,41.0,43.8,4.4,136.4
+Angola,2002,Africa,37.9,50.1,4.8,130.5
+Angola,2003,Africa,34.2,35.5,5.6,108.0
+Angola,2004,Africa,33.0,36.1,4.0,131.9
+Angola,2005,Africa,32.8,37.1,5.5,126.7
+Angola,2006,Africa,39.0,47.1,5.4,132.1
+Angola,2007,Africa,37.1,46.2,4.8,122.2
+Angola,2008,Africa,41.4,42.7,5.0,155.1
+Angola,2009,Africa,41.2,45.5,5.2,171.6
+Angola,2010,Africa,45.2,50.0,6.3,160.1
+Angola,2011,Africa,50.9,39.8,5.2,161.0
+Angola,2012,Africa,43.5,46.3,4.1,165.3
+Angola,2013,Africa,39.8,43.5,4.4,139.9
+Angola,2014,Africa,36.4,44.9,5.2,167.6
+Angola,2015,Africa,34.7,38.0,5.0,167.3
+Angola,2016,Africa,36.0,54.3,6.4,152.7
+Angola,2017,Africa,35.2,46.0,4.6,195.0
+Angola,2018,Africa,34.7,47.8,7.6,171.4
+Angola,2019,Africa,34.7,44.1,6.4,178.5
+Benin,2000,Africa,27.9,15.4,2.4,223.7
+Benin,2001,Africa,20.1,18.3,0.8,225.4
+Benin,2002,Africa,34.6,28.6,1.8,252.7
+Benin,2003,Africa,30.2,25.5,2.1,249.3
+Benin,2004,Africa,35.6,20.9,2.0,259.9
+Benin,2005,Africa,30.0,17.4,2.4,225.0
+Benin,2006,Africa,27.0,29.0,3.5,259.9
+Benin,2007,Africa,24.8,20.4,3.9,241.1
+Benin,2008,Africa,33.2,16.2,2.5,285.6
+Benin,2009,Africa,21.2,26.5,0.8,231.1
+Benin,2010,Africa,27.7,25.1,0.2,206.1
+Benin,2011,Africa,26.3,22.1,1.9,243.0
+Benin,2012,Africa,24.2,20.4,2.0,247.1
+Benin,2013,Africa,30.5,27.8,2.3,259.6
+Benin,2014,Africa,28.7,21.0,3.0,231.8
+Benin,2015,Africa,29.9,18.6,2.1,225.7
+Benin,2016,Africa,32.7,21.8,4.4,284.3
+Benin,2017,Africa,22.7,18.1,4.1,241.1
+Benin,2018,Africa,24.9,21.8,3.1,239.5
+Benin,2019,Africa,27.7,20.6,0.5,254.7
+Botswana,2000,Africa,13.0,32.2,2.8,214.5
+Botswana,2001,Africa,20.0,20.7,3.4,259.3
+Botswana,2002,Africa,14.8,20.5,4.4,242.0
+Botswana,2003,Africa,20.5,29.6,7.6,258.3
+Botswana,2004,Africa,16.0,23.0,5.6,274.7
+Botswana,2005,Africa,18.7,24.2,3.5,217.7
+Botswana,2006,Africa,22.1,29.5,4.1,287.9
+Botswana,2007,Africa,18.8,31.4,2.7,245.6
+Botswana,2008,Africa,17.0,29.0,5.6,253.8
+Botswana,2009,Africa,16.8,36.5,5.3,294.8
+Botswana,2010,Africa,16.3,30.8,6.6,283.1
+Botswana,2011,Africa,20.7,24.3,5.3,291.3
+Botswana,2012,Africa,13.9,32.3,4.0,248.4
+Botswana,2013,Africa,16.6,35.7,5.1,296.9
+Botswana,2014,Africa,14.1,28.4,3.5,247.5
+Botswana,2015,Africa,19.6,28.0,6.4,284.3
+Botswana,2016,Africa,16.1,33.3,4.2,245.9
+Botswana,2017,Africa,21.4,30.0,2.6,270.8
+Botswana,2018,Africa,15.5,35.4,4.2,265.8
+Botswana,2019,Africa,13.7,24.3,4.3,236.4
+Burkina Faso,2000,Africa,18.0,34.2,3.1,68.9
+Burkina Faso,2001,Africa,19.8,38.0,3.4,116.4
+Burkina Faso,2002,Africa,21.6,39.1,4.3,147.5
+Burkina Faso,2003,Africa,22.6,42.8,2.0,99.3
+Burkina Faso,2004,Africa,14.3,39.2,5.3,101.5
+Burkina Faso,2005,Africa,23.7,36.9,5.6,103.8
+Burkina Faso,2006,Africa,21.1,42.8,5.6,131.8
+Burkina Faso,2007,Africa,28.8,39.5,4.6,89.7
+Burkina Faso,2008,Africa,28.3,39.8,3.8,158.5
+Burkina Faso,2009,Africa,26.5,41.8,3.6,140.4
+Burkina Faso,2010,Africa,20.0,36.7,6.4,95.6
+Burkina Faso,2011,Africa,24.3,43.3,7.5,163.6
+Burkina Faso,2012,Africa,15.1,38.2,5.4,128.2
+Burkina Faso,2013,Africa,25.8,33.8,5.0,153.1
+Burkina Faso,2014,Africa,27.9,49.2,5.0,177.0
+Burkina Faso,2015,Africa,28.5,46.6,6.3,179.7
+Burkina Faso,2016,Africa,19.8,36.1,6.6,133.6
+Burkina Faso,2017,Africa,22.5,39.7,5.2,144.5
+Burkina Faso,2018,Africa,19.1,42.3,5.9,141.1
+Burkina Faso,2019,Africa,20.2,45.3,7.7,149.8
+Burundi,2000,Africa,43.5,48.0,0.2,138.4
+Burundi,2001,Africa,37.0,47.6,3.1,167.8
+Burundi,2002,Africa,41.5,41.0,2.1,133.1
+Burundi,2003,Africa,38.8,44.2,3.2,148.1
+Burundi,2004,Africa,42.6,48.4,4.8,196.9
+Burundi,2005,Africa,40.1,47.5,3.8,161.3
+Burundi,2006,Africa,44.0,51.8,5.3,196.8
+Burundi,2007,Africa,40.7,46.7,3.2,182.4
+Burundi,2008,Africa,39.2,44.3,5.2,182.6
+Burundi,2009,Africa,39.9,48.7,3.5,180.8
+Burundi,2010,Africa,39.6,40.4,3.3,145.1
+Burundi,2011,Africa,40.6,40.6,4.4,189.3
+Burundi,2012,Africa,40.9,45.0,3.9,143.5
+Burundi,2013,Africa,36.1,44.9,3.9,169.0
+Burundi,2014,Africa,36.5,46.1,3.1,148.7
+Burundi,2015,Africa,41.2,44.8,4.9,200.5
+Burundi,2016,Africa,42.7,47.0,2.7,163.6
+Burundi,2017,Africa,35.0,57.3,2.5,173.0
+Burundi,2018,Africa,39.0,44.8,3.1,141.6
+Burundi,2019,Africa,36.8,40.4,3.7,158.4
+Cameroon,2000,Africa,41.3,32.6,1.2,152.2
+Cameroon,2001,Africa,42.4,32.8,0.5,145.4
+Cameroon,2002,Africa,42.4,33.6,2.3,144.4
+Cameroon,2003,Africa,44.7,30.5,3.5,173.7
+Cameroon,2004,Africa,45.6,27.4,0.9,127.1
+Cameroon,2005,Africa,43.2,34.0,1.1,165.5
+Cameroon,2006,Africa,44.1,24.2,1.6,93.0
+Cameroon,2007,Africa,41.5,30.1,1.5,135.6
+Cameroon,2008,Africa,42.8,30.0,3.9,182.0
+Cameroon,2009,Africa,40.3,37.5,0.5,127.7
+Cameroon,2010,Africa,49.7,23.6,3.0,139.3
+Cameroon,2011,Africa,43.9,31.9,4.3,154.7
+Cameroon,2012,Africa,44.2,35.2,2.2,146.0
+Cameroon,2013,Africa,44.3,33.2,3.5,151.1
+Cameroon,2014,Africa,43.0,34.2,2.4,157.1
+Cameroon,2015,Africa,44.6,30.2,1.7,163.7
+Cameroon,2016,Africa,40.8,37.7,2.9,142.5
+Cameroon,2017,Africa,45.7,33.8,3.6,196.4
+Cameroon,2018,Africa,43.5,30.4,2.1,141.4
+Cameroon,2019,Africa,42.2,34.4,2.8,157.9
+Cape Verde,2000,Africa,37.8,42.5,4.2,269.4
+Cape Verde,2001,Africa,40.0,40.2,3.6,301.6
+Cape Verde,2002,Africa,43.5,41.5,5.0,314.2
+Cape Verde,2003,Africa,40.5,44.9,6.7,316.4
+Cape Verde,2004,Africa,42.2,44.9,4.6,284.9
+Cape Verde,2005,Africa,43.9,35.3,6.9,329.9
+Cape Verde,2006,Africa,41.4,41.8,7.0,300.7
+Cape Verde,2007,Africa,36.8,39.3,4.8,274.8
+Cape Verde,2008,Africa,41.4,42.3,4.2,331.2
+Cape Verde,2009,Africa,36.1,36.7,5.6,292.1
+Cape Verde,2010,Africa,42.5,39.5,4.1,290.5
+Cape Verde,2011,Africa,38.7,44.1,4.8,318.9
+Cape Verde,2012,Africa,43.2,46.3,6.3,341.3
+Cape Verde,2013,Africa,43.9,40.1,5.1,281.7
+Cape Verde,2014,Africa,42.3,39.6,5.9,326.5
+Cape Verde,2015,Africa,36.6,38.3,5.1,291.3
+Cape Verde,2016,Africa,42.0,37.8,5.6,283.9
+Cape Verde,2017,Africa,33.9,45.4,4.1,288.8
+Cape Verde,2018,Africa,36.5,36.9,5.2,295.0
+Cape Verde,2019,Africa,45.0,44.4,5.4,342.5
+Chad,2000,Africa,35.0,55.7,2.6,277.2
+Chad,2001,Africa,37.3,56.8,5.0,297.9
+Chad,2002,Africa,34.2,49.9,1.9,247.3
+Chad,2003,Africa,25.4,51.9,4.1,237.3
+Chad,2004,Africa,33.2,49.0,2.7,270.7
+Chad,2005,Africa,32.1,55.6,5.1,297.8
+Chad,2006,Africa,28.4,59.8,2.6,256.3
+Chad,2007,Africa,31.6,58.9,2.1,267.4
+Chad,2008,Africa,33.4,57.9,3.2,287.5
+Chad,2009,Africa,29.1,59.4,3.9,243.0
+Chad,2010,Africa,33.1,55.6,3.1,254.5
+Chad,2011,Africa,30.9,49.2,5.4,252.0
+Chad,2012,Africa,29.5,59.6,4.3,287.4
+Chad,2013,Africa,37.2,53.9,2.5,287.5
+Chad,2014,Africa,34.7,53.9,2.3,289.6
+Chad,2015,Africa,34.0,49.8,4.6,251.3
+Chad,2016,Africa,30.4,50.8,3.1,247.6
+Chad,2017,Africa,30.0,58.3,4.2,289.3
+Chad,2018,Africa,36.0,54.0,4.0,294.1
+Chad,2019,Africa,38.2,59.2,5.5,323.1
+Congo,2000,Africa,43.6,34.5,5.9,267.9
+Congo,2001,Africa,40.1,39.6,4.5,262.5
+Congo,2002,Africa,42.9,35.8,5.3,251.9
+Congo,2003,Africa,36.7,43.5,4.7,244.0
+Congo,2004,Africa,37.4,43.1,5.1,240.7
+Congo,2005,Africa,37.2,41.3,5.6,243.3
+Congo,2006,Africa,42.0,38.8,8.2,269.3
+Congo,2007,Africa,37.5,43.0,4.3,272.6
+Congo,2008,Africa,46.7,40.7,5.5,272.2
+Congo,2009,Africa,40.4,48.1,6.4,267.8
+Congo,2010,Africa,45.9,47.1,6.0,279.8
+Congo,2011,Africa,40.8,39.3,6.0,268.8
+Congo,2012,Africa,32.8,46.3,5.8,285.7
+Congo,2013,Africa,40.2,43.4,6.8,292.0
+Congo,2014,Africa,41.7,55.6,5.5,296.4
+Congo,2015,Africa,46.9,39.6,4.6,254.7
+Congo,2016,Africa,42.7,45.4,6.6,268.6
+Congo,2017,Africa,44.4,47.8,5.7,294.7
+Congo,2018,Africa,43.3,44.6,6.6,275.4
+Congo,2019,Africa,40.4,38.3,6.6,293.2
+Cote d’Ivoire,2000,Africa,35.8,22.8,0.7,194.4
+Cote d’Ivoire,2001,Africa,34.6,22.2,3.7,182.7
+Cote d’Ivoire,2002,Africa,40.4,22.3,2.5,211.0
+Cote d’Ivoire,2003,Africa,32.0,24.2,2.6,207.1
+Cote d’Ivoire,2004,Africa,35.6,20.5,3.0,193.7
+Cote d’Ivoire,2005,Africa,32.3,21.2,4.1,195.3
+Cote d’Ivoire,2006,Africa,33.5,24.9,0.7,144.0
+Cote d’Ivoire,2007,Africa,36.5,22.9,3.0,185.7
+Cote d’Ivoire,2008,Africa,36.1,16.6,3.1,166.2
+Cote d’Ivoire,2009,Africa,36.2,23.4,0.9,180.5
+Cote d’Ivoire,2010,Africa,39.5,28.6,1.3,211.1
+Cote d’Ivoire,2011,Africa,32.5,17.1,4.7,214.5
+Cote d’Ivoire,2012,Africa,34.0,23.4,3.7,210.0
+Cote d’Ivoire,2013,Africa,44.8,25.1,0.2,201.8
+Cote d’Ivoire,2014,Africa,34.4,21.9,3.1,192.0
+Cote d’Ivoire,2015,Africa,33.2,28.3,3.8,201.8
+Cote d’Ivoire,2016,Africa,39.5,25.6,4.6,209.8
+Cote d’Ivoire,2017,Africa,39.9,20.5,4.5,221.0
+Cote d’Ivoire,2018,Africa,29.3,23.2,1.3,183.5
+Cote d’Ivoire,2019,Africa,37.1,21.5,1.7,183.7
+DR Congo,2000,Africa,14.4,27.2,3.3,202.0
+DR Congo,2001,Africa,15.8,33.3,0.4,193.2
+DR Congo,2002,Africa,16.9,29.3,2.7,181.8
+DR Congo,2003,Africa,20.4,28.4,4.7,208.0
+DR Congo,2004,Africa,22.1,31.1,0.8,219.8
+DR Congo,2005,Africa,14.0,19.6,3.1,202.3
+DR Congo,2006,Africa,17.9,27.6,3.9,218.6
+DR Congo,2007,Africa,15.5,31.6,0.9,176.6
+DR Congo,2008,Africa,14.2,20.0,1.0,195.0
+DR Congo,2009,Africa,14.1,26.7,1.1,197.1
+DR Congo,2010,Africa,18.0,30.9,2.3,181.3
+DR Congo,2011,Africa,14.6,32.4,2.4,213.1
+DR Congo,2012,Africa,7.0,33.5,2.0,223.3
+DR Congo,2013,Africa,16.4,29.3,3.3,190.9
+DR Congo,2014,Africa,21.3,26.7,4.0,233.2
+DR Congo,2015,Africa,20.0,26.5,2.4,212.1
+DR Congo,2016,Africa,11.2,27.2,3.7,177.5
+DR Congo,2017,Africa,22.9,27.0,3.1,198.4
+DR Congo,2018,Africa,20.2,31.4,4.1,250.2
+DR Congo,2019,Africa,22.9,30.5,1.5,238.1
+Egypt,2000,Africa,29.5,31.0,3.8,172.9
+Egypt,2001,Africa,39.7,32.8,1.2,165.2
+Egypt,2002,Africa,34.8,31.5,4.6,178.4
+Egypt,2003,Africa,29.2,34.9,1.9,189.5
+Egypt,2004,Africa,35.3,27.5,4.4,222.0
+Egypt,2005,Africa,27.4,36.8,3.8,174.7
+Egypt,2006,Africa,35.6,35.2,2.5,203.7
+Egypt,2007,Africa,29.8,41.2,5.0,169.5
+Egypt,2008,Africa,34.5,39.1,2.8,181.5
+Egypt,2009,Africa,33.2,38.2,2.8,181.1
+Egypt,2010,Africa,36.6,32.7,2.5,156.9
+Egypt,2011,Africa,29.4,28.9,1.6,145.3
+Egypt,2012,Africa,35.8,33.9,2.7,165.4
+Egypt,2013,Africa,31.4,28.3,2.3,180.1
+Egypt,2014,Africa,30.0,34.0,3.0,220.3
+Egypt,2015,Africa,28.7,34.7,3.4,164.3
+Egypt,2016,Africa,36.1,34.7,2.6,195.9
+Egypt,2017,Africa,36.5,39.4,3.2,225.0
+Egypt,2018,Africa,34.5,26.3,4.5,188.2
+Egypt,2019,Africa,32.1,38.0,3.4,210.6
+Ethiopia,2000,Africa,22.7,55.8,4.8,282.3
+Ethiopia,2001,Africa,19.5,56.5,4.2,301.0
+Ethiopia,2002,Africa,24.8,55.9,3.4,262.8
+Ethiopia,2003,Africa,23.5,48.3,3.0,255.6
+Ethiopia,2004,Africa,23.0,53.9,5.5,273.1
+Ethiopia,2005,Africa,25.7,52.6,4.1,280.5
+Ethiopia,2006,Africa,16.1,53.5,3.7,240.0
+Ethiopia,2007,Africa,16.8,51.6,2.4,263.9
+Ethiopia,2008,Africa,22.7,46.7,3.8,277.4
+Ethiopia,2009,Africa,21.5,52.4,4.1,268.9
+Ethiopia,2010,Africa,17.7,53.4,4.0,318.1
+Ethiopia,2011,Africa,22.9,51.8,5.7,282.7
+Ethiopia,2012,Africa,24.6,50.2,6.4,281.0
+Ethiopia,2013,Africa,25.1,58.4,4.4,290.0
+Ethiopia,2014,Africa,25.9,56.6,3.6,288.5
+Ethiopia,2015,Africa,20.6,51.0,4.1,295.3
+Ethiopia,2016,Africa,29.6,64.5,4.8,295.6
+Ethiopia,2017,Africa,20.6,60.6,3.2,274.4
+Ethiopia,2018,Africa,22.1,61.2,3.9,308.4
+Ethiopia,2019,Africa,28.7,53.6,5.6,276.9
+Gabon,2000,Africa,19.8,44.7,0.2,204.3
+Gabon,2001,Africa,21.4,38.8,0.7,183.8
+Gabon,2002,Africa,18.4,44.5,1.2,184.1
+Gabon,2003,Africa,21.4,43.9,2.2,210.4
+Gabon,2004,Africa,22.0,45.2,3.3,227.2
+Gabon,2005,Africa,23.5,50.9,0.8,235.8
+Gabon,2006,Africa,26.7,42.1,2.4,220.6
+Gabon,2007,Africa,22.1,48.2,1.8,245.1
+Gabon,2008,Africa,17.6,45.6,3.7,258.7
+Gabon,2009,Africa,18.9,49.4,2.8,197.0
+Gabon,2010,Africa,17.4,41.5,2.1,202.6
+Gabon,2011,Africa,20.9,51.5,3.2,283.3
+Gabon,2012,Africa,20.0,49.6,3.2,260.1
+Gabon,2013,Africa,19.6,49.9,4.6,229.5
+Gabon,2014,Africa,20.7,48.7,2.4,213.9
+Gabon,2015,Africa,27.4,45.8,4.8,246.9
+Gabon,2016,Africa,20.4,50.0,2.7,218.4
+Gabon,2017,Africa,18.6,48.0,2.3,228.6
+Gabon,2018,Africa,13.3,44.7,2.9,208.8
+Gabon,2019,Africa,17.8,43.5,3.2,255.0
+Ghana,2000,Africa,39.8,41.3,4.8,286.8
+Ghana,2001,Africa,44.4,40.7,3.8,281.4
+Ghana,2002,Africa,37.2,39.7,1.7,278.8
+Ghana,2003,Africa,47.7,39.5,4.8,340.4
+Ghana,2004,Africa,42.7,47.9,4.3,289.9
+Ghana,2005,Africa,41.1,40.6,3.5,237.1
+Ghana,2006,Africa,46.9,41.6,4.5,290.7
+Ghana,2007,Africa,55.6,36.3,3.1,313.0
+Ghana,2008,Africa,53.4,39.1,6.1,303.6
+Ghana,2009,Africa,49.8,43.4,6.6,354.1
+Ghana,2010,Africa,43.0,54.9,3.0,293.5
+Ghana,2011,Africa,51.7,40.3,3.6,306.6
+Ghana,2012,Africa,47.0,44.9,3.5,304.4
+Ghana,2013,Africa,47.7,49.5,4.7,293.5
+Ghana,2014,Africa,45.6,41.0,5.9,281.0
+Ghana,2015,Africa,47.5,39.3,5.9,327.7
+Ghana,2016,Africa,46.4,45.7,4.2,320.6
+Ghana,2017,Africa,45.5,46.7,4.6,267.2
+Ghana,2018,Africa,44.0,49.9,6.2,325.5
+Ghana,2019,Africa,45.4,42.6,5.4,324.0
+Kenya,2000,Africa,36.9,49.8,3.8,115.7
+Kenya,2001,Africa,39.7,49.1,3.3,127.5
+Kenya,2002,Africa,38.6,45.5,2.9,135.5
+Kenya,2003,Africa,40.4,41.9,1.4,129.5
+Kenya,2004,Africa,36.3,48.4,2.2,112.9
+Kenya,2005,Africa,40.7,54.3,3.0,139.1
+Kenya,2006,Africa,35.5,49.7,4.0,147.8
+Kenya,2007,Africa,44.8,49.6,1.3,137.4
+Kenya,2008,Africa,42.6,50.7,2.3,141.1
+Kenya,2009,Africa,42.1,53.0,4.0,167.4
+Kenya,2010,Africa,42.3,43.9,1.7,130.6
+Kenya,2011,Africa,44.6,49.6,3.6,129.1
+Kenya,2012,Africa,35.9,52.6,3.0,116.1
+Kenya,2013,Africa,44.2,49.2,6.3,196.9
+Kenya,2014,Africa,42.3,47.7,3.4,149.1
+Kenya,2015,Africa,36.1,52.1,3.5,96.0
+Kenya,2016,Africa,39.0,45.1,4.3,148.9
+Kenya,2017,Africa,46.5,42.2,2.1,166.4
+Kenya,2018,Africa,39.1,44.4,2.7,126.9
+Kenya,2019,Africa,43.3,53.2,1.6,146.7
+Lesotho,2000,Africa,24.5,29.7,3.3,354.9
+Lesotho,2001,Africa,22.5,25.0,0.4,319.3
+Lesotho,2002,Africa,24.6,33.2,2.0,392.4
+Lesotho,2003,Africa,24.4,27.7,2.9,333.2
+Lesotho,2004,Africa,25.4,21.4,3.3,350.3
+Lesotho,2005,Africa,25.5,30.4,1.2,330.2
+Lesotho,2006,Africa,30.3,31.8,2.0,370.8
+Lesotho,2007,Africa,26.3,37.7,3.9,382.9
+Lesotho,2008,Africa,23.4,37.1,2.6,346.2
+Lesotho,2009,Africa,20.7,26.6,2.4,358.4
+Lesotho,2010,Africa,28.3,34.8,3.0,387.8
+Lesotho,2011,Africa,33.0,33.9,4.7,365.3
+Lesotho,2012,Africa,22.6,27.3,0.2,338.7
+Lesotho,2013,Africa,30.1,28.3,3.2,357.8
+Lesotho,2014,Africa,23.6,31.6,1.7,376.8
+Lesotho,2015,Africa,18.6,31.9,2.6,379.7
+Lesotho,2016,Africa,28.1,22.3,0.5,329.7
+Lesotho,2017,Africa,23.7,30.0,3.2,378.7
+Lesotho,2018,Africa,20.8,23.6,3.5,350.3
+Lesotho,2019,Africa,25.2,28.3,3.1,395.4
+Liberia,2000,Africa,35.6,26.1,4.8,231.6
+Liberia,2001,Africa,40.6,26.0,2.0,199.8
+Liberia,2002,Africa,37.0,39.9,6.8,239.9
+Liberia,2003,Africa,43.2,30.8,5.5,230.1
+Liberia,2004,Africa,41.8,36.8,5.0,269.9
+Liberia,2005,Africa,35.9,29.2,3.4,217.4
+Liberia,2006,Africa,39.9,33.9,3.1,212.8
+Liberia,2007,Africa,49.8,38.1,2.4,240.6
+Liberia,2008,Africa,44.7,29.7,3.3,233.7
+Liberia,2009,Africa,42.2,33.9,4.4,271.7
+Liberia,2010,Africa,38.7,29.8,5.2,237.8
+Liberia,2011,Africa,37.1,37.1,3.1,216.9
+Liberia,2012,Africa,40.9,29.1,6.0,192.8
+Liberia,2013,Africa,39.5,28.4,5.7,258.8
+Liberia,2014,Africa,44.8,37.7,2.4,233.3
+Liberia,2015,Africa,37.4,30.7,5.1,229.0
+Liberia,2016,Africa,47.1,24.4,4.0,205.6
+Liberia,2017,Africa,36.6,36.4,5.2,262.1
+Liberia,2018,Africa,46.5,32.7,4.0,259.7
+Liberia,2019,Africa,40.0,27.7,3.8,226.2
+Madagascar,2000,Africa,46.9,36.3,3.9,198.2
+Madagascar,2001,Africa,41.0,47.0,4.6,206.3
+Madagascar,2002,Africa,39.6,29.8,3.1,167.7
+Madagascar,2003,Africa,44.3,37.6,3.2,211.7
+Madagascar,2004,Africa,43.8,33.5,1.9,188.8
+Madagascar,2005,Africa,39.0,39.3,3.6,186.7
+Madagascar,2006,Africa,40.1,29.4,1.6,137.4
+Madagascar,2007,Africa,42.9,34.9,1.9,196.5
+Madagascar,2008,Africa,43.4,36.9,3.6,214.3
+Madagascar,2009,Africa,37.4,39.6,1.0,157.3
+Madagascar,2010,Africa,46.6,39.6,3.8,211.3
+Madagascar,2011,Africa,48.0,30.8,2.8,196.2
+Madagascar,2012,Africa,50.3,41.1,4.3,208.1
+Madagascar,2013,Africa,51.1,39.0,2.1,249.8
+Madagascar,2014,Africa,38.3,33.7,3.0,166.5
+Madagascar,2015,Africa,45.2,38.4,3.4,240.2
+Madagascar,2016,Africa,37.7,42.8,2.5,217.6
+Madagascar,2017,Africa,50.1,46.6,3.2,203.9
+Madagascar,2018,Africa,44.7,37.3,1.5,207.5
+Madagascar,2019,Africa,40.3,43.3,4.6,208.3
+Malawi,2000,Africa,32.0,28.2,3.3,387.1
+Malawi,2001,Africa,28.6,29.5,5.0,331.1
+Malawi,2002,Africa,29.8,24.0,5.2,349.6
+Malawi,2003,Africa,33.7,23.4,4.5,345.0
+Malawi,2004,Africa,30.9,24.0,4.0,316.8
+Malawi,2005,Africa,32.4,29.8,3.7,356.9
+Malawi,2006,Africa,32.0,31.8,4.6,367.1
+Malawi,2007,Africa,28.9,28.4,5.2,346.9
+Malawi,2008,Africa,36.3,32.8,3.7,370.3
+Malawi,2009,Africa,31.5,33.7,6.3,383.7
+Malawi,2010,Africa,40.5,23.8,3.7,349.4
+Malawi,2011,Africa,31.1,31.6,4.0,367.4
+Malawi,2012,Africa,36.0,31.8,3.3,363.6
+Malawi,2013,Africa,35.0,31.7,4.5,385.5
+Malawi,2014,Africa,30.8,28.8,5.3,364.5
+Malawi,2015,Africa,35.7,29.3,3.1,329.6
+Malawi,2016,Africa,31.3,33.6,5.5,331.9
+Malawi,2017,Africa,34.7,30.2,3.5,394.9
+Malawi,2018,Africa,33.8,33.9,7.6,374.5
+Malawi,2019,Africa,31.6,36.7,3.3,358.5
+Mali,2000,Africa,27.1,31.6,5.9,233.3
+Mali,2001,Africa,30.4,31.1,4.4,234.0
+Mali,2002,Africa,25.3,23.2,6.8,238.4
+Mali,2003,Africa,26.2,23.8,5.2,264.1
+Mali,2004,Africa,29.8,21.5,4.6,250.2
+Mali,2005,Africa,25.5,25.9,4.8,213.6
+Mali,2006,Africa,27.7,26.6,7.0,256.8
+Mali,2007,Africa,24.0,31.0,7.3,245.3
+Mali,2008,Africa,21.5,26.4,4.4,260.2
+Mali,2009,Africa,22.7,27.1,7.6,270.7
+Mali,2010,Africa,25.8,25.3,5.8,244.1
+Mali,2011,Africa,32.9,27.9,4.6,275.3
+Mali,2012,Africa,31.3,27.7,6.9,271.7
+Mali,2013,Africa,23.5,28.4,4.9,232.9
+Mali,2014,Africa,24.5,30.1,6.4,235.1
+Mali,2015,Africa,24.7,28.9,6.8,262.2
+Mali,2016,Africa,20.2,34.1,8.2,297.3
+Mali,2017,Africa,29.9,31.7,5.6,271.8
+Mali,2018,Africa,24.1,29.6,4.8,261.3
+Mali,2019,Africa,26.9,32.3,6.6,263.4
+Mauritania,2000,Africa,20.7,17.0,1.6,259.5
+Mauritania,2001,Africa,20.4,21.4,2.3,288.0
+Mauritania,2002,Africa,9.6,18.1,2.2,272.8
+Mauritania,2003,Africa,19.9,27.1,1.8,284.7
+Mauritania,2004,Africa,16.2,20.2,1.2,255.3
+Mauritania,2005,Africa,17.4,19.4,2.2,241.0
+Mauritania,2006,Africa,19.6,22.8,2.7,277.6
+Mauritania,2007,Africa,16.4,26.1,2.1,316.2
+Mauritania,2008,Africa,13.3,21.3,1.1,249.3
+Mauritania,2009,Africa,15.5,20.4,3.2,261.1
+Mauritania,2010,Africa,20.5,16.7,2.0,303.4
+Mauritania,2011,Africa,20.0,23.6,3.2,305.4
+Mauritania,2012,Africa,20.6,28.2,1.4,289.4
+Mauritania,2013,Africa,20.7,25.7,3.2,324.2
+Mauritania,2014,Africa,16.8,17.4,4.0,290.4
+Mauritania,2015,Africa,16.7,23.0,2.2,303.5
+Mauritania,2016,Africa,21.8,24.2,3.3,305.2
+Mauritania,2017,Africa,22.3,13.6,1.5,282.2
+Mauritania,2018,Africa,17.4,19.3,3.5,276.2
+Mauritania,2019,Africa,19.6,23.7,3.0,285.2
+Mauritius,2000,Africa,38.1,39.7,2.4,236.9
+Mauritius,2001,Africa,38.5,28.0,1.3,198.9
+Mauritius,2002,Africa,43.4,39.5,2.3,215.7
+Mauritius,2003,Africa,39.4,34.0,1.6,191.6
+Mauritius,2004,Africa,40.6,35.0,2.8,199.7
+Mauritius,2005,Africa,35.1,49.8,1.0,226.2
+Mauritius,2006,Africa,40.7,31.3,4.0,229.9
+Mauritius,2007,Africa,39.7,42.6,1.2,216.1
+Mauritius,2008,Africa,38.0,29.9,2.5,225.2
+Mauritius,2009,Africa,39.9,38.1,3.2,240.8
+Mauritius,2010,Africa,38.5,40.5,1.5,249.8
+Mauritius,2011,Africa,38.7,38.7,4.3,201.7
+Mauritius,2012,Africa,38.8,34.1,4.2,230.5
+Mauritius,2013,Africa,49.1,29.7,2.8,237.1
+Mauritius,2014,Africa,41.4,33.6,2.0,196.4
+Mauritius,2015,Africa,40.0,30.0,1.1,219.3
+Mauritius,2016,Africa,39.3,40.2,1.1,236.0
+Mauritius,2017,Africa,40.9,34.9,1.7,229.5
+Mauritius,2018,Africa,42.9,34.7,3.6,242.6
+Mauritius,2019,Africa,45.9,36.4,2.5,220.0
+Morocco,2000,Africa,39.9,40.0,5.1,322.2
+Morocco,2001,Africa,42.5,38.0,4.7,323.7
+Morocco,2002,Africa,44.2,46.1,4.7,351.4
+Morocco,2003,Africa,41.4,36.9,4.6,338.5
+Morocco,2004,Africa,46.7,39.4,5.8,318.0
+Morocco,2005,Africa,50.1,44.5,5.6,349.2
+Morocco,2006,Africa,47.5,38.3,5.5,328.4
+Morocco,2007,Africa,44.1,37.2,6.5,331.5
+Morocco,2008,Africa,43.9,36.7,4.1,349.8
+Morocco,2009,Africa,47.2,42.7,5.3,369.1
+Morocco,2010,Africa,46.0,45.1,5.9,347.3
+Morocco,2011,Africa,43.7,39.7,6.2,367.6
+Morocco,2012,Africa,51.0,39.8,7.3,314.1
+Morocco,2013,Africa,44.0,40.6,7.0,357.1
+Morocco,2014,Africa,45.5,37.8,5.2,372.7
+Morocco,2015,Africa,49.7,45.0,6.1,351.7
+Morocco,2016,Africa,47.8,39.7,6.0,351.6
+Morocco,2017,Africa,43.7,36.4,6.0,316.1
+Morocco,2018,Africa,48.1,43.3,5.4,321.5
+Morocco,2019,Africa,47.4,41.0,6.4,333.5
+Mozambique,2000,Africa,8.6,52.1,4.0,251.2
+Mozambique,2001,Africa,15.2,47.0,2.9,234.5
+Mozambique,2002,Africa,10.7,41.0,3.5,200.3
+Mozambique,2003,Africa,13.9,42.6,3.1,236.1
+Mozambique,2004,Africa,15.5,42.2,6.6,278.1
+Mozambique,2005,Africa,19.6,44.3,5.5,282.2
+Mozambique,2006,Africa,12.1,43.0,7.7,261.1
+Mozambique,2007,Africa,17.5,44.9,5.5,249.2
+Mozambique,2008,Africa,12.3,50.4,4.8,215.4
+Mozambique,2009,Africa,16.0,45.2,5.5,271.9
+Mozambique,2010,Africa,17.1,46.4,5.0,247.1
+Mozambique,2011,Africa,13.2,42.7,3.3,260.0
+Mozambique,2012,Africa,19.8,48.6,4.2,261.9
+Mozambique,2013,Africa,14.6,50.7,5.5,304.5
+Mozambique,2014,Africa,12.8,45.4,3.5,226.9
+Mozambique,2015,Africa,15.7,45.1,4.4,236.5
+Mozambique,2016,Africa,17.0,45.4,6.0,288.2
+Mozambique,2017,Africa,11.8,48.2,4.4,289.5
+Mozambique,2018,Africa,16.3,44.7,4.7,242.2
+Mozambique,2019,Africa,20.9,55.2,3.3,276.9
+Namibia,2000,Africa,22.6,40.1,3.3,252.2
+Namibia,2001,Africa,22.2,50.8,2.0,229.1
+Namibia,2002,Africa,24.1,39.6,3.6,247.3
+Namibia,2003,Africa,21.9,41.9,1.1,223.7
+Namibia,2004,Africa,18.7,42.8,1.6,228.0
+Namibia,2005,Africa,27.0,46.0,2.1,228.2
+Namibia,2006,Africa,22.3,42.8,2.8,224.1
+Namibia,2007,Africa,20.0,43.7,3.8,272.1
+Namibia,2008,Africa,26.3,39.1,3.9,231.5
+Namibia,2009,Africa,20.8,44.9,0.9,238.5
+Namibia,2010,Africa,23.4,44.8,1.5,249.4
+Namibia,2011,Africa,25.5,41.9,3.5,200.7
+Namibia,2012,Africa,25.0,43.0,1.7,240.9
+Namibia,2013,Africa,25.5,40.5,2.5,241.4
+Namibia,2014,Africa,25.2,48.5,2.1,272.7
+Namibia,2015,Africa,19.3,44.8,0.8,227.4
+Namibia,2016,Africa,26.5,51.8,2.8,247.8
+Namibia,2017,Africa,27.6,44.0,2.9,272.8
+Namibia,2018,Africa,27.9,36.9,2.9,249.7
+Namibia,2019,Africa,20.4,37.5,2.8,228.4
+Niger,2000,Africa,26.1,52.8,4.6,175.6
+Niger,2001,Africa,34.2,53.3,7.1,230.8
+Niger,2002,Africa,32.1,50.6,4.8,170.6
+Niger,2003,Africa,30.2,53.4,5.6,198.6
+Niger,2004,Africa,29.4,52.3,4.1,173.6
+Niger,2005,Africa,31.4,53.1,5.2,209.6
+Niger,2006,Africa,30.7,48.0,5.2,172.3
+Niger,2007,Africa,28.8,55.5,5.9,228.1
+Niger,2008,Africa,27.3,52.8,6.0,211.4
+Niger,2009,Africa,25.5,56.9,6.2,194.3
+Niger,2010,Africa,28.2,57.1,6.0,209.1
+Niger,2011,Africa,26.7,47.4,5.5,180.9
+Niger,2012,Africa,30.9,51.3,6.3,211.9
+Niger,2013,Africa,26.8,58.2,5.3,186.0
+Niger,2014,Africa,30.3,54.4,4.7,209.5
+Niger,2015,Africa,29.5,51.6,3.8,196.4
+Niger,2016,Africa,29.9,55.1,7.3,172.2
+Niger,2017,Africa,34.1,60.2,4.8,233.2
+Niger,2018,Africa,26.8,50.7,5.8,231.1
+Niger,2019,Africa,31.0,55.1,6.9,208.1
+Nigeria,2000,Africa,35.3,32.5,5.6,334.7
+Nigeria,2001,Africa,33.8,27.5,5.9,363.8
+Nigeria,2002,Africa,31.7,22.8,6.9,346.4
+Nigeria,2003,Africa,31.3,29.0,5.6,353.8
+Nigeria,2004,Africa,30.9,25.9,4.7,322.0
+Nigeria,2005,Africa,29.3,30.6,5.0,334.1
+Nigeria,2006,Africa,30.0,28.9,6.2,379.3
+Nigeria,2007,Africa,25.6,25.9,6.1,302.4
+Nigeria,2008,Africa,36.6,26.4,4.7,363.2
+Nigeria,2009,Africa,22.9,27.8,4.5,320.7
+Nigeria,2010,Africa,31.9,30.2,6.1,389.7
+Nigeria,2011,Africa,30.9,25.8,7.0,351.1
+Nigeria,2012,Africa,32.2,11.5,6.2,333.4
+Nigeria,2013,Africa,29.3,24.7,6.8,311.4
+Nigeria,2014,Africa,41.9,32.0,6.3,411.8
+Nigeria,2015,Africa,31.9,23.9,7.0,326.1
+Nigeria,2016,Africa,33.1,32.3,6.5,338.7
+Nigeria,2017,Africa,31.8,27.1,5.2,307.1
+Nigeria,2018,Africa,26.9,25.7,7.3,402.1
+Nigeria,2019,Africa,34.2,24.6,5.6,374.7
+Rwanda,2000,Africa,26.1,43.9,4.2,185.8
+Rwanda,2001,Africa,31.8,42.5,4.2,183.2
+Rwanda,2002,Africa,22.5,33.8,4.6,137.1
+Rwanda,2003,Africa,28.7,43.3,5.7,165.8
+Rwanda,2004,Africa,28.2,36.2,5.2,165.2
+Rwanda,2005,Africa,27.5,41.3,4.9,182.4
+Rwanda,2006,Africa,25.7,44.6,6.1,171.7
+Rwanda,2007,Africa,29.3,41.5,5.6,225.2
+Rwanda,2008,Africa,21.6,34.4,4.5,142.0
+Rwanda,2009,Africa,22.7,41.8,3.8,186.5
+Rwanda,2010,Africa,28.5,47.8,7.0,186.2
+Rwanda,2011,Africa,15.9,51.3,4.8,165.5
+Rwanda,2012,Africa,18.4,37.9,5.3,158.2
+Rwanda,2013,Africa,17.2,39.6,5.7,187.3
+Rwanda,2014,Africa,25.5,54.8,5.8,230.5
+Rwanda,2015,Africa,29.5,46.9,3.2,152.2
+Rwanda,2016,Africa,22.3,44.7,4.7,182.5
+Rwanda,2017,Africa,24.9,45.6,5.9,190.1
+Rwanda,2018,Africa,24.0,33.3,5.8,161.2
+Rwanda,2019,Africa,21.9,47.4,5.9,200.4
+Senegal,2000,Africa,41.2,34.5,4.4,237.3
+Senegal,2001,Africa,44.0,42.4,4.4,277.4
+Senegal,2002,Africa,39.3,38.6,5.2,270.8
+Senegal,2003,Africa,37.6,34.1,5.2,242.9
+Senegal,2004,Africa,34.1,36.1,4.5,240.7
+Senegal,2005,Africa,40.1,38.4,5.4,253.7
+Senegal,2006,Africa,40.1,41.0,5.5,291.2
+Senegal,2007,Africa,37.3,33.1,4.9,262.4
+Senegal,2008,Africa,38.4,40.8,3.1,232.9
+Senegal,2009,Africa,40.3,42.7,4.2,268.4
+Senegal,2010,Africa,36.0,35.1,5.2,256.2
+Senegal,2011,Africa,39.9,42.7,7.0,297.9
+Senegal,2012,Africa,37.3,43.6,3.6,257.5
+Senegal,2013,Africa,42.3,42.6,6.2,316.1
+Senegal,2014,Africa,36.1,43.2,5.2,285.2
+Senegal,2015,Africa,39.2,43.2,7.1,295.3
+Senegal,2016,Africa,38.1,38.7,4.7,280.8
+Senegal,2017,Africa,43.5,39.3,3.5,254.9
+Senegal,2018,Africa,40.5,36.5,3.4,249.7
+Senegal,2019,Africa,31.9,41.7,5.1,260.5
+Sierra Leone,2000,Africa,19.6,27.7,0.2,338.1
+Sierra Leone,2001,Africa,16.7,25.7,1.2,332.4
+Sierra Leone,2002,Africa,15.2,29.0,4.6,357.6
+Sierra Leone,2003,Africa,15.8,29.6,0.2,361.3
+Sierra Leone,2004,Africa,4.2,37.1,0.3,299.8
+Sierra Leone,2005,Africa,14.9,40.5,2.2,357.9
+Sierra Leone,2006,Africa,12.7,34.4,1.5,359.5
+Sierra Leone,2007,Africa,8.6,34.0,2.3,320.0
+Sierra Leone,2008,Africa,11.9,31.4,1.4,348.6
+Sierra Leone,2009,Africa,10.5,28.5,4.4,342.3
+Sierra Leone,2010,Africa,14.1,31.4,1.8,373.4
+Sierra Leone,2011,Africa,13.7,35.6,1.2,366.4
+Sierra Leone,2012,Africa,15.0,31.6,2.1,367.2
+Sierra Leone,2013,Africa,11.6,28.5,4.5,373.0
+Sierra Leone,2014,Africa,14.6,35.0,2.2,322.4
+Sierra Leone,2015,Africa,16.5,32.1,2.7,353.5
+Sierra Leone,2016,Africa,15.2,37.2,2.2,360.6
+Sierra Leone,2017,Africa,17.3,31.1,3.6,372.4
+Sierra Leone,2018,Africa,17.4,30.0,1.1,372.0
+Sierra Leone,2019,Africa,17.1,35.4,3.3,353.5
+South Africa,2000,Africa,41.8,41.1,3.3,110.0
+South Africa,2001,Africa,43.1,52.1,2.2,137.4
+South Africa,2002,Africa,45.8,42.7,3.5,144.3
+South Africa,2003,Africa,44.9,42.7,2.9,157.1
+South Africa,2004,Africa,46.4,46.4,2.6,176.4
+South Africa,2005,Africa,36.7,49.3,3.2,135.8
+South Africa,2006,Africa,38.5,53.4,4.0,179.5
+South Africa,2007,Africa,39.0,47.7,4.3,177.0
+South Africa,2008,Africa,41.8,43.6,2.9,154.3
+South Africa,2009,Africa,44.3,54.3,5.3,162.2
+South Africa,2010,Africa,38.8,45.1,3.1,154.3
+South Africa,2011,Africa,48.1,50.9,3.3,159.8
+South Africa,2012,Africa,46.4,47.0,3.2,153.7
+South Africa,2013,Africa,42.0,57.4,2.4,198.0
+South Africa,2014,Africa,39.9,46.9,2.7,152.9
+South Africa,2015,Africa,42.2,54.8,2.6,124.1
+South Africa,2016,Africa,41.0,51.5,1.9,143.1
+South Africa,2017,Africa,44.3,47.2,2.7,132.6
+South Africa,2018,Africa,41.9,52.4,6.7,201.3
+South Africa,2019,Africa,38.1,44.5,3.6,173.4
+Tanzania,2000,Africa,43.6,51.0,2.9,270.6
+Tanzania,2001,Africa,46.5,49.0,2.4,223.2
+Tanzania,2002,Africa,38.6,48.2,1.7,200.8
+Tanzania,2003,Africa,44.2,53.3,1.0,248.6
+Tanzania,2004,Africa,46.9,54.8,1.4,244.8
+Tanzania,2005,Africa,41.3,50.7,0.2,220.9
+Tanzania,2006,Africa,46.0,50.3,0.2,235.6
+Tanzania,2007,Africa,45.6,46.8,2.4,255.1
+Tanzania,2008,Africa,43.7,56.0,2.9,229.9
+Tanzania,2009,Africa,44.0,59.4,2.0,264.7
+Tanzania,2010,Africa,38.4,59.2,1.7,275.2
+Tanzania,2011,Africa,40.7,56.7,1.8,282.8
+Tanzania,2012,Africa,35.2,55.6,0.2,206.0
+Tanzania,2013,Africa,48.7,57.8,0.3,257.3
+Tanzania,2014,Africa,40.0,56.5,4.6,280.0
+Tanzania,2015,Africa,43.8,56.4,1.4,268.0
+Tanzania,2016,Africa,45.5,52.0,1.9,284.4
+Tanzania,2017,Africa,43.1,50.0,2.2,246.0
+Tanzania,2018,Africa,42.2,54.3,2.5,289.9
+Tanzania,2019,Africa,45.4,60.6,0.9,265.7
+Tunisia,2000,Africa,21.2,49.5,3.8,143.4
+Tunisia,2001,Africa,20.5,45.9,5.3,165.1
+Tunisia,2002,Africa,16.8,47.3,3.8,178.1
+Tunisia,2003,Africa,19.2,52.5,4.1,151.4
+Tunisia,2004,Africa,16.2,43.5,5.5,168.3
+Tunisia,2005,Africa,15.6,45.7,5.2,142.3
+Tunisia,2006,Africa,16.0,53.3,4.0,148.9
+Tunisia,2007,Africa,26.3,38.7,3.6,192.0
+Tunisia,2008,Africa,16.1,49.3,7.3,164.0
+Tunisia,2009,Africa,15.5,49.0,4.9,151.5
+Tunisia,2010,Africa,17.2,42.1,5.6,176.7
+Tunisia,2011,Africa,17.2,46.6,5.7,158.7
+Tunisia,2012,Africa,16.7,47.3,6.8,175.2
+Tunisia,2013,Africa,17.5,47.0,4.8,147.8
+Tunisia,2014,Africa,14.7,51.2,4.6,166.1
+Tunisia,2015,Africa,16.3,42.5,4.8,185.0
+Tunisia,2016,Africa,16.6,45.2,4.9,158.8
+Tunisia,2017,Africa,18.9,46.3,5.3,165.2
+Tunisia,2018,Africa,19.4,49.3,5.7,193.2
+Tunisia,2019,Africa,17.9,53.0,6.0,212.7
+Uganda,2000,Africa,29.0,40.3,1.8,325.5
+Uganda,2001,Africa,32.2,37.9,4.3,345.8
+Uganda,2002,Africa,34.9,35.2,2.4,327.2
+Uganda,2003,Africa,33.0,42.1,2.6,334.5
+Uganda,2004,Africa,29.4,42.5,3.7,343.0
+Uganda,2005,Africa,28.0,40.1,3.0,339.5
+Uganda,2006,Africa,28.0,46.7,2.2,365.3
+Uganda,2007,Africa,34.6,43.6,5.0,376.2
+Uganda,2008,Africa,28.6,37.8,2.2,346.7
+Uganda,2009,Africa,24.6,34.3,4.7,355.3
+Uganda,2010,Africa,31.3,43.7,3.9,352.6
+Uganda,2011,Africa,24.8,45.3,3.6,319.4
+Uganda,2012,Africa,30.5,38.3,3.0,338.7
+Uganda,2013,Africa,32.0,39.4,1.9,354.5
+Uganda,2014,Africa,31.8,34.7,3.7,365.2
+Uganda,2015,Africa,29.6,41.2,2.5,313.6
+Uganda,2016,Africa,32.0,40.2,3.8,354.1
+Uganda,2017,Africa,29.4,41.3,3.3,367.8
+Uganda,2018,Africa,28.9,34.9,3.6,323.5
+Uganda,2019,Africa,21.5,36.4,3.0,317.4
+Zambia,2000,Africa,22.3,26.5,5.0,307.6
+Zambia,2001,Africa,27.8,31.2,3.2,281.7
+Zambia,2002,Africa,30.2,23.2,4.1,299.7
+Zambia,2003,Africa,26.6,25.8,5.1,274.6
+Zambia,2004,Africa,28.9,26.6,3.0,296.8
+Zambia,2005,Africa,29.1,27.6,4.2,331.4
+Zambia,2006,Africa,26.0,29.6,2.0,297.4
+Zambia,2007,Africa,21.6,30.5,3.5,295.1
+Zambia,2008,Africa,23.1,28.1,5.0,314.1
+Zambia,2009,Africa,28.2,28.1,5.4,329.3
+Zambia,2010,Africa,26.1,25.9,3.4,297.2
+Zambia,2011,Africa,24.3,19.7,4.0,296.7
+Zambia,2012,Africa,29.1,32.7,2.8,299.8
+Zambia,2013,Africa,23.4,29.4,4.2,295.8
+Zambia,2014,Africa,28.7,25.7,3.2,333.5
+Zambia,2015,Africa,31.4,27.9,2.7,306.3
+Zambia,2016,Africa,30.7,29.4,5.6,351.9
+Zambia,2017,Africa,28.4,26.9,4.0,305.8
+Zambia,2018,Africa,31.9,27.2,2.7,321.4
+Zambia,2019,Africa,28.5,27.1,2.4,326.6
+Zimbabwe,2000,Africa,23.5,26.4,5.6,257.2
+Zimbabwe,2001,Africa,16.3,22.6,6.4,280.5
+Zimbabwe,2002,Africa,20.1,30.8,7.5,275.5
+Zimbabwe,2003,Africa,17.1,31.7,6.2,271.5
+Zimbabwe,2004,Africa,16.3,28.2,6.4,286.6
+Zimbabwe,2005,Africa,15.5,26.4,4.6,259.1
+Zimbabwe,2006,Africa,29.1,30.2,5.8,284.0
+Zimbabwe,2007,Africa,30.5,29.1,5.3,299.7
+Zimbabwe,2008,Africa,16.9,34.8,5.9,266.9
+Zimbabwe,2009,Africa,19.5,24.1,5.3,231.6
+Zimbabwe,2010,Africa,20.1,29.7,5.3,270.4
+Zimbabwe,2011,Africa,18.7,36.7,7.6,298.7
+Zimbabwe,2012,Africa,25.8,30.6,5.7,282.3
+Zimbabwe,2013,Africa,24.3,34.4,4.7,295.5
+Zimbabwe,2014,Africa,20.1,28.4,6.2,253.8
+Zimbabwe,2015,Africa,20.4,39.7,6.7,285.5
+Zimbabwe,2016,Africa,23.9,32.5,5.9,290.0
+Zimbabwe,2017,Africa,22.1,29.9,6.1,309.7
+Zimbabwe,2018,Africa,25.0,27.2,5.9,327.0
+Zimbabwe,2019,Africa,28.5,33.9,8.2,349.9
+Afghanistan,2000,Asia,28.2,31.8,1.6,141.0
+Afghanistan,2001,Asia,29.2,46.8,2.0,171.8
+Afghanistan,2002,Asia,24.7,32.0,0.2,179.7
+Afghanistan,2003,Asia,31.8,39.5,1.7,181.5
+Afghanistan,2004,Asia,28.8,45.6,2.3,153.0
+Afghanistan,2005,Asia,32.7,32.4,1.5,152.0
+Afghanistan,2006,Asia,29.1,35.2,0.5,148.8
+Afghanistan,2007,Asia,31.9,39.6,2.8,218.0
+Afghanistan,2008,Asia,30.0,42.7,1.0,181.2
+Afghanistan,2009,Asia,25.2,42.7,3.1,205.7
+Afghanistan,2010,Asia,29.1,44.1,2.0,181.0
+Afghanistan,2011,Asia,31.1,43.5,4.6,225.3
+Afghanistan,2012,Asia,25.5,36.8,0.8,171.7
+Afghanistan,2013,Asia,25.6,46.2,2.0,200.8
+Afghanistan,2014,Asia,30.0,42.2,1.2,188.6
+Afghanistan,2015,Asia,28.1,40.5,2.6,205.4
+Afghanistan,2016,Asia,28.0,44.3,2.8,229.4
+Afghanistan,2017,Asia,18.1,38.5,3.9,137.2
+Afghanistan,2018,Asia,34.9,41.5,0.3,208.5
+Afghanistan,2019,Asia,26.1,37.6,4.2,193.8
+Armenia,2000,Asia,21.5,50.7,3.5,175.7
+Armenia,2001,Asia,22.1,42.0,4.2,161.5
+Armenia,2002,Asia,20.5,48.0,2.2,172.5
+Armenia,2003,Asia,26.9,41.4,0.2,159.3
+Armenia,2004,Asia,29.4,51.7,2.5,194.8
+Armenia,2005,Asia,29.9,45.5,3.0,158.0
+Armenia,2006,Asia,23.8,44.0,1.1,162.0
+Armenia,2007,Asia,31.2,42.2,1.2,148.7
+Armenia,2008,Asia,25.3,41.0,1.9,179.4
+Armenia,2009,Asia,26.4,44.1,3.3,168.6
+Armenia,2010,Asia,23.2,42.2,2.9,198.7
+Armenia,2011,Asia,23.0,40.5,4.6,193.6
+Armenia,2012,Asia,20.7,42.4,1.7,149.8
+Armenia,2013,Asia,21.0,40.6,5.4,211.8
+Armenia,2014,Asia,30.5,48.2,3.0,212.9
+Armenia,2015,Asia,26.1,39.6,1.9,198.0
+Armenia,2016,Asia,21.5,44.8,4.0,206.5
+Armenia,2017,Asia,27.2,39.3,3.9,195.5
+Armenia,2018,Asia,22.5,36.2,3.9,158.4
+Armenia,2019,Asia,20.0,51.2,2.1,180.0
+Azerbaijan,2000,Asia,14.9,44.8,1.3,379.5
+Azerbaijan,2001,Asia,17.6,43.5,2.5,365.3
+Azerbaijan,2002,Asia,12.8,48.1,1.7,379.3
+Azerbaijan,2003,Asia,16.2,47.1,3.0,400.4
+Azerbaijan,2004,Asia,17.6,51.3,3.9,396.9
+Azerbaijan,2005,Asia,25.3,39.6,1.3,416.3
+Azerbaijan,2006,Asia,14.7,46.4,4.2,434.4
+Azerbaijan,2007,Asia,12.0,45.4,3.9,429.3
+Azerbaijan,2008,Asia,19.1,48.4,3.6,417.1
+Azerbaijan,2009,Asia,10.6,46.9,2.4,423.9
+Azerbaijan,2010,Asia,12.2,43.8,2.5,419.9
+Azerbaijan,2011,Asia,18.0,45.5,3.3,450.7
+Azerbaijan,2012,Asia,9.2,48.5,4.2,437.1
+Azerbaijan,2013,Asia,18.3,42.5,2.5,427.3
+Azerbaijan,2014,Asia,13.5,44.8,1.5,381.7
+Azerbaijan,2015,Asia,16.8,44.0,2.4,411.8
+Azerbaijan,2016,Asia,16.7,44.7,3.4,425.3
+Azerbaijan,2017,Asia,14.8,45.8,2.3,406.0
+Azerbaijan,2018,Asia,9.3,41.3,2.0,391.5
+Azerbaijan,2019,Asia,19.8,46.0,3.6,417.5
+Bahrain,2000,Asia,45.7,27.8,2.4,314.7
+Bahrain,2001,Asia,40.6,22.1,1.5,321.7
+Bahrain,2002,Asia,41.2,14.5,3.1,289.7
+Bahrain,2003,Asia,47.0,25.4,2.0,333.2
+Bahrain,2004,Asia,49.8,19.4,4.5,339.2
+Bahrain,2005,Asia,41.7,21.8,3.0,344.1
+Bahrain,2006,Asia,48.1,22.9,3.5,344.8
+Bahrain,2007,Asia,47.9,19.5,1.7,329.8
+Bahrain,2008,Asia,54.6,24.8,2.1,373.7
+Bahrain,2009,Asia,38.7,20.7,3.4,310.8
+Bahrain,2010,Asia,43.2,21.1,2.4,312.3
+Bahrain,2011,Asia,41.5,15.6,2.0,313.6
+Bahrain,2012,Asia,48.9,19.3,1.8,361.9
+Bahrain,2013,Asia,41.4,22.4,2.1,312.5
+Bahrain,2014,Asia,46.9,23.9,4.6,366.5
+Bahrain,2015,Asia,46.1,24.7,2.1,360.4
+Bahrain,2016,Asia,47.5,24.2,4.0,326.9
+Bahrain,2017,Asia,41.7,22.9,3.5,349.5
+Bahrain,2018,Asia,46.1,21.7,4.8,361.6
+Bahrain,2019,Asia,48.4,27.3,4.9,372.9
+Bangladesh,2000,Asia,22.7,24.6,8.7,343.2
+Bangladesh,2001,Asia,16.5,20.6,9.3,294.3
+Bangladesh,2002,Asia,18.8,20.9,8.7,302.2
+Bangladesh,2003,Asia,27.3,23.4,8.7,341.9
+Bangladesh,2004,Asia,15.4,19.7,8.0,271.6
+Bangladesh,2005,Asia,19.0,21.3,7.6,272.5
+Bangladesh,2006,Asia,16.0,25.6,8.0,308.7
+Bangladesh,2007,Asia,22.4,25.8,8.7,292.7
+Bangladesh,2008,Asia,18.9,25.3,9.0,316.1
+Bangladesh,2009,Asia,19.9,23.5,8.3,280.0
+Bangladesh,2010,Asia,23.7,27.4,9.1,336.3
+Bangladesh,2011,Asia,24.3,16.9,8.3,278.4
+Bangladesh,2012,Asia,17.5,24.0,9.4,313.1
+Bangladesh,2013,Asia,21.7,31.7,8.5,301.0
+Bangladesh,2014,Asia,16.1,21.2,8.4,268.4
+Bangladesh,2015,Asia,22.6,26.0,7.5,310.8
+Bangladesh,2016,Asia,22.9,22.3,9.1,304.3
+Bangladesh,2017,Asia,23.2,30.7,8.7,302.4
+Bangladesh,2018,Asia,21.5,25.3,7.5,286.2
+Bangladesh,2019,Asia,19.9,28.6,9.4,344.3
+Bhutan,2000,Asia,29.8,58.8,5.7,173.1
+Bhutan,2001,Asia,29.2,57.0,6.7,150.9
+Bhutan,2002,Asia,30.9,46.6,5.8,172.8
+Bhutan,2003,Asia,30.1,54.6,5.8,187.8
+Bhutan,2004,Asia,29.6,43.4,5.8,127.2
+Bhutan,2005,Asia,25.1,53.4,7.3,175.7
+Bhutan,2006,Asia,27.7,53.6,5.3,149.6
+Bhutan,2007,Asia,29.8,49.2,7.1,169.6
+Bhutan,2008,Asia,32.1,52.8,8.1,176.9
+Bhutan,2009,Asia,32.8,52.8,7.3,185.4
+Bhutan,2010,Asia,23.0,59.4,6.1,150.3
+Bhutan,2011,Asia,29.5,46.6,9.1,172.0
+Bhutan,2012,Asia,28.3,48.6,7.7,200.0
+Bhutan,2013,Asia,31.7,48.9,8.7,194.4
+Bhutan,2014,Asia,28.3,51.8,7.5,182.9
+Bhutan,2015,Asia,30.9,52.2,9.4,248.7
+Bhutan,2016,Asia,31.5,48.6,6.3,189.9
+Bhutan,2017,Asia,25.3,51.6,7.9,181.6
+Bhutan,2018,Asia,29.6,59.7,8.4,191.1
+Bhutan,2019,Asia,33.8,51.7,7.0,183.3
+Cambodia,2000,Asia,19.8,33.9,3.8,277.4
+Cambodia,2001,Asia,16.8,37.1,3.2,295.8
+Cambodia,2002,Asia,18.7,26.8,5.4,238.2
+Cambodia,2003,Asia,11.1,33.6,5.4,250.3
+Cambodia,2004,Asia,16.7,29.7,5.2,256.8
+Cambodia,2005,Asia,11.5,37.8,4.6,259.1
+Cambodia,2006,Asia,20.6,38.9,5.8,283.6
+Cambodia,2007,Asia,16.5,40.1,5.5,270.9
+Cambodia,2008,Asia,22.8,37.2,4.3,286.6
+Cambodia,2009,Asia,13.2,30.2,6.6,287.9
+Cambodia,2010,Asia,13.0,37.5,5.0,258.5
+Cambodia,2011,Asia,21.4,35.0,5.5,272.9
+Cambodia,2012,Asia,18.2,43.3,5.0,276.0
+Cambodia,2013,Asia,17.2,40.0,4.0,267.2
+Cambodia,2014,Asia,22.7,42.8,3.8,263.5
+Cambodia,2015,Asia,12.1,32.8,4.3,258.7
+Cambodia,2016,Asia,11.8,38.0,1.5,250.2
+Cambodia,2017,Asia,22.3,32.6,1.5,266.1
+Cambodia,2018,Asia,19.2,35.9,5.0,307.5
+Cambodia,2019,Asia,22.7,40.0,3.4,289.3
+China,2000,Asia,36.2,46.2,7.6,113.8
+China,2001,Asia,45.1,45.5,6.3,139.3
+China,2002,Asia,42.2,46.6,7.1,126.8
+China,2003,Asia,37.8,44.5,7.3,121.6
+China,2004,Asia,35.2,47.6,7.2,140.4
+China,2005,Asia,41.3,52.7,6.6,164.4
+China,2006,Asia,39.7,49.2,9.2,166.7
+China,2007,Asia,40.3,48.7,8.1,157.3
+China,2008,Asia,37.1,48.5,10.0,186.9
+China,2009,Asia,44.0,52.8,8.9,181.6
+China,2010,Asia,47.1,46.9,6.6,145.0
+China,2011,Asia,41.0,43.9,7.1,128.3
+China,2012,Asia,36.1,50.9,10.4,169.8
+China,2013,Asia,35.6,48.1,7.6,141.6
+China,2014,Asia,37.7,51.3,9.4,150.6
+China,2015,Asia,42.4,47.7,10.5,135.6
+China,2016,Asia,42.1,52.5,8.3,151.9
+China,2017,Asia,41.3,44.0,8.1,131.6
+China,2018,Asia,40.2,39.4,8.1,153.5
+China,2019,Asia,39.5,46.2,9.8,190.1
+Georgia,2000,Asia,24.7,37.1,5.1,154.7
+Georgia,2001,Asia,29.2,33.4,7.2,204.6
+Georgia,2002,Asia,26.7,35.5,6.6,172.1
+Georgia,2003,Asia,20.9,35.2,6.2,188.8
+Georgia,2004,Asia,31.1,31.7,7.3,197.7
+Georgia,2005,Asia,26.9,26.8,8.8,181.5
+Georgia,2006,Asia,29.5,33.9,7.6,201.4
+Georgia,2007,Asia,30.9,29.3,8.4,204.4
+Georgia,2008,Asia,27.9,31.2,7.4,202.0
+Georgia,2009,Asia,23.7,26.1,7.2,190.2
+Georgia,2010,Asia,26.9,38.5,8.9,234.9
+Georgia,2011,Asia,33.0,34.2,8.2,200.3
+Georgia,2012,Asia,18.6,34.8,6.8,174.0
+Georgia,2013,Asia,19.4,36.9,7.4,176.0
+Georgia,2014,Asia,24.1,30.1,6.8,167.2
+Georgia,2015,Asia,23.3,32.6,7.4,206.2
+Georgia,2016,Asia,22.1,31.7,6.8,191.0
+Georgia,2017,Asia,28.1,37.0,9.9,222.9
+Georgia,2018,Asia,30.2,30.7,7.8,207.5
+Georgia,2019,Asia,35.9,29.2,7.8,217.8
+India,2000,Asia,16.6,38.3,3.9,190.7
+India,2001,Asia,16.8,39.9,2.9,178.4
+India,2002,Asia,22.3,42.6,3.1,212.4
+India,2003,Asia,19.1,41.3,4.1,231.6
+India,2004,Asia,24.8,33.3,3.7,187.7
+India,2005,Asia,19.2,30.0,2.2,196.9
+India,2006,Asia,20.8,40.3,3.1,180.7
+India,2007,Asia,19.0,42.9,4.3,210.5
+India,2008,Asia,23.8,39.0,4.4,221.8
+India,2009,Asia,19.1,43.9,4.2,196.7
+India,2010,Asia,22.2,41.4,3.8,224.5
+India,2011,Asia,23.7,24.3,2.5,194.9
+India,2012,Asia,16.7,44.5,4.8,210.8
+India,2013,Asia,20.2,36.4,3.8,206.8
+India,2014,Asia,23.6,31.8,4.8,205.4
+India,2015,Asia,20.4,35.0,4.7,192.3
+India,2016,Asia,20.1,37.1,2.8,209.1
+India,2017,Asia,10.4,36.7,3.0,189.8
+India,2018,Asia,19.1,41.5,4.5,213.7
+India,2019,Asia,24.3,36.5,4.8,249.9
+Indonesia,2000,Asia,23.8,64.7,4.5,391.1
+Indonesia,2001,Asia,25.3,60.5,3.7,404.6
+Indonesia,2002,Asia,21.3,58.9,4.1,386.6
+Indonesia,2003,Asia,27.6,58.8,2.7,396.0
+Indonesia,2004,Asia,20.7,58.3,4.5,397.6
+Indonesia,2005,Asia,15.8,50.9,5.8,382.7
+Indonesia,2006,Asia,26.5,59.4,3.7,369.8
+Indonesia,2007,Asia,23.7,59.4,6.3,408.8
+Indonesia,2008,Asia,22.2,50.2,3.7,388.3
+Indonesia,2009,Asia,20.8,54.0,6.0,429.9
+Indonesia,2010,Asia,18.4,58.0,4.0,415.5
+Indonesia,2011,Asia,23.0,60.0,3.5,421.4
+Indonesia,2012,Asia,21.2,65.2,5.8,403.7
+Indonesia,2013,Asia,24.1,58.8,4.4,419.3
+Indonesia,2014,Asia,22.2,58.0,4.0,386.3
+Indonesia,2015,Asia,22.7,58.7,5.9,390.3
+Indonesia,2016,Asia,22.8,64.4,4.0,391.2
+Indonesia,2017,Asia,19.3,61.3,3.4,397.1
+Indonesia,2018,Asia,20.2,55.9,4.6,394.0
+Indonesia,2019,Asia,21.3,58.1,5.2,402.4
+Iran,2000,Asia,34.6,18.2,7.5,374.4
+Iran,2001,Asia,27.0,16.9,7.3,339.1
+Iran,2002,Asia,32.2,17.4,7.1,385.7
+Iran,2003,Asia,40.4,24.3,8.5,420.8
+Iran,2004,Asia,34.3,19.4,8.3,377.3
+Iran,2005,Asia,25.5,17.2,7.3,367.4
+Iran,2006,Asia,31.6,13.4,8.3,378.3
+Iran,2007,Asia,36.0,22.1,11.0,394.1
+Iran,2008,Asia,38.0,24.4,7.7,393.3
+Iran,2009,Asia,30.8,20.3,8.0,372.0
+Iran,2010,Asia,33.5,16.8,9.7,409.4
+Iran,2011,Asia,31.1,24.5,7.4,351.1
+Iran,2012,Asia,34.7,23.3,7.8,401.7
+Iran,2013,Asia,40.6,33.2,7.7,420.4
+Iran,2014,Asia,29.5,32.6,8.2,412.5
+Iran,2015,Asia,34.1,17.1,8.5,367.4
+Iran,2016,Asia,31.6,20.3,9.0,354.0
+Iran,2017,Asia,33.7,31.7,7.8,410.0
+Iran,2018,Asia,32.5,10.3,7.8,366.9
+Iran,2019,Asia,37.0,21.5,8.7,419.0
+Iraq,2000,Asia,49.3,56.2,7.6,135.0
+Iraq,2001,Asia,48.2,62.0,4.6,130.9
+Iraq,2002,Asia,49.5,58.0,6.6,165.1
+Iraq,2003,Asia,45.9,61.1,7.3,191.6
+Iraq,2004,Asia,52.0,59.4,8.7,164.3
+Iraq,2005,Asia,48.1,50.3,8.1,188.4
+Iraq,2006,Asia,47.5,52.5,8.4,149.6
+Iraq,2007,Asia,47.5,63.6,6.9,162.4
+Iraq,2008,Asia,54.9,59.9,6.1,199.1
+Iraq,2009,Asia,43.3,61.7,7.9,154.7
+Iraq,2010,Asia,46.7,53.3,9.3,173.7
+Iraq,2011,Asia,47.3,60.1,8.8,183.3
+Iraq,2012,Asia,52.0,61.7,7.6,187.0
+Iraq,2013,Asia,49.2,54.0,6.2,167.4
+Iraq,2014,Asia,47.2,57.9,7.3,185.8
+Iraq,2015,Asia,50.7,59.3,7.3,175.0
+Iraq,2016,Asia,48.6,59.2,5.8,163.9
+Iraq,2017,Asia,51.1,59.8,6.6,168.0
+Iraq,2018,Asia,48.6,56.2,6.5,147.4
+Iraq,2019,Asia,50.0,60.0,8.0,169.1
+Israel,2000,Asia,31.8,26.2,3.1,100.8
+Israel,2001,Asia,28.7,29.9,3.5,117.0
+Israel,2002,Asia,27.1,38.3,1.3,75.1
+Israel,2003,Asia,28.8,28.0,5.8,142.9
+Israel,2004,Asia,31.7,31.0,4.0,96.6
+Israel,2005,Asia,31.6,28.2,6.3,131.7
+Israel,2006,Asia,35.2,22.0,5.7,143.6
+Israel,2007,Asia,33.8,30.4,4.8,144.6
+Israel,2008,Asia,28.6,27.0,3.2,118.2
+Israel,2009,Asia,25.4,28.4,5.2,150.9
+Israel,2010,Asia,35.7,28.4,4.0,137.3
+Israel,2011,Asia,32.5,30.7,4.6,119.0
+Israel,2012,Asia,36.0,29.8,5.4,155.8
+Israel,2013,Asia,30.3,35.8,3.2,106.7
+Israel,2014,Asia,38.3,29.1,3.9,140.1
+Israel,2015,Asia,24.3,35.6,5.2,149.9
+Israel,2016,Asia,34.3,24.6,5.0,166.5
+Israel,2017,Asia,23.8,30.7,5.4,138.7
+Israel,2018,Asia,28.4,27.8,4.1,141.7
+Israel,2019,Asia,29.7,31.6,4.1,133.2
+Japan,2000,Asia,30.5,58.7,3.3,346.3
+Japan,2001,Asia,31.8,53.7,2.9,360.5
+Japan,2002,Asia,23.9,58.4,4.2,395.4
+Japan,2003,Asia,25.8,58.2,0.8,377.3
+Japan,2004,Asia,22.9,56.1,3.0,367.3
+Japan,2005,Asia,32.0,68.5,3.8,382.3
+Japan,2006,Asia,24.5,59.1,3.9,385.1
+Japan,2007,Asia,29.0,52.4,2.4,386.7
+Japan,2008,Asia,25.0,59.7,6.1,384.4
+Japan,2009,Asia,31.9,67.5,4.0,386.7
+Japan,2010,Asia,19.0,56.7,3.9,369.3
+Japan,2011,Asia,31.2,55.8,3.5,341.9
+Japan,2012,Asia,24.0,62.5,0.9,371.4
+Japan,2013,Asia,33.6,54.7,3.1,412.2
+Japan,2014,Asia,29.0,62.1,3.5,359.9
+Japan,2015,Asia,26.8,65.7,3.6,398.5
+Japan,2016,Asia,26.1,57.2,3.0,353.3
+Japan,2017,Asia,22.7,60.7,3.3,355.3
+Japan,2018,Asia,29.9,57.1,4.1,397.0
+Japan,2019,Asia,33.4,62.3,4.5,405.4
+Jordan,2000,Asia,24.4,39.2,9.5,432.7
+Jordan,2001,Asia,36.7,39.5,9.9,459.0
+Jordan,2002,Asia,26.3,36.2,7.0,424.1
+Jordan,2003,Asia,28.6,36.7,7.7,413.7
+Jordan,2004,Asia,27.7,41.2,7.8,411.7
+Jordan,2005,Asia,22.5,34.9,8.2,401.5
+Jordan,2006,Asia,23.4,38.5,11.5,466.2
+Jordan,2007,Asia,26.2,35.9,7.9,407.6
+Jordan,2008,Asia,24.9,35.8,9.0,440.1
+Jordan,2009,Asia,27.4,38.5,8.7,425.1
+Jordan,2010,Asia,25.6,39.1,9.4,452.9
+Jordan,2011,Asia,34.1,42.5,6.6,456.2
+Jordan,2012,Asia,34.6,41.3,9.9,459.0
+Jordan,2013,Asia,32.5,39.9,7.7,454.1
+Jordan,2014,Asia,25.5,33.5,8.8,457.1
+Jordan,2015,Asia,30.2,43.1,10.1,449.6
+Jordan,2016,Asia,29.9,35.0,9.4,467.2
+Jordan,2017,Asia,27.5,40.8,7.1,463.3
+Jordan,2018,Asia,21.8,36.5,7.8,444.3
+Jordan,2019,Asia,31.3,28.5,7.2,427.5
+Kazakhstan,2000,Asia,37.3,54.7,2.7,243.5
+Kazakhstan,2001,Asia,30.5,49.9,2.1,177.6
+Kazakhstan,2002,Asia,32.0,46.9,2.5,209.0
+Kazakhstan,2003,Asia,31.4,46.3,0.2,193.2
+Kazakhstan,2004,Asia,33.0,48.4,2.7,197.8
+Kazakhstan,2005,Asia,30.0,46.2,1.8,197.5
+Kazakhstan,2006,Asia,31.4,46.9,0.8,183.7
+Kazakhstan,2007,Asia,27.4,46.1,2.9,200.3
+Kazakhstan,2008,Asia,33.1,47.9,3.3,192.5
+Kazakhstan,2009,Asia,35.2,46.0,2.7,209.8
+Kazakhstan,2010,Asia,31.8,50.2,1.7,183.5
+Kazakhstan,2011,Asia,32.1,44.0,2.6,195.0
+Kazakhstan,2012,Asia,29.4,50.6,3.0,207.8
+Kazakhstan,2013,Asia,32.9,52.9,2.3,221.2
+Kazakhstan,2014,Asia,30.0,51.5,2.5,221.1
+Kazakhstan,2015,Asia,33.1,46.4,1.3,201.9
+Kazakhstan,2016,Asia,32.5,44.3,4.1,239.4
+Kazakhstan,2017,Asia,27.0,41.0,1.1,191.2
+Kazakhstan,2018,Asia,43.6,44.9,2.5,257.9
+Kazakhstan,2019,Asia,32.5,54.2,3.9,232.8
+Kuwait,2000,Asia,51.9,46.1,3.2,343.6
+Kuwait,2001,Asia,46.7,42.5,3.4,317.6
+Kuwait,2002,Asia,49.1,42.5,6.3,363.7
+Kuwait,2003,Asia,54.0,47.8,6.1,310.9
+Kuwait,2004,Asia,46.3,44.5,3.4,330.5
+Kuwait,2005,Asia,51.5,42.9,4.6,387.3
+Kuwait,2006,Asia,47.7,47.3,4.9,358.9
+Kuwait,2007,Asia,48.0,39.5,4.8,324.6
+Kuwait,2008,Asia,51.4,43.4,4.6,374.0
+Kuwait,2009,Asia,45.7,35.2,5.6,322.3
+Kuwait,2010,Asia,44.5,43.8,6.3,345.4
+Kuwait,2011,Asia,46.3,49.2,3.7,368.4
+Kuwait,2012,Asia,51.0,40.4,5.2,347.2
+Kuwait,2013,Asia,47.3,42.8,4.6,325.6
+Kuwait,2014,Asia,52.1,41.0,6.3,371.8
+Kuwait,2015,Asia,59.6,45.8,4.0,355.1
+Kuwait,2016,Asia,46.6,41.9,3.7,329.7
+Kuwait,2017,Asia,49.9,37.4,5.4,367.8
+Kuwait,2018,Asia,46.4,46.2,5.7,388.8
+Kuwait,2019,Asia,52.3,43.0,5.5,384.6
+Kyrgyzstan,2000,Asia,15.5,35.8,5.4,373.0
+Kyrgyzstan,2001,Asia,18.2,43.3,3.8,386.5
+Kyrgyzstan,2002,Asia,19.3,39.7,2.6,373.7
+Kyrgyzstan,2003,Asia,18.8,49.1,5.7,370.3
+Kyrgyzstan,2004,Asia,13.6,40.9,4.4,362.5
+Kyrgyzstan,2005,Asia,13.5,38.2,7.2,399.2
+Kyrgyzstan,2006,Asia,12.7,38.1,5.8,398.4
+Kyrgyzstan,2007,Asia,18.7,44.5,4.3,384.2
+Kyrgyzstan,2008,Asia,12.0,41.6,5.6,380.9
+Kyrgyzstan,2009,Asia,15.7,46.3,4.4,413.8
+Kyrgyzstan,2010,Asia,16.2,44.9,4.9,403.1
+Kyrgyzstan,2011,Asia,11.8,40.1,5.2,405.6
+Kyrgyzstan,2012,Asia,14.1,45.5,4.8,383.5
+Kyrgyzstan,2013,Asia,15.0,45.1,4.3,386.1
+Kyrgyzstan,2014,Asia,13.3,44.4,3.5,393.3
+Kyrgyzstan,2015,Asia,16.0,44.6,4.6,406.5
+Kyrgyzstan,2016,Asia,11.3,40.8,6.1,375.3
+Kyrgyzstan,2017,Asia,12.9,41.6,6.0,377.6
+Kyrgyzstan,2018,Asia,13.2,39.6,7.1,405.3
+Kyrgyzstan,2019,Asia,13.5,44.5,6.3,374.4
+Laos,2000,Asia,14.2,59.2,0.7,124.6
+Laos,2001,Asia,15.6,59.1,1.8,196.3
+Laos,2002,Asia,12.4,52.6,0.2,156.0
+Laos,2003,Asia,15.0,52.5,2.4,145.4
+Laos,2004,Asia,22.1,59.5,0.8,186.7
+Laos,2005,Asia,21.1,64.8,1.2,171.8
+Laos,2006,Asia,23.5,63.3,2.0,171.1
+Laos,2007,Asia,14.7,53.2,0.6,147.2
+Laos,2008,Asia,14.3,61.9,0.2,143.3
+Laos,2009,Asia,16.1,61.5,2.4,153.9
+Laos,2010,Asia,19.4,55.0,2.2,152.6
+Laos,2011,Asia,19.1,65.1,4.2,218.5
+Laos,2012,Asia,15.1,57.2,1.0,151.6
+Laos,2013,Asia,12.6,56.9,3.3,213.7
+Laos,2014,Asia,20.3,60.3,2.8,161.4
+Laos,2015,Asia,15.9,62.8,1.9,172.4
+Laos,2016,Asia,21.9,52.0,3.5,175.2
+Laos,2017,Asia,21.0,59.7,3.0,212.4
+Laos,2018,Asia,15.5,63.1,2.8,213.2
+Laos,2019,Asia,17.3,64.6,3.1,187.4
+Malaysia,2000,Asia,38.1,44.9,3.5,149.3
+Malaysia,2001,Asia,35.0,46.7,3.7,147.7
+Malaysia,2002,Asia,36.8,48.9,1.6,159.4
+Malaysia,2003,Asia,39.9,48.6,3.1,143.5
+Malaysia,2004,Asia,39.4,40.5,2.9,176.0
+Malaysia,2005,Asia,32.5,48.9,1.9,151.1
+Malaysia,2006,Asia,30.0,45.2,2.1,134.2
+Malaysia,2007,Asia,29.1,52.9,3.2,138.3
+Malaysia,2008,Asia,40.3,46.9,3.2,167.8
+Malaysia,2009,Asia,40.7,47.7,1.8,157.7
+Malaysia,2010,Asia,36.7,47.1,2.3,137.3
+Malaysia,2011,Asia,29.3,49.2,2.1,128.6
+Malaysia,2012,Asia,37.1,51.6,2.0,151.1
+Malaysia,2013,Asia,34.0,49.4,2.0,135.8
+Malaysia,2014,Asia,36.9,45.1,2.1,152.1
+Malaysia,2015,Asia,32.3,46.5,4.7,159.7
+Malaysia,2016,Asia,35.1,45.8,1.6,151.7
+Malaysia,2017,Asia,39.2,52.8,6.5,191.2
+Malaysia,2018,Asia,36.4,43.4,5.4,192.8
+Malaysia,2019,Asia,39.1,50.3,3.3,129.1
+Mongolia,2000,Asia,50.2,31.0,5.4,302.6
+Mongolia,2001,Asia,48.9,29.6,5.4,294.4
+Mongolia,2002,Asia,42.0,28.1,5.1,279.9
+Mongolia,2003,Asia,52.1,26.8,5.2,322.5
+Mongolia,2004,Asia,51.2,25.6,5.1,292.2
+Mongolia,2005,Asia,49.8,30.4,5.5,326.6
+Mongolia,2006,Asia,52.5,28.4,4.7,310.0
+Mongolia,2007,Asia,49.9,31.3,6.0,315.6
+Mongolia,2008,Asia,48.2,31.4,5.6,320.5
+Mongolia,2009,Asia,48.0,30.7,5.0,313.1
+Mongolia,2010,Asia,40.4,31.5,5.5,337.0
+Mongolia,2011,Asia,40.2,29.9,6.3,300.6
+Mongolia,2012,Asia,48.2,30.4,6.3,325.6
+Mongolia,2013,Asia,35.5,29.7,5.8,289.7
+Mongolia,2014,Asia,42.0,31.6,6.2,349.1
+Mongolia,2015,Asia,43.9,34.3,5.8,316.8
+Mongolia,2016,Asia,48.5,33.1,5.3,358.9
+Mongolia,2017,Asia,46.9,24.8,4.7,334.5
+Mongolia,2018,Asia,45.0,30.1,6.1,325.5
+Mongolia,2019,Asia,50.4,27.9,4.8,286.5
+Myanmar,2000,Asia,27.5,41.5,5.9,402.7
+Myanmar,2001,Asia,31.6,41.4,6.5,410.2
+Myanmar,2002,Asia,26.6,45.4,6.0,435.3
+Myanmar,2003,Asia,23.4,47.1,4.7,379.3
+Myanmar,2004,Asia,26.2,41.4,3.9,426.7
+Myanmar,2005,Asia,30.1,47.5,3.8,387.8
+Myanmar,2006,Asia,29.9,43.1,5.8,438.2
+Myanmar,2007,Asia,28.9,46.3,5.0,427.2
+Myanmar,2008,Asia,35.3,48.3,3.8,402.7
+Myanmar,2009,Asia,33.2,41.5,4.9,418.7
+Myanmar,2010,Asia,29.7,41.7,3.8,382.4
+Myanmar,2011,Asia,20.2,39.2,6.5,395.5
+Myanmar,2012,Asia,28.6,48.0,6.6,429.7
+Myanmar,2013,Asia,31.2,42.1,3.1,433.5
+Myanmar,2014,Asia,29.2,40.1,5.5,432.8
+Myanmar,2015,Asia,29.4,39.8,5.1,431.0
+Myanmar,2016,Asia,31.5,42.9,4.2,435.2
+Myanmar,2017,Asia,33.3,41.5,6.0,460.8
+Myanmar,2018,Asia,32.7,49.3,5.8,474.5
+Myanmar,2019,Asia,33.8,40.7,5.9,447.4
+Nepal,2000,Asia,17.4,46.8,0.3,223.0
+Nepal,2001,Asia,22.8,52.8,4.1,241.5
+Nepal,2002,Asia,19.3,54.4,3.8,233.6
+Nepal,2003,Asia,11.7,47.4,1.5,211.7
+Nepal,2004,Asia,23.4,42.6,3.0,216.5
+Nepal,2005,Asia,28.8,48.7,3.3,239.1
+Nepal,2006,Asia,12.7,44.7,1.8,235.0
+Nepal,2007,Asia,16.2,51.9,3.3,237.6
+Nepal,2008,Asia,11.5,46.5,4.0,239.7
+Nepal,2009,Asia,20.8,43.1,3.1,243.6
+Nepal,2010,Asia,18.7,50.6,2.2,202.3
+Nepal,2011,Asia,18.2,46.2,4.4,260.7
+Nepal,2012,Asia,20.3,46.9,3.7,275.9
+Nepal,2013,Asia,17.2,46.6,4.4,256.8
+Nepal,2014,Asia,19.1,53.8,3.8,239.7
+Nepal,2015,Asia,21.6,49.3,5.1,276.6
+Nepal,2016,Asia,22.4,49.9,3.9,236.0
+Nepal,2017,Asia,15.7,51.0,3.8,242.5
+Nepal,2018,Asia,13.8,45.2,4.0,244.4
+Nepal,2019,Asia,18.7,45.9,3.8,248.6
+Oman,2000,Asia,37.0,28.6,3.2,351.0
+Oman,2001,Asia,35.4,37.3,2.5,351.5
+Oman,2002,Asia,32.2,26.8,4.2,355.9
+Oman,2003,Asia,38.5,28.1,3.6,335.5
+Oman,2004,Asia,41.5,20.4,2.9,332.3
+Oman,2005,Asia,42.4,30.2,4.7,397.9
+Oman,2006,Asia,39.5,24.5,2.5,338.1
+Oman,2007,Asia,39.3,32.7,2.0,367.1
+Oman,2008,Asia,34.5,29.8,3.8,350.7
+Oman,2009,Asia,43.6,35.9,2.1,346.7
+Oman,2010,Asia,42.1,31.9,4.3,375.5
+Oman,2011,Asia,42.5,34.6,4.5,368.8
+Oman,2012,Asia,40.4,25.1,3.4,349.0
+Oman,2013,Asia,35.6,27.9,1.5,365.3
+Oman,2014,Asia,37.6,31.0,4.3,388.7
+Oman,2015,Asia,43.1,30.1,4.0,361.6
+Oman,2016,Asia,41.0,32.0,4.9,397.3
+Oman,2017,Asia,41.3,34.1,4.0,358.2
+Oman,2018,Asia,39.8,38.8,3.5,368.1
+Oman,2019,Asia,40.8,38.8,2.9,335.8
+Pakistan,2000,Asia,12.6,37.6,7.8,419.4
+Pakistan,2001,Asia,13.1,34.7,7.1,424.5
+Pakistan,2002,Asia,16.9,31.1,9.8,447.7
+Pakistan,2003,Asia,16.9,36.4,8.4,417.0
+Pakistan,2004,Asia,20.5,43.2,7.9,425.7
+Pakistan,2005,Asia,14.0,40.0,7.8,419.3
+Pakistan,2006,Asia,15.7,34.2,9.8,461.1
+Pakistan,2007,Asia,17.5,35.0,8.6,461.4
+Pakistan,2008,Asia,7.9,38.7,9.9,469.8
+Pakistan,2009,Asia,12.0,39.1,9.6,465.6
+Pakistan,2010,Asia,8.9,30.0,8.7,432.0
+Pakistan,2011,Asia,15.0,36.8,9.9,477.9
+Pakistan,2012,Asia,13.4,38.8,7.3,465.6
+Pakistan,2013,Asia,10.6,34.0,7.7,408.0
+Pakistan,2014,Asia,20.1,47.7,9.0,463.2
+Pakistan,2015,Asia,18.2,34.8,10.2,459.8
+Pakistan,2016,Asia,17.2,35.8,8.6,420.7
+Pakistan,2017,Asia,15.8,42.2,6.8,425.6
+Pakistan,2018,Asia,14.2,37.4,8.8,448.4
+Pakistan,2019,Asia,16.9,38.6,7.1,451.2
+Philippines,2000,Asia,19.0,28.0,0.8,408.6
+Philippines,2001,Asia,16.5,23.1,2.8,431.7
+Philippines,2002,Asia,20.6,27.6,3.4,422.8
+Philippines,2003,Asia,13.5,32.7,3.9,433.6
+Philippines,2004,Asia,13.2,33.1,4.1,400.8
+Philippines,2005,Asia,18.9,28.0,3.3,388.8
+Philippines,2006,Asia,10.0,31.4,2.2,420.3
+Philippines,2007,Asia,10.6,21.6,5.2,432.7
+Philippines,2008,Asia,14.8,28.5,2.3,420.9
+Philippines,2009,Asia,19.5,26.0,3.7,399.8
+Philippines,2010,Asia,21.7,31.8,3.2,432.4
+Philippines,2011,Asia,20.4,25.8,3.7,427.8
+Philippines,2012,Asia,12.3,32.1,2.9,428.9
+Philippines,2013,Asia,14.3,27.5,3.2,410.6
+Philippines,2014,Asia,18.2,27.7,4.4,452.1
+Philippines,2015,Asia,20.0,26.2,4.2,437.0
+Philippines,2016,Asia,15.7,25.4,3.0,435.5
+Philippines,2017,Asia,14.6,25.4,4.5,439.2
+Philippines,2018,Asia,11.6,28.8,4.9,453.8
+Philippines,2019,Asia,14.0,24.0,3.3,448.2
+Qatar,2000,Asia,48.1,45.8,4.4,113.1
+Qatar,2001,Asia,52.3,58.4,3.1,169.2
+Qatar,2002,Asia,47.9,53.1,4.1,158.1
+Qatar,2003,Asia,44.8,61.3,1.4,147.6
+Qatar,2004,Asia,40.8,54.5,2.9,188.5
+Qatar,2005,Asia,44.0,54.8,3.0,166.8
+Qatar,2006,Asia,44.0,52.8,5.8,181.8
+Qatar,2007,Asia,46.8,65.1,3.1,155.3
+Qatar,2008,Asia,43.2,60.4,3.2,180.5
+Qatar,2009,Asia,43.8,48.4,3.0,152.2
+Qatar,2010,Asia,50.2,60.9,4.4,194.9
+Qatar,2011,Asia,36.9,56.9,4.1,146.0
+Qatar,2012,Asia,43.9,59.4,5.3,212.1
+Qatar,2013,Asia,45.6,52.8,6.2,173.5
+Qatar,2014,Asia,44.5,50.5,4.6,176.4
+Qatar,2015,Asia,49.3,57.0,4.8,193.9
+Qatar,2016,Asia,48.2,60.9,5.2,193.0
+Qatar,2017,Asia,44.6,59.5,3.7,169.5
+Qatar,2018,Asia,44.0,64.9,3.3,187.4
+Qatar,2019,Asia,49.0,60.0,4.4,188.7
+Saudi Arabia,2000,Asia,43.0,36.7,4.4,431.6
+Saudi Arabia,2001,Asia,40.9,48.2,8.2,423.8
+Saudi Arabia,2002,Asia,42.0,46.7,3.1,394.3
+Saudi Arabia,2003,Asia,38.9,50.0,5.1,382.8
+Saudi Arabia,2004,Asia,46.8,51.8,5.0,455.6
+Saudi Arabia,2005,Asia,46.0,44.3,5.8,438.1
+Saudi Arabia,2006,Asia,41.1,43.9,6.0,468.7
+Saudi Arabia,2007,Asia,44.0,48.9,4.4,424.2
+Saudi Arabia,2008,Asia,43.5,46.7,4.9,428.6
+Saudi Arabia,2009,Asia,42.3,53.2,7.9,441.3
+Saudi Arabia,2010,Asia,43.0,50.1,6.3,430.0
+Saudi Arabia,2011,Asia,42.3,50.8,4.0,468.4
+Saudi Arabia,2012,Asia,45.5,47.3,5.6,423.2
+Saudi Arabia,2013,Asia,50.8,48.3,5.4,484.5
+Saudi Arabia,2014,Asia,48.1,47.9,6.4,448.9
+Saudi Arabia,2015,Asia,43.3,47.9,6.3,465.6
+Saudi Arabia,2016,Asia,51.6,40.1,8.6,487.3
+Saudi Arabia,2017,Asia,44.8,47.2,4.0,456.4
+Saudi Arabia,2018,Asia,40.9,51.6,5.6,414.8
+Saudi Arabia,2019,Asia,46.3,51.0,5.1,466.6
+Singapore,2000,Asia,43.2,20.3,7.2,202.8
+Singapore,2001,Asia,33.3,16.8,6.8,192.2
+Singapore,2002,Asia,36.3,28.5,7.4,197.8
+Singapore,2003,Asia,32.8,11.6,5.7,190.6
+Singapore,2004,Asia,36.1,15.9,7.5,213.7
+Singapore,2005,Asia,38.5,18.7,6.9,184.3
+Singapore,2006,Asia,30.8,15.6,6.1,171.2
+Singapore,2007,Asia,36.7,17.0,5.6,194.4
+Singapore,2008,Asia,38.5,17.0,8.0,221.8
+Singapore,2009,Asia,38.8,17.6,7.6,227.8
+Singapore,2010,Asia,30.7,23.4,6.6,213.0
+Singapore,2011,Asia,29.4,17.5,5.4,182.4
+Singapore,2012,Asia,38.2,20.9,7.3,196.5
+Singapore,2013,Asia,42.2,14.0,7.0,203.7
+Singapore,2014,Asia,35.6,13.8,8.6,229.8
+Singapore,2015,Asia,38.0,19.0,6.4,211.2
+Singapore,2016,Asia,34.6,20.0,7.9,214.3
+Singapore,2017,Asia,39.3,22.0,8.4,269.6
+Singapore,2018,Asia,32.9,14.8,6.2,197.3
+Singapore,2019,Asia,32.4,17.7,8.6,232.1
+South Korea,2000,Asia,42.9,60.8,2.9,150.5
+South Korea,2001,Asia,36.0,61.0,2.8,112.6
+South Korea,2002,Asia,32.5,53.7,0.9,145.0
+South Korea,2003,Asia,43.7,59.0,2.3,193.2
+South Korea,2004,Asia,39.0,60.0,2.4,158.6
+South Korea,2005,Asia,42.2,60.7,2.1,150.9
+South Korea,2006,Asia,38.5,51.3,2.6,146.6
+South Korea,2007,Asia,38.8,53.4,2.6,151.8
+South Korea,2008,Asia,37.7,59.6,1.3,118.9
+South Korea,2009,Asia,39.3,49.3,2.9,185.7
+South Korea,2010,Asia,39.1,61.6,4.1,189.0
+South Korea,2011,Asia,45.8,54.8,1.9,171.4
+South Korea,2012,Asia,32.3,58.4,2.4,168.3
+South Korea,2013,Asia,41.7,61.5,3.2,173.2
+South Korea,2014,Asia,39.1,61.6,3.6,157.6
+South Korea,2015,Asia,39.7,58.3,2.8,184.8
+South Korea,2016,Asia,37.3,55.0,1.6,138.4
+South Korea,2017,Asia,40.4,58.1,2.0,175.3
+South Korea,2018,Asia,38.8,61.7,5.1,217.5
+South Korea,2019,Asia,39.6,60.3,3.9,200.0
+Sri Lanka,2000,Asia,14.8,36.3,3.7,302.0
+Sri Lanka,2001,Asia,18.3,43.5,2.0,293.3
+Sri Lanka,2002,Asia,19.9,40.7,2.0,298.3
+Sri Lanka,2003,Asia,17.6,39.4,4.8,331.3
+Sri Lanka,2004,Asia,11.1,42.5,4.7,367.0
+Sri Lanka,2005,Asia,14.7,41.7,1.5,304.0
+Sri Lanka,2006,Asia,18.1,42.8,1.9,318.9
+Sri Lanka,2007,Asia,22.9,47.2,3.5,329.4
+Sri Lanka,2008,Asia,19.7,41.3,0.4,267.4
+Sri Lanka,2009,Asia,21.4,47.3,3.1,312.1
+Sri Lanka,2010,Asia,15.6,36.9,3.0,335.8
+Sri Lanka,2011,Asia,14.5,38.9,1.8,301.7
+Sri Lanka,2012,Asia,13.5,44.8,3.0,341.3
+Sri Lanka,2013,Asia,18.9,44.2,1.9,314.6
+Sri Lanka,2014,Asia,18.0,43.7,3.9,327.8
+Sri Lanka,2015,Asia,12.9,32.8,2.3,312.9
+Sri Lanka,2016,Asia,19.8,47.1,3.9,339.2
+Sri Lanka,2017,Asia,17.1,35.8,3.8,306.1
+Sri Lanka,2018,Asia,15.0,38.7,3.6,332.9
+Sri Lanka,2019,Asia,20.0,38.9,4.0,328.1
+Syria,2000,Asia,32.2,30.3,4.7,183.7
+Syria,2001,Asia,36.6,29.7,6.8,200.3
+Syria,2002,Asia,41.3,24.1,5.1,168.3
+Syria,2003,Asia,43.1,31.5,5.0,200.9
+Syria,2004,Asia,37.2,21.6,5.0,157.4
+Syria,2005,Asia,32.8,28.1,4.5,174.8
+Syria,2006,Asia,30.3,27.4,4.9,162.2
+Syria,2007,Asia,42.7,26.6,6.0,205.5
+Syria,2008,Asia,41.4,24.0,5.8,194.0
+Syria,2009,Asia,42.3,25.0,6.6,217.0
+Syria,2010,Asia,37.8,30.3,5.4,186.3
+Syria,2011,Asia,37.1,23.1,6.3,191.4
+Syria,2012,Asia,38.9,30.9,6.9,214.2
+Syria,2013,Asia,33.3,29.5,3.9,164.9
+Syria,2014,Asia,39.5,33.8,3.3,167.5
+Syria,2015,Asia,37.7,30.5,4.3,180.7
+Syria,2016,Asia,44.5,31.4,5.5,235.8
+Syria,2017,Asia,40.6,24.3,5.4,191.6
+Syria,2018,Asia,36.6,29.8,7.4,188.9
+Syria,2019,Asia,42.7,23.9,6.2,219.0
+Tajikistan,2000,Asia,34.1,55.9,7.2,168.2
+Tajikistan,2001,Asia,36.3,60.3,7.8,161.8
+Tajikistan,2002,Asia,36.4,59.1,6.2,144.5
+Tajikistan,2003,Asia,32.2,50.7,6.4,158.0
+Tajikistan,2004,Asia,26.8,58.4,7.4,150.5
+Tajikistan,2005,Asia,28.1,53.3,7.2,118.1
+Tajikistan,2006,Asia,36.3,57.2,8.1,138.3
+Tajikistan,2007,Asia,33.0,66.5,7.2,134.8
+Tajikistan,2008,Asia,35.0,54.8,5.9,117.8
+Tajikistan,2009,Asia,27.0,58.8,6.4,116.0
+Tajikistan,2010,Asia,29.9,58.5,8.4,172.7
+Tajikistan,2011,Asia,30.1,61.0,6.6,173.6
+Tajikistan,2012,Asia,33.5,58.0,5.7,159.1
+Tajikistan,2013,Asia,29.7,54.6,6.6,126.4
+Tajikistan,2014,Asia,33.1,58.9,7.6,189.7
+Tajikistan,2015,Asia,27.1,58.4,6.2,145.5
+Tajikistan,2016,Asia,33.5,57.8,8.2,171.8
+Tajikistan,2017,Asia,33.3,51.8,8.7,189.6
+Tajikistan,2018,Asia,35.6,56.4,10.0,181.0
+Tajikistan,2019,Asia,35.8,60.3,9.4,150.0
+Thailand,2000,Asia,25.3,31.7,0.6,343.3
+Thailand,2001,Asia,33.4,27.5,1.2,372.4
+Thailand,2002,Asia,27.4,20.5,0.2,336.3
+Thailand,2003,Asia,36.0,27.0,0.9,407.5
+Thailand,2004,Asia,28.5,32.0,1.4,349.8
+Thailand,2005,Asia,25.4,28.0,1.1,340.4
+Thailand,2006,Asia,26.7,31.1,2.4,411.9
+Thailand,2007,Asia,26.0,31.3,0.2,343.5
+Thailand,2008,Asia,22.6,37.2,0.8,376.3
+Thailand,2009,Asia,24.9,21.0,3.2,333.1
+Thailand,2010,Asia,25.1,35.2,1.4,364.4
+Thailand,2011,Asia,33.4,29.4,2.3,361.3
+Thailand,2012,Asia,33.8,28.4,1.6,367.0
+Thailand,2013,Asia,26.0,29.5,2.5,368.5
+Thailand,2014,Asia,29.6,28.9,3.0,356.8
+Thailand,2015,Asia,23.1,36.5,0.2,393.0
+Thailand,2016,Asia,29.0,32.6,2.0,369.6
+Thailand,2017,Asia,30.9,39.1,3.0,387.0
+Thailand,2018,Asia,33.5,26.4,1.5,384.3
+Thailand,2019,Asia,33.6,25.6,2.9,383.9
+Turkey,2000,Asia,30.5,33.0,5.7,236.5
+Turkey,2001,Asia,39.1,22.3,5.8,258.4
+Turkey,2002,Asia,33.5,33.5,6.9,261.7
+Turkey,2003,Asia,35.6,29.5,7.8,303.1
+Turkey,2004,Asia,32.2,24.2,7.1,292.5
+Turkey,2005,Asia,34.4,26.9,6.9,291.3
+Turkey,2006,Asia,27.4,28.4,7.3,251.1
+Turkey,2007,Asia,39.7,24.6,6.7,278.8
+Turkey,2008,Asia,31.0,30.5,6.4,310.4
+Turkey,2009,Asia,39.7,23.4,6.9,313.4
+Turkey,2010,Asia,39.8,37.2,8.8,311.4
+Turkey,2011,Asia,38.2,39.5,8.1,308.0
+Turkey,2012,Asia,31.6,23.7,7.5,284.9
+Turkey,2013,Asia,36.3,27.7,5.8,301.8
+Turkey,2014,Asia,37.0,31.8,5.0,324.3
+Turkey,2015,Asia,41.2,34.5,4.6,317.3
+Turkey,2016,Asia,32.2,32.0,8.2,324.8
+Turkey,2017,Asia,39.8,37.8,7.2,305.9
+Turkey,2018,Asia,35.4,30.5,8.0,291.2
+Turkey,2019,Asia,40.2,30.4,6.6,294.4
+Turkmenistan,2000,Asia,26.6,19.6,1.1,401.8
+Turkmenistan,2001,Asia,22.7,12.6,0.3,388.2
+Turkmenistan,2002,Asia,27.9,18.7,2.1,409.6
+Turkmenistan,2003,Asia,26.6,12.9,1.1,355.8
+Turkmenistan,2004,Asia,28.3,15.7,1.9,398.9
+Turkmenistan,2005,Asia,27.3,21.3,4.7,386.0
+Turkmenistan,2006,Asia,37.1,15.0,0.2,385.2
+Turkmenistan,2007,Asia,31.2,19.8,1.0,392.4
+Turkmenistan,2008,Asia,26.1,21.4,3.1,404.8
+Turkmenistan,2009,Asia,26.4,17.6,0.2,386.8
+Turkmenistan,2010,Asia,30.2,17.7,1.3,423.2
+Turkmenistan,2011,Asia,30.0,20.8,2.4,417.1
+Turkmenistan,2012,Asia,33.6,13.9,1.9,369.9
+Turkmenistan,2013,Asia,27.6,27.5,0.6,387.0
+Turkmenistan,2014,Asia,28.8,23.0,2.8,409.8
+Turkmenistan,2015,Asia,35.1,19.4,3.3,460.7
+Turkmenistan,2016,Asia,25.8,13.7,2.7,408.3
+Turkmenistan,2017,Asia,29.4,20.8,2.1,444.5
+Turkmenistan,2018,Asia,18.8,24.9,2.5,402.2
+Turkmenistan,2019,Asia,26.0,24.9,1.0,411.1
+United Arab Emirates,2000,Asia,50.3,34.3,7.2,300.4
+United Arab Emirates,2001,Asia,47.9,39.1,7.5,317.3
+United Arab Emirates,2002,Asia,45.4,49.4,5.7,281.9
+United Arab Emirates,2003,Asia,50.7,40.3,5.9,288.8
+United Arab Emirates,2004,Asia,51.9,44.4,6.0,271.2
+United Arab Emirates,2005,Asia,51.9,42.3,6.6,291.0
+United Arab Emirates,2006,Asia,39.5,36.1,7.4,274.5
+United Arab Emirates,2007,Asia,52.5,45.2,6.5,296.3
+United Arab Emirates,2008,Asia,51.3,40.1,10.1,331.2
+United Arab Emirates,2009,Asia,42.1,33.5,6.5,307.8
+United Arab Emirates,2010,Asia,46.1,31.7,6.6,284.2
+United Arab Emirates,2011,Asia,51.8,43.5,7.2,323.3
+United Arab Emirates,2012,Asia,54.9,46.1,6.6,335.8
+United Arab Emirates,2013,Asia,51.1,51.3,7.8,324.8
+United Arab Emirates,2014,Asia,48.4,40.1,7.7,299.1
+United Arab Emirates,2015,Asia,47.3,36.3,8.5,327.8
+United Arab Emirates,2016,Asia,41.5,45.2,7.0,328.8
+United Arab Emirates,2017,Asia,50.9,46.6,8.3,313.4
+United Arab Emirates,2018,Asia,40.2,42.9,6.3,299.0
+United Arab Emirates,2019,Asia,42.3,45.6,8.3,293.5
+Uzbekistan,2000,Asia,14.3,25.0,4.0,402.6
+Uzbekistan,2001,Asia,15.3,24.1,2.8,382.9
+Uzbekistan,2002,Asia,12.8,23.7,2.2,382.2
+Uzbekistan,2003,Asia,10.8,26.9,2.6,388.6
+Uzbekistan,2004,Asia,23.1,29.9,3.9,405.5
+Uzbekistan,2005,Asia,17.6,25.0,3.6,409.0
+Uzbekistan,2006,Asia,20.9,26.5,4.7,437.1
+Uzbekistan,2007,Asia,15.6,22.6,3.4,408.0
+Uzbekistan,2008,Asia,16.4,24.0,3.1,392.8
+Uzbekistan,2009,Asia,19.6,27.7,5.4,447.3
+Uzbekistan,2010,Asia,16.9,29.2,1.9,411.2
+Uzbekistan,2011,Asia,16.3,22.0,5.7,412.8
+Uzbekistan,2012,Asia,19.2,26.7,3.6,393.3
+Uzbekistan,2013,Asia,19.6,23.0,3.6,414.7
+Uzbekistan,2014,Asia,20.1,26.1,2.0,414.6
+Uzbekistan,2015,Asia,24.7,16.9,2.8,402.4
+Uzbekistan,2016,Asia,11.6,17.3,2.8,412.1
+Uzbekistan,2017,Asia,17.4,21.0,3.7,422.0
+Uzbekistan,2018,Asia,20.4,25.0,6.8,449.4
+Uzbekistan,2019,Asia,20.3,22.8,3.0,397.2
+Vietnam,2000,Asia,37.7,56.4,7.5,153.0
+Vietnam,2001,Asia,41.1,58.5,7.1,172.2
+Vietnam,2002,Asia,43.4,56.3,6.5,126.5
+Vietnam,2003,Asia,35.6,55.8,6.8,151.9
+Vietnam,2004,Asia,36.5,51.3,7.6,161.7
+Vietnam,2005,Asia,38.8,49.9,9.6,173.5
+Vietnam,2006,Asia,42.2,49.3,6.7,160.7
+Vietnam,2007,Asia,38.6,55.1,6.4,150.4
+Vietnam,2008,Asia,39.9,48.1,5.9,159.0
+Vietnam,2009,Asia,39.2,54.1,7.6,179.4
+Vietnam,2010,Asia,45.7,52.4,6.5,181.4
+Vietnam,2011,Asia,45.9,53.6,7.7,185.2
+Vietnam,2012,Asia,42.4,57.6,7.4,196.2
+Vietnam,2013,Asia,44.5,63.8,7.1,215.6
+Vietnam,2014,Asia,45.9,50.4,8.6,204.3
+Vietnam,2015,Asia,41.0,45.5,8.8,157.8
+Vietnam,2016,Asia,42.6,48.3,8.7,154.4
+Vietnam,2017,Asia,41.2,53.3,8.1,160.4
+Vietnam,2018,Asia,44.9,57.5,7.8,192.5
+Vietnam,2019,Asia,33.8,62.1,8.0,195.2
+Yemen,2000,Asia,22.1,22.5,7.2,386.6
+Yemen,2001,Asia,25.1,28.7,6.7,405.5
+Yemen,2002,Asia,25.0,24.1,6.1,394.1
+Yemen,2003,Asia,22.1,25.6,6.0,410.8
+Yemen,2004,Asia,28.6,25.0,6.5,422.9
+Yemen,2005,Asia,20.2,18.2,5.8,361.0
+Yemen,2006,Asia,25.2,20.9,4.7,400.6
+Yemen,2007,Asia,23.2,24.1,5.3,375.8
+Yemen,2008,Asia,28.1,20.5,7.3,417.7
+Yemen,2009,Asia,17.2,17.1,7.4,386.9
+Yemen,2010,Asia,21.1,27.3,5.1,396.1
+Yemen,2011,Asia,26.2,26.6,6.7,425.4
+Yemen,2012,Asia,24.4,19.8,5.4,414.2
+Yemen,2013,Asia,22.4,30.6,6.4,432.0
+Yemen,2014,Asia,25.2,25.4,7.1,402.6
+Yemen,2015,Asia,21.4,21.5,7.2,390.4
+Yemen,2016,Asia,23.3,30.7,6.3,427.4
+Yemen,2017,Asia,15.9,25.7,7.6,391.1
+Yemen,2018,Asia,24.5,24.2,9.3,436.5
+Yemen,2019,Asia,24.0,23.3,6.1,459.7
+Albania,2000,Europe,26.6,40.3,5.4,488.6
+Albania,2001,Europe,21.3,32.5,6.8,515.3
+Albania,2002,Europe,24.9,33.5,4.5,498.4
+Albania,2003,Europe,21.8,42.8,4.6,500.9
+Albania,2004,Europe,25.9,30.7,6.4,513.8
+Albania,2005,Europe,18.5,37.9,5.2,481.5
+Albania,2006,Europe,27.6,44.4,6.0,505.1
+Albania,2007,Europe,24.0,31.7,5.9,492.1
+Albania,2008,Europe,27.4,42.9,6.7,538.6
+Albania,2009,Europe,25.6,33.3,8.2,571.2
+Albania,2010,Europe,26.2,41.6,4.5,512.2
+Albania,2011,Europe,26.7,37.6,7.8,543.3
+Albania,2012,Europe,24.5,38.4,6.2,496.1
+Albania,2013,Europe,28.4,40.0,7.0,546.3
+Albania,2014,Europe,24.5,37.5,7.5,542.2
+Albania,2015,Europe,29.0,42.7,6.0,519.5
+Albania,2016,Europe,33.2,39.6,7.5,553.4
+Albania,2017,Europe,30.9,37.0,4.7,525.2
+Albania,2018,Europe,25.4,43.2,6.6,511.9
+Albania,2019,Europe,24.5,35.0,5.4,520.9
+Austria,2000,Europe,36.2,55.9,11.4,479.7
+Austria,2001,Europe,42.9,54.9,11.2,499.8
+Austria,2002,Europe,45.2,54.5,9.8,505.5
+Austria,2003,Europe,35.6,55.0,9.9,474.9
+Austria,2004,Europe,36.4,53.4,9.9,487.4
+Austria,2005,Europe,31.1,55.0,8.2,471.6
+Austria,2006,Europe,39.6,49.7,12.4,527.2
+Austria,2007,Europe,42.5,56.3,11.6,508.6
+Austria,2008,Europe,39.7,56.2,11.2,465.4
+Austria,2009,Europe,33.0,59.1,10.4,483.7
+Austria,2010,Europe,42.3,55.6,12.0,522.1
+Austria,2011,Europe,31.6,60.9,11.0,519.3
+Austria,2012,Europe,39.6,50.0,11.2,501.8
+Austria,2013,Europe,44.9,47.1,12.0,550.2
+Austria,2014,Europe,37.4,52.5,10.3,529.0
+Austria,2015,Europe,35.3,55.0,9.5,478.1
+Austria,2016,Europe,40.1,48.0,11.4,484.5
+Austria,2017,Europe,39.7,47.8,10.6,507.9
+Austria,2018,Europe,32.8,55.2,10.9,529.7
+Austria,2019,Europe,37.6,49.2,12.0,529.5
+Belarus,2000,Europe,7.1,40.5,8.2,483.5
+Belarus,2001,Europe,11.5,36.8,6.5,473.5
+Belarus,2002,Europe,17.4,37.2,6.4,504.6
+Belarus,2003,Europe,13.7,42.3,5.9,488.5
+Belarus,2004,Europe,20.2,45.1,7.5,550.0
+Belarus,2005,Europe,17.4,42.2,7.7,520.4
+Belarus,2006,Europe,22.1,44.4,7.2,561.8
+Belarus,2007,Europe,19.0,40.8,7.7,505.0
+Belarus,2008,Europe,15.3,44.4,7.4,520.8
+Belarus,2009,Europe,12.9,45.4,7.9,512.3
+Belarus,2010,Europe,16.2,45.8,7.9,538.4
+Belarus,2011,Europe,18.0,46.3,8.2,547.2
+Belarus,2012,Europe,14.6,45.3,6.7,512.2
+Belarus,2013,Europe,17.6,44.3,6.7,538.6
+Belarus,2014,Europe,13.9,46.0,6.1,543.5
+Belarus,2015,Europe,18.3,46.1,7.6,515.2
+Belarus,2016,Europe,10.8,44.6,7.2,527.5
+Belarus,2017,Europe,20.3,46.1,6.6,549.8
+Belarus,2018,Europe,14.6,46.1,8.4,530.6
+Belarus,2019,Europe,21.9,43.2,7.8,570.7
+Belgium,2000,Europe,37.3,44.1,10.5,226.0
+Belgium,2001,Europe,35.2,45.4,12.0,226.3
+Belgium,2002,Europe,42.9,46.9,9.9,228.7
+Belgium,2003,Europe,40.1,45.3,12.3,242.8
+Belgium,2004,Europe,38.3,44.8,11.1,232.0
+Belgium,2005,Europe,40.6,45.9,9.4,207.8
+Belgium,2006,Europe,34.6,50.4,10.2,209.5
+Belgium,2007,Europe,36.0,47.9,11.1,210.9
+Belgium,2008,Europe,36.0,51.8,11.7,249.9
+Belgium,2009,Europe,34.5,47.0,10.0,234.6
+Belgium,2010,Europe,40.2,47.3,11.0,227.9
+Belgium,2011,Europe,36.9,54.9,10.7,247.8
+Belgium,2012,Europe,40.6,47.9,10.1,246.2
+Belgium,2013,Europe,42.8,49.0,11.5,254.9
+Belgium,2014,Europe,30.0,49.8,11.1,214.1
+Belgium,2015,Europe,41.9,44.8,11.7,230.5
+Belgium,2016,Europe,38.8,43.0,11.9,249.3
+Belgium,2017,Europe,40.3,43.5,11.3,232.2
+Belgium,2018,Europe,40.3,41.9,11.4,255.5
+Belgium,2019,Europe,38.4,42.8,13.1,257.3
+Bosnia and Herzegovina,2000,Europe,39.8,20.0,11.5,489.8
+Bosnia and Herzegovina,2001,Europe,34.8,30.6,11.2,493.6
+Bosnia and Herzegovina,2002,Europe,34.1,19.6,11.4,463.4
+Bosnia and Herzegovina,2003,Europe,33.1,22.1,11.1,514.6
+Bosnia and Herzegovina,2004,Europe,35.9,19.4,12.3,518.7
+Bosnia and Herzegovina,2005,Europe,30.9,27.0,10.5,466.7
+Bosnia and Herzegovina,2006,Europe,31.7,20.3,10.2,457.6
+Bosnia and Herzegovina,2007,Europe,35.5,21.6,12.0,494.9
+Bosnia and Herzegovina,2008,Europe,36.5,27.5,12.0,520.7
+Bosnia and Herzegovina,2009,Europe,37.3,19.8,10.4,432.1
+Bosnia and Herzegovina,2010,Europe,35.3,17.9,11.9,510.4
+Bosnia and Herzegovina,2011,Europe,29.0,25.2,10.3,440.6
+Bosnia and Herzegovina,2012,Europe,44.8,25.7,8.7,519.4
+Bosnia and Herzegovina,2013,Europe,36.2,28.7,11.0,501.7
+Bosnia and Herzegovina,2014,Europe,37.5,14.5,12.3,508.1
+Bosnia and Herzegovina,2015,Europe,33.8,25.0,12.9,503.6
+Bosnia and Herzegovina,2016,Europe,41.2,25.5,14.0,530.6
+Bosnia and Herzegovina,2017,Europe,40.9,22.5,13.0,522.7
+Bosnia and Herzegovina,2018,Europe,38.9,26.1,12.0,505.0
+Bosnia and Herzegovina,2019,Europe,31.1,24.1,11.1,475.1
+Bulgaria,2000,Europe,19.7,48.4,8.5,256.0
+Bulgaria,2001,Europe,20.4,47.0,7.0,266.0
+Bulgaria,2002,Europe,26.8,43.5,6.6,224.5
+Bulgaria,2003,Europe,17.9,42.3,8.4,242.7
+Bulgaria,2004,Europe,24.2,46.8,8.3,251.5
+Bulgaria,2005,Europe,26.8,52.6,7.3,267.6
+Bulgaria,2006,Europe,20.5,45.2,7.6,224.2
+Bulgaria,2007,Europe,20.5,50.1,9.8,282.4
+Bulgaria,2008,Europe,22.0,51.8,8.2,258.7
+Bulgaria,2009,Europe,16.9,51.2,9.5,242.6
+Bulgaria,2010,Europe,17.2,54.5,8.7,240.1
+Bulgaria,2011,Europe,20.6,49.0,9.6,281.7
+Bulgaria,2012,Europe,27.4,49.6,9.0,299.5
+Bulgaria,2013,Europe,20.0,44.5,7.0,259.6
+Bulgaria,2014,Europe,19.4,47.9,8.7,254.3
+Bulgaria,2015,Europe,20.5,50.9,10.4,270.4
+Bulgaria,2016,Europe,19.2,54.8,8.8,260.0
+Bulgaria,2017,Europe,20.9,50.5,8.7,270.1
+Bulgaria,2018,Europe,17.6,44.1,10.0,272.4
+Bulgaria,2019,Europe,25.7,40.5,8.2,271.0
+Croatia,2000,Europe,38.8,34.1,4.4,194.0
+Croatia,2001,Europe,33.9,20.5,5.7,192.4
+Croatia,2002,Europe,34.3,30.5,5.8,202.6
+Croatia,2003,Europe,34.8,27.1,2.5,194.0
+Croatia,2004,Europe,39.1,26.8,5.2,211.5
+Croatia,2005,Europe,37.4,31.7,4.6,239.5
+Croatia,2006,Europe,39.8,25.2,4.5,195.7
+Croatia,2007,Europe,41.2,37.4,4.3,228.9
+Croatia,2008,Europe,38.7,26.7,4.4,220.4
+Croatia,2009,Europe,31.9,23.0,4.9,197.2
+Croatia,2010,Europe,37.8,28.9,6.0,202.9
+Croatia,2011,Europe,34.8,30.9,4.9,215.0
+Croatia,2012,Europe,41.4,19.4,6.4,226.4
+Croatia,2013,Europe,32.8,31.6,6.8,250.4
+Croatia,2014,Europe,36.4,29.6,5.5,195.6
+Croatia,2015,Europe,46.3,23.0,7.2,243.4
+Croatia,2016,Europe,38.4,26.0,6.5,260.7
+Croatia,2017,Europe,38.1,24.6,4.3,224.8
+Croatia,2018,Europe,29.8,20.7,5.1,204.5
+Croatia,2019,Europe,35.9,25.5,3.3,197.7
+Cyprus,2000,Europe,23.3,48.6,12.9,201.3
+Cyprus,2001,Europe,29.4,39.0,12.8,230.1
+Cyprus,2002,Europe,27.4,49.8,12.1,236.9
+Cyprus,2003,Europe,18.2,47.3,11.6,202.6
+Cyprus,2004,Europe,20.2,47.7,12.0,243.0
+Cyprus,2005,Europe,22.3,41.8,11.6,223.8
+Cyprus,2006,Europe,17.8,53.1,12.3,230.0
+Cyprus,2007,Europe,24.7,50.6,13.3,236.8
+Cyprus,2008,Europe,21.8,55.9,10.3,213.9
+Cyprus,2009,Europe,21.3,51.7,13.0,250.5
+Cyprus,2010,Europe,21.4,49.5,11.7,224.8
+Cyprus,2011,Europe,21.9,45.4,11.7,236.0
+Cyprus,2012,Europe,25.6,45.1,12.3,251.8
+Cyprus,2013,Europe,25.2,54.2,12.6,261.8
+Cyprus,2014,Europe,27.0,44.5,11.7,219.4
+Cyprus,2015,Europe,26.2,47.8,13.2,259.2
+Cyprus,2016,Europe,25.5,51.2,12.6,269.5
+Cyprus,2017,Europe,27.0,43.2,12.8,280.3
+Cyprus,2018,Europe,37.5,48.6,13.1,252.0
+Cyprus,2019,Europe,25.4,48.6,12.5,287.4
+Czech Republic,2000,Europe,33.1,27.6,11.1,345.0
+Czech Republic,2001,Europe,30.2,27.9,10.5,321.2
+Czech Republic,2002,Europe,34.5,35.0,12.7,384.3
+Czech Republic,2003,Europe,28.3,32.6,12.9,313.0
+Czech Republic,2004,Europe,31.9,27.5,12.8,328.7
+Czech Republic,2005,Europe,34.9,38.3,12.3,347.8
+Czech Republic,2006,Europe,28.4,33.7,11.6,354.9
+Czech Republic,2007,Europe,38.5,39.1,14.7,386.2
+Czech Republic,2008,Europe,34.4,29.1,11.3,357.4
+Czech Republic,2009,Europe,27.9,36.3,11.8,340.4
+Czech Republic,2010,Europe,39.0,33.4,13.4,368.3
+Czech Republic,2011,Europe,36.0,31.4,11.9,338.3
+Czech Republic,2012,Europe,27.6,27.5,13.7,347.0
+Czech Republic,2013,Europe,29.8,35.8,13.2,367.5
+Czech Republic,2014,Europe,29.7,30.9,13.4,351.5
+Czech Republic,2015,Europe,36.7,35.9,14.7,390.3
+Czech Republic,2016,Europe,31.0,33.1,15.7,397.5
+Czech Republic,2017,Europe,32.8,35.8,13.0,361.7
+Czech Republic,2018,Europe,37.4,34.7,14.3,415.8
+Czech Republic,2019,Europe,31.7,34.4,14.3,388.9
+Denmark,2000,Europe,39.1,22.1,14.4,190.2
+Denmark,2001,Europe,42.0,24.0,10.7,196.9
+Denmark,2002,Europe,35.8,22.9,13.7,183.5
+Denmark,2003,Europe,35.2,22.1,12.4,184.9
+Denmark,2004,Europe,41.4,23.4,10.8,206.1
+Denmark,2005,Europe,33.1,20.9,13.4,172.0
+Denmark,2006,Europe,35.6,19.4,12.0,217.0
+Denmark,2007,Europe,35.5,24.2,12.4,174.6
+Denmark,2008,Europe,36.0,17.8,13.0,200.4
+Denmark,2009,Europe,45.5,18.8,10.4,201.4
+Denmark,2010,Europe,42.8,27.5,10.7,225.2
+Denmark,2011,Europe,41.5,30.9,12.6,237.8
+Denmark,2012,Europe,39.1,31.5,12.3,180.6
+Denmark,2013,Europe,42.0,27.5,14.3,221.9
+Denmark,2014,Europe,42.6,23.0,14.4,239.8
+Denmark,2015,Europe,39.5,27.0,13.0,232.3
+Denmark,2016,Europe,40.0,23.6,12.4,177.3
+Denmark,2017,Europe,37.1,27.8,13.8,200.1
+Denmark,2018,Europe,43.2,23.5,14.0,215.4
+Denmark,2019,Europe,41.5,18.8,14.5,228.4
+Estonia,2000,Europe,41.4,36.8,6.2,344.6
+Estonia,2001,Europe,42.2,25.1,5.5,304.5
+Estonia,2002,Europe,39.9,31.9,4.7,307.1
+Estonia,2003,Europe,41.6,21.3,5.7,315.2
+Estonia,2004,Europe,41.4,28.4,4.8,292.6
+Estonia,2005,Europe,39.1,20.2,5.8,273.9
+Estonia,2006,Europe,39.8,19.2,4.5,300.3
+Estonia,2007,Europe,41.7,27.7,5.5,280.9
+Estonia,2008,Europe,44.5,26.0,5.4,322.3
+Estonia,2009,Europe,32.2,33.4,5.0,307.9
+Estonia,2010,Europe,40.4,25.4,6.9,295.9
+Estonia,2011,Europe,42.7,25.8,6.0,334.1
+Estonia,2012,Europe,44.1,30.2,4.9,314.3
+Estonia,2013,Europe,42.9,32.9,6.1,324.9
+Estonia,2014,Europe,42.6,31.8,6.1,343.8
+Estonia,2015,Europe,40.5,31.9,5.3,320.7
+Estonia,2016,Europe,44.0,23.0,5.4,322.8
+Estonia,2017,Europe,42.6,31.7,3.2,281.3
+Estonia,2018,Europe,45.5,31.4,8.0,346.2
+Estonia,2019,Europe,46.3,37.5,3.4,297.6
+Finland,2000,Europe,32.9,23.0,10.8,328.4
+Finland,2001,Europe,32.3,33.7,9.9,328.3
+Finland,2002,Europe,37.2,25.1,8.5,351.5
+Finland,2003,Europe,31.9,26.9,8.8,315.0
+Finland,2004,Europe,26.0,22.7,9.5,339.7
+Finland,2005,Europe,37.4,27.0,9.3,310.2
+Finland,2006,Europe,34.1,28.2,8.8,344.2
+Finland,2007,Europe,36.5,31.4,11.9,372.3
+Finland,2008,Europe,28.3,23.7,9.5,307.6
+Finland,2009,Europe,34.3,35.0,9.7,328.1
+Finland,2010,Europe,40.3,28.7,9.6,358.3
+Finland,2011,Europe,37.1,26.6,9.8,370.6
+Finland,2012,Europe,39.7,26.4,9.8,381.2
+Finland,2013,Europe,34.5,24.3,9.1,348.9
+Finland,2014,Europe,35.2,29.9,10.1,348.2
+Finland,2015,Europe,37.3,35.2,10.4,375.0
+Finland,2016,Europe,39.6,32.9,11.2,337.1
+Finland,2017,Europe,35.8,31.6,9.9,341.8
+Finland,2018,Europe,35.3,27.2,10.4,368.1
+Finland,2019,Europe,35.0,34.4,9.5,347.6
+France,2000,Europe,25.7,36.0,7.3,419.5
+France,2001,Europe,27.3,41.4,4.4,413.3
+France,2002,Europe,25.9,30.4,6.3,409.2
+France,2003,Europe,20.5,43.2,6.5,377.7
+France,2004,Europe,24.0,36.6,6.2,403.4
+France,2005,Europe,22.0,39.0,5.4,428.3
+France,2006,Europe,27.5,39.0,5.8,427.6
+France,2007,Europe,26.0,38.8,4.7,416.2
+France,2008,Europe,17.9,38.7,9.3,413.7
+France,2009,Europe,23.1,41.6,5.7,403.3
+France,2010,Europe,25.2,39.0,7.6,428.0
+France,2011,Europe,24.0,37.4,5.9,427.6
+France,2012,Europe,30.9,35.2,5.5,429.8
+France,2013,Europe,24.1,32.9,5.3,382.2
+France,2014,Europe,26.0,35.8,8.8,452.9
+France,2015,Europe,22.7,34.4,6.4,398.7
+France,2016,Europe,26.1,43.3,6.6,429.1
+France,2017,Europe,19.5,33.1,7.1,419.7
+France,2018,Europe,27.1,33.3,8.0,434.6
+France,2019,Europe,20.1,34.7,6.4,420.8
+Germany,2000,Europe,9.2,53.0,8.6,429.3
+Germany,2001,Europe,20.1,48.4,7.9,436.9
+Germany,2002,Europe,9.1,53.9,8.6,409.3
+Germany,2003,Europe,11.3,44.5,8.4,418.4
+Germany,2004,Europe,15.2,40.6,8.0,421.1
+Germany,2005,Europe,21.8,49.3,9.2,442.8
+Germany,2006,Europe,14.0,45.3,7.9,391.5
+Germany,2007,Europe,17.1,53.4,8.7,425.4
+Germany,2008,Europe,19.1,59.0,7.1,446.8
+Germany,2009,Europe,16.1,51.5,9.8,469.2
+Germany,2010,Europe,15.2,58.9,7.8,449.5
+Germany,2011,Europe,10.7,44.7,9.6,437.3
+Germany,2012,Europe,13.7,52.7,8.4,451.9
+Germany,2013,Europe,10.6,51.3,9.5,436.8
+Germany,2014,Europe,15.9,50.1,6.4,396.0
+Germany,2015,Europe,19.4,53.4,10.8,463.3
+Germany,2016,Europe,21.9,50.2,10.5,453.7
+Germany,2017,Europe,14.1,54.4,7.8,463.0
+Germany,2018,Europe,22.6,50.9,11.0,459.5
+Germany,2019,Europe,15.3,51.9,8.9,456.6
+Greece,2000,Europe,38.2,43.4,6.5,119.8
+Greece,2001,Europe,36.6,39.5,5.4,111.5
+Greece,2002,Europe,34.2,47.1,7.6,136.6
+Greece,2003,Europe,31.4,37.1,6.1,130.4
+Greece,2004,Europe,39.2,51.9,9.2,171.0
+Greece,2005,Europe,38.6,41.6,9.3,177.6
+Greece,2006,Europe,33.7,45.1,6.5,134.6
+Greece,2007,Europe,34.4,40.3,5.2,152.2
+Greece,2008,Europe,44.9,36.5,9.0,144.9
+Greece,2009,Europe,35.3,38.2,7.8,161.5
+Greece,2010,Europe,31.1,40.9,8.4,135.6
+Greece,2011,Europe,40.0,46.8,7.1,193.8
+Greece,2012,Europe,28.9,39.3,8.3,164.4
+Greece,2013,Europe,39.7,45.8,7.8,185.0
+Greece,2014,Europe,36.0,36.0,8.8,172.5
+Greece,2015,Europe,35.5,39.7,10.0,157.3
+Greece,2016,Europe,36.2,39.3,7.8,182.4
+Greece,2017,Europe,37.5,40.9,8.8,190.3
+Greece,2018,Europe,35.9,40.5,7.2,126.2
+Greece,2019,Europe,41.6,39.5,6.8,152.8
+Hungary,2000,Europe,29.0,33.7,6.6,455.8
+Hungary,2001,Europe,30.2,25.3,8.0,450.6
+Hungary,2002,Europe,33.3,31.3,7.2,488.9
+Hungary,2003,Europe,32.6,20.1,6.8,460.6
+Hungary,2004,Europe,28.6,35.3,8.3,482.2
+Hungary,2005,Europe,34.5,29.6,4.8,464.9
+Hungary,2006,Europe,36.3,29.3,5.9,503.7
+Hungary,2007,Europe,34.6,25.1,6.4,472.2
+Hungary,2008,Europe,30.0,32.9,6.5,483.5
+Hungary,2009,Europe,39.7,27.3,5.9,490.5
+Hungary,2010,Europe,32.0,28.7,6.2,452.0
+Hungary,2011,Europe,32.2,24.9,6.0,527.3
+Hungary,2012,Europe,42.1,39.7,6.9,498.4
+Hungary,2013,Europe,35.7,26.2,7.0,475.6
+Hungary,2014,Europe,36.9,29.9,7.7,493.5
+Hungary,2015,Europe,33.1,23.2,7.3,482.4
+Hungary,2016,Europe,35.4,28.6,6.4,494.5
+Hungary,2017,Europe,39.1,30.0,9.5,477.7
+Hungary,2018,Europe,31.0,29.6,6.1,436.6
+Hungary,2019,Europe,34.2,26.8,6.7,491.4
+Iceland,2000,Europe,33.7,25.7,7.3,273.7
+Iceland,2001,Europe,38.5,33.2,4.9,274.9
+Iceland,2002,Europe,37.8,23.3,6.1,289.7
+Iceland,2003,Europe,38.1,33.1,6.6,312.4
+Iceland,2004,Europe,35.8,35.0,6.8,300.2
+Iceland,2005,Europe,34.0,23.4,5.4,230.0
+Iceland,2006,Europe,39.9,36.5,5.0,317.5
+Iceland,2007,Europe,36.3,28.0,7.7,302.0
+Iceland,2008,Europe,44.2,32.5,6.2,295.5
+Iceland,2009,Europe,39.8,27.9,6.8,309.6
+Iceland,2010,Europe,35.3,33.6,6.1,259.3
+Iceland,2011,Europe,33.1,25.9,6.5,261.6
+Iceland,2012,Europe,31.9,23.3,8.3,279.3
+Iceland,2013,Europe,34.4,35.0,6.9,315.3
+Iceland,2014,Europe,38.8,31.6,6.7,293.9
+Iceland,2015,Europe,39.9,30.2,6.6,306.9
+Iceland,2016,Europe,35.2,22.4,8.0,324.5
+Iceland,2017,Europe,33.2,26.2,7.0,297.3
+Iceland,2018,Europe,42.6,33.1,7.7,320.7
+Iceland,2019,Europe,35.8,29.0,6.3,298.4
+Ireland,2000,Europe,27.4,23.8,3.6,278.8
+Ireland,2001,Europe,24.5,21.2,6.4,313.7
+Ireland,2002,Europe,33.3,26.4,5.8,333.6
+Ireland,2003,Europe,27.9,32.9,5.4,298.1
+Ireland,2004,Europe,27.7,30.3,6.0,328.3
+Ireland,2005,Europe,26.7,27.6,6.6,305.8
+Ireland,2006,Europe,23.4,32.3,3.0,305.0
+Ireland,2007,Europe,29.2,28.6,6.7,309.3
+Ireland,2008,Europe,27.4,22.9,4.1,299.1
+Ireland,2009,Europe,25.0,24.2,6.6,303.0
+Ireland,2010,Europe,24.1,28.2,7.2,332.1
+Ireland,2011,Europe,26.7,31.5,5.0,339.9
+Ireland,2012,Europe,31.2,27.6,5.9,335.1
+Ireland,2013,Europe,30.0,33.1,6.5,333.3
+Ireland,2014,Europe,21.1,35.0,5.4,310.6
+Ireland,2015,Europe,26.7,33.5,5.4,294.7
+Ireland,2016,Europe,32.0,32.1,7.6,338.7
+Ireland,2017,Europe,28.1,33.0,4.8,288.1
+Ireland,2018,Europe,24.1,26.9,7.9,369.2
+Ireland,2019,Europe,26.3,29.9,5.7,312.3
+Italy,2000,Europe,41.6,42.4,11.3,375.9
+Italy,2001,Europe,38.3,38.2,11.3,380.4
+Italy,2002,Europe,42.2,39.1,12.8,388.5
+Italy,2003,Europe,43.9,40.5,13.8,424.5
+Italy,2004,Europe,43.2,47.1,11.2,420.3
+Italy,2005,Europe,36.4,41.7,11.2,337.3
+Italy,2006,Europe,36.2,39.8,12.5,371.5
+Italy,2007,Europe,44.1,40.3,11.0,409.3
+Italy,2008,Europe,45.1,40.7,10.3,363.9
+Italy,2009,Europe,39.1,42.1,13.4,396.3
+Italy,2010,Europe,42.0,43.6,10.9,406.6
+Italy,2011,Europe,46.4,44.0,13.9,411.3
+Italy,2012,Europe,41.1,47.5,12.1,387.6
+Italy,2013,Europe,47.4,41.5,11.4,400.5
+Italy,2014,Europe,33.7,46.3,13.9,374.2
+Italy,2015,Europe,38.9,49.7,13.5,402.7
+Italy,2016,Europe,40.8,43.9,14.0,424.3
+Italy,2017,Europe,43.4,41.6,14.2,425.3
+Italy,2018,Europe,37.6,40.9,14.6,373.5
+Italy,2019,Europe,37.8,44.7,12.5,377.7
+Latvia,2000,Europe,10.9,35.3,5.3,201.0
+Latvia,2001,Europe,19.2,39.8,5.6,226.8
+Latvia,2002,Europe,22.0,30.7,4.1,215.8
+Latvia,2003,Europe,22.7,27.1,5.2,201.1
+Latvia,2004,Europe,18.6,36.0,2.0,187.5
+Latvia,2005,Europe,20.1,29.7,3.5,221.2
+Latvia,2006,Europe,29.4,40.6,1.6,237.7
+Latvia,2007,Europe,20.5,39.0,4.0,245.5
+Latvia,2008,Europe,25.9,35.7,2.6,230.1
+Latvia,2009,Europe,25.8,39.6,4.2,265.5
+Latvia,2010,Europe,23.4,32.3,4.7,259.6
+Latvia,2011,Europe,28.4,35.2,4.7,253.8
+Latvia,2012,Europe,19.1,38.9,3.6,239.5
+Latvia,2013,Europe,21.6,35.3,4.6,247.9
+Latvia,2014,Europe,25.7,36.1,4.4,261.4
+Latvia,2015,Europe,22.6,37.9,4.1,249.0
+Latvia,2016,Europe,27.0,41.2,5.7,294.9
+Latvia,2017,Europe,24.7,42.0,4.5,280.8
+Latvia,2018,Europe,26.8,44.7,5.8,291.6
+Latvia,2019,Europe,25.4,36.1,4.2,273.0
+Lithuania,2000,Europe,22.1,44.0,9.8,322.8
+Lithuania,2001,Europe,30.1,38.8,9.5,281.7
+Lithuania,2002,Europe,28.0,40.1,8.1,312.6
+Lithuania,2003,Europe,26.4,42.1,7.8,297.9
+Lithuania,2004,Europe,26.2,34.6,10.0,276.8
+Lithuania,2005,Europe,19.0,38.0,10.4,292.9
+Lithuania,2006,Europe,28.3,39.4,10.5,329.8
+Lithuania,2007,Europe,21.0,38.3,10.1,338.5
+Lithuania,2008,Europe,21.8,47.5,9.9,303.7
+Lithuania,2009,Europe,26.2,42.9,10.1,314.6
+Lithuania,2010,Europe,29.6,42.4,10.1,365.9
+Lithuania,2011,Europe,34.7,28.9,10.1,364.6
+Lithuania,2012,Europe,29.1,44.6,10.8,317.0
+Lithuania,2013,Europe,25.2,38.7,11.7,334.7
+Lithuania,2014,Europe,25.8,36.7,10.5,331.4
+Lithuania,2015,Europe,35.5,38.4,9.0,350.3
+Lithuania,2016,Europe,28.5,39.7,9.6,340.7
+Lithuania,2017,Europe,25.9,36.9,9.8,344.0
+Lithuania,2018,Europe,22.7,38.8,10.2,339.2
+Lithuania,2019,Europe,27.1,42.9,9.7,344.2
+Luxembourg,2000,Europe,27.9,25.6,9.7,522.5
+Luxembourg,2001,Europe,27.9,29.7,8.5,505.8
+Luxembourg,2002,Europe,30.4,34.4,7.5,526.2
+Luxembourg,2003,Europe,27.6,25.9,6.1,480.2
+Luxembourg,2004,Europe,24.4,31.3,7.0,522.1
+Luxembourg,2005,Europe,23.9,25.0,7.8,486.7
+Luxembourg,2006,Europe,21.8,31.3,9.6,533.5
+Luxembourg,2007,Europe,30.7,29.5,9.7,515.1
+Luxembourg,2008,Europe,29.4,31.7,8.8,520.4
+Luxembourg,2009,Europe,24.4,24.9,8.0,448.2
+Luxembourg,2010,Europe,29.2,32.2,9.2,531.3
+Luxembourg,2011,Europe,25.1,25.2,10.1,494.8
+Luxembourg,2012,Europe,35.6,20.2,9.6,519.2
+Luxembourg,2013,Europe,26.1,17.7,9.7,520.1
+Luxembourg,2014,Europe,31.5,24.4,10.2,537.4
+Luxembourg,2015,Europe,27.2,24.5,10.1,533.0
+Luxembourg,2016,Europe,29.4,20.6,8.8,500.1
+Luxembourg,2017,Europe,25.1,19.2,9.5,512.6
+Luxembourg,2018,Europe,28.0,22.8,9.1,504.3
+Luxembourg,2019,Europe,27.8,29.3,9.4,542.2
+Macedonia,2000,Europe,34.1,16.0,5.0,303.4
+Macedonia,2001,Europe,35.4,19.1,4.5,338.1
+Macedonia,2002,Europe,35.5,19.0,5.0,334.8
+Macedonia,2003,Europe,36.7,25.1,6.2,378.1
+Macedonia,2004,Europe,39.2,22.7,5.3,320.2
+Macedonia,2005,Europe,36.8,31.6,4.9,348.5
+Macedonia,2006,Europe,34.1,28.7,4.7,345.4
+Macedonia,2007,Europe,35.7,19.5,4.9,316.5
+Macedonia,2008,Europe,34.6,22.1,7.0,362.0
+Macedonia,2009,Europe,38.1,22.0,5.8,347.7
+Macedonia,2010,Europe,41.4,23.7,7.1,363.2
+Macedonia,2011,Europe,37.5,22.8,5.2,330.1
+Macedonia,2012,Europe,33.2,18.1,4.4,312.8
+Macedonia,2013,Europe,38.3,22.2,5.2,373.8
+Macedonia,2014,Europe,39.4,18.6,5.9,364.4
+Macedonia,2015,Europe,36.9,21.2,5.9,347.9
+Macedonia,2016,Europe,38.4,27.4,6.0,354.9
+Macedonia,2017,Europe,31.9,25.5,5.4,343.7
+Macedonia,2018,Europe,38.7,27.3,4.4,371.3
+Macedonia,2019,Europe,38.9,25.9,5.7,403.7
+Malta,2000,Europe,33.7,29.1,9.2,421.4
+Malta,2001,Europe,33.8,24.4,10.8,435.6
+Malta,2002,Europe,35.0,23.5,10.9,430.9
+Malta,2003,Europe,32.3,31.3,12.1,467.2
+Malta,2004,Europe,41.4,30.6,11.7,460.0
+Malta,2005,Europe,32.1,26.2,11.0,424.7
+Malta,2006,Europe,28.0,30.5,10.6,435.4
+Malta,2007,Europe,31.5,32.0,12.9,465.1
+Malta,2008,Europe,31.3,28.6,11.6,436.5
+Malta,2009,Europe,31.4,34.7,11.7,444.1
+Malta,2010,Europe,33.3,29.7,10.9,450.9
+Malta,2011,Europe,31.3,27.9,12.3,438.3
+Malta,2012,Europe,37.7,25.4,12.1,466.3
+Malta,2013,Europe,34.1,31.6,12.6,459.0
+Malta,2014,Europe,31.6,29.2,13.8,446.5
+Malta,2015,Europe,36.8,27.3,12.3,483.7
+Malta,2016,Europe,28.8,27.1,12.7,473.7
+Malta,2017,Europe,31.1,37.8,11.5,468.0
+Malta,2018,Europe,37.6,27.9,13.7,464.3
+Malta,2019,Europe,32.9,29.4,14.5,477.0
+Moldova,2000,Europe,36.2,30.3,5.2,146.6
+Moldova,2001,Europe,32.1,18.8,5.3,112.5
+Moldova,2002,Europe,25.5,21.0,5.7,112.4
+Moldova,2003,Europe,35.6,25.8,5.1,136.6
+Moldova,2004,Europe,28.6,28.8,4.2,127.8
+Moldova,2005,Europe,30.3,32.3,5.5,116.3
+Moldova,2006,Europe,29.9,28.4,4.7,113.5
+Moldova,2007,Europe,35.1,22.6,5.0,115.7
+Moldova,2008,Europe,28.9,23.4,6.1,93.5
+Moldova,2009,Europe,33.7,26.7,6.3,136.9
+Moldova,2010,Europe,25.6,22.8,6.5,116.4
+Moldova,2011,Europe,29.8,32.8,7.6,121.7
+Moldova,2012,Europe,33.3,28.7,8.1,114.2
+Moldova,2013,Europe,36.2,25.1,6.5,139.3
+Moldova,2014,Europe,39.8,34.6,6.1,143.3
+Moldova,2015,Europe,43.0,28.5,5.3,175.3
+Moldova,2016,Europe,33.4,25.6,7.7,119.0
+Moldova,2017,Europe,37.5,27.7,6.9,159.7
+Moldova,2018,Europe,28.4,24.0,7.0,145.6
+Moldova,2019,Europe,34.1,20.5,6.3,125.6
+Montenegro,2000,Europe,18.9,36.1,11.6,115.2
+Montenegro,2001,Europe,21.2,36.5,11.5,144.6
+Montenegro,2002,Europe,21.8,29.6,13.4,156.8
+Montenegro,2003,Europe,18.7,27.0,9.4,109.7
+Montenegro,2004,Europe,25.5,32.2,11.1,133.2
+Montenegro,2005,Europe,27.1,43.5,8.5,143.9
+Montenegro,2006,Europe,23.7,36.6,11.0,145.0
+Montenegro,2007,Europe,24.4,40.8,9.6,139.1
+Montenegro,2008,Europe,23.7,30.7,11.0,173.1
+Montenegro,2009,Europe,23.1,32.8,12.2,134.6
+Montenegro,2010,Europe,22.8,36.8,13.0,180.7
+Montenegro,2011,Europe,22.7,34.3,11.5,179.3
+Montenegro,2012,Europe,26.7,37.3,11.9,155.8
+Montenegro,2013,Europe,17.7,33.4,12.7,159.3
+Montenegro,2014,Europe,26.9,34.5,10.1,146.9
+Montenegro,2015,Europe,25.4,36.3,12.1,171.4
+Montenegro,2016,Europe,20.8,38.0,11.4,168.9
+Montenegro,2017,Europe,22.7,29.1,13.8,167.0
+Montenegro,2018,Europe,25.6,37.9,12.1,168.7
+Montenegro,2019,Europe,23.5,33.5,11.3,154.2
+Netherlands,2000,Europe,20.3,35.4,5.5,404.8
+Netherlands,2001,Europe,19.2,41.4,7.2,426.8
+Netherlands,2002,Europe,31.1,34.7,4.7,385.7
+Netherlands,2003,Europe,31.1,48.4,4.0,419.9
+Netherlands,2004,Europe,21.7,32.2,4.8,419.7
+Netherlands,2005,Europe,24.7,43.0,6.6,408.4
+Netherlands,2006,Europe,31.2,35.5,5.4,428.3
+Netherlands,2007,Europe,25.5,39.0,6.9,444.8
+Netherlands,2008,Europe,20.3,40.2,7.4,448.4
+Netherlands,2009,Europe,17.9,37.1,6.2,397.2
+Netherlands,2010,Europe,29.3,42.1,6.8,432.2
+Netherlands,2011,Europe,26.2,44.0,6.8,439.9
+Netherlands,2012,Europe,27.3,37.3,5.4,422.8
+Netherlands,2013,Europe,30.6,36.4,6.7,441.9
+Netherlands,2014,Europe,26.1,40.1,7.1,419.6
+Netherlands,2015,Europe,32.0,33.6,7.1,451.6
+Netherlands,2016,Europe,32.0,32.5,5.3,446.3
+Netherlands,2017,Europe,24.5,40.7,7.7,418.8
+Netherlands,2018,Europe,23.6,36.9,6.5,412.1
+Netherlands,2019,Europe,27.5,40.5,7.2,430.1
+Norway,2000,Europe,30.3,29.7,10.6,136.0
+Norway,2001,Europe,26.9,26.8,8.1,108.9
+Norway,2002,Europe,31.6,23.8,11.2,145.3
+Norway,2003,Europe,35.4,22.1,9.8,115.4
+Norway,2004,Europe,27.1,29.7,11.0,128.5
+Norway,2005,Europe,27.5,22.3,9.8,119.1
+Norway,2006,Europe,30.9,30.5,9.3,115.0
+Norway,2007,Europe,33.4,27.9,8.0,151.0
+Norway,2008,Europe,26.4,30.2,9.6,123.5
+Norway,2009,Europe,34.7,19.7,9.7,115.0
+Norway,2010,Europe,28.0,25.8,11.1,139.8
+Norway,2011,Europe,27.4,33.2,11.1,123.7
+Norway,2012,Europe,27.8,24.5,10.4,120.6
+Norway,2013,Europe,31.7,25.2,10.2,124.9
+Norway,2014,Europe,27.1,30.8,8.6,127.5
+Norway,2015,Europe,32.1,32.7,9.3,162.2
+Norway,2016,Europe,28.9,27.9,10.7,115.1
+Norway,2017,Europe,34.0,30.4,9.7,135.1
+Norway,2018,Europe,37.7,26.9,10.4,124.9
+Norway,2019,Europe,28.7,29.9,9.9,141.0
+Poland,2000,Europe,36.4,42.7,6.0,299.1
+Poland,2001,Europe,35.0,44.2,3.0,293.2
+Poland,2002,Europe,38.1,47.4,5.5,307.8
+Poland,2003,Europe,37.4,55.3,3.8,317.7
+Poland,2004,Europe,37.2,47.9,3.5,333.5
+Poland,2005,Europe,40.1,43.7,7.2,325.5
+Poland,2006,Europe,43.1,45.5,3.0,303.6
+Poland,2007,Europe,34.1,39.2,4.2,293.7
+Poland,2008,Europe,33.1,48.8,3.5,289.2
+Poland,2009,Europe,37.5,46.5,4.7,313.4
+Poland,2010,Europe,32.3,42.2,3.8,312.5
+Poland,2011,Europe,34.5,41.1,5.1,325.9
+Poland,2012,Europe,42.1,41.6,7.5,331.7
+Poland,2013,Europe,40.1,48.7,4.7,307.0
+Poland,2014,Europe,30.3,45.5,6.1,303.2
+Poland,2015,Europe,31.8,47.2,6.5,318.8
+Poland,2016,Europe,34.1,46.8,4.7,313.2
+Poland,2017,Europe,37.6,49.8,7.8,372.8
+Poland,2018,Europe,39.5,43.5,6.5,303.4
+Poland,2019,Europe,36.4,45.2,5.3,326.8
+Portugal,2000,Europe,18.2,58.6,8.2,172.6
+Portugal,2001,Europe,20.8,46.7,8.6,172.0
+Portugal,2002,Europe,19.3,51.1,9.1,154.1
+Portugal,2003,Europe,22.6,44.0,7.7,120.7
+Portugal,2004,Europe,30.6,47.7,8.8,205.4
+Portugal,2005,Europe,21.8,56.4,9.6,127.6
+Portugal,2006,Europe,18.5,50.1,6.7,87.7
+Portugal,2007,Europe,23.7,58.8,7.6,149.0
+Portugal,2008,Europe,25.3,55.4,7.2,148.6
+Portugal,2009,Europe,21.7,43.8,8.3,127.0
+Portugal,2010,Europe,12.3,48.2,9.0,137.6
+Portugal,2011,Europe,15.9,53.6,8.7,139.2
+Portugal,2012,Europe,18.4,42.8,10.0,151.8
+Portugal,2013,Europe,20.4,49.5,7.6,147.3
+Portugal,2014,Europe,19.0,54.0,9.8,148.8
+Portugal,2015,Europe,18.1,51.1,9.5,120.7
+Portugal,2016,Europe,21.4,46.0,8.8,190.2
+Portugal,2017,Europe,17.3,47.8,8.8,139.8
+Portugal,2018,Europe,16.3,53.4,10.0,165.8
+Portugal,2019,Europe,22.1,51.0,8.3,155.7
+Romania,2000,Europe,23.6,43.5,7.6,455.1
+Romania,2001,Europe,29.7,51.4,9.4,500.4
+Romania,2002,Europe,19.7,49.5,9.7,451.1
+Romania,2003,Europe,22.1,47.6,8.6,486.9
+Romania,2004,Europe,21.3,46.5,11.5,474.2
+Romania,2005,Europe,17.2,47.8,7.5,448.2
+Romania,2006,Europe,21.7,38.2,8.3,459.1
+Romania,2007,Europe,26.3,48.1,9.5,513.1
+Romania,2008,Europe,24.0,49.3,7.9,482.4
+Romania,2009,Europe,21.1,38.2,8.2,476.5
+Romania,2010,Europe,25.4,46.6,7.5,465.2
+Romania,2011,Europe,22.3,43.0,7.3,458.3
+Romania,2012,Europe,23.2,50.1,7.6,437.2
+Romania,2013,Europe,21.8,51.8,6.9,452.2
+Romania,2014,Europe,20.2,54.5,9.8,481.3
+Romania,2015,Europe,25.4,45.2,8.6,446.7
+Romania,2016,Europe,19.3,44.3,7.4,470.4
+Romania,2017,Europe,19.3,52.2,9.3,486.9
+Romania,2018,Europe,26.9,49.3,8.0,478.3
+Romania,2019,Europe,25.2,43.3,9.8,485.4
+Russia,2000,Europe,35.2,52.1,8.2,548.2
+Russia,2001,Europe,32.2,52.9,8.5,503.4
+Russia,2002,Europe,33.5,49.7,9.1,523.8
+Russia,2003,Europe,31.3,55.8,9.9,492.9
+Russia,2004,Europe,30.1,50.4,8.2,498.3
+Russia,2005,Europe,35.6,53.9,7.5,499.1
+Russia,2006,Europe,34.3,50.9,10.3,523.5
+Russia,2007,Europe,33.6,48.7,9.1,535.7
+Russia,2008,Europe,34.8,47.8,10.6,535.9
+Russia,2009,Europe,35.1,54.0,9.0,550.6
+Russia,2010,Europe,31.1,50.9,8.2,491.7
+Russia,2011,Europe,41.4,51.8,9.2,580.9
+Russia,2012,Europe,27.6,57.4,9.9,530.7
+Russia,2013,Europe,33.0,51.4,11.3,565.1
+Russia,2014,Europe,33.4,49.5,9.8,518.1
+Russia,2015,Europe,31.1,51.6,9.0,518.1
+Russia,2016,Europe,32.7,48.7,11.5,508.9
+Russia,2017,Europe,36.5,55.6,9.7,548.1
+Russia,2018,Europe,34.6,53.2,10.7,562.0
+Russia,2019,Europe,32.7,49.2,10.4,553.1
+Serbia,2000,Europe,41.8,36.6,12.8,318.4
+Serbia,2001,Europe,45.6,35.7,10.0,369.9
+Serbia,2002,Europe,45.7,45.2,11.1,364.1
+Serbia,2003,Europe,34.4,34.3,10.2,329.2
+Serbia,2004,Europe,41.8,42.5,11.8,378.8
+Serbia,2005,Europe,39.5,30.9,11.5,330.5
+Serbia,2006,Europe,37.7,40.0,9.0,321.8
+Serbia,2007,Europe,34.4,30.1,9.7,340.4
+Serbia,2008,Europe,40.0,42.6,10.4,351.0
+Serbia,2009,Europe,33.0,36.6,9.6,295.1
+Serbia,2010,Europe,40.1,41.2,11.0,347.1
+Serbia,2011,Europe,42.2,39.9,11.0,341.0
+Serbia,2012,Europe,41.7,41.5,9.6,332.4
+Serbia,2013,Europe,43.6,34.6,10.3,364.3
+Serbia,2014,Europe,42.3,43.9,11.5,355.6
+Serbia,2015,Europe,33.7,48.2,11.8,337.5
+Serbia,2016,Europe,40.5,37.6,10.8,359.8
+Serbia,2017,Europe,37.6,47.8,10.6,346.3
+Serbia,2018,Europe,44.3,35.6,11.2,396.4
+Serbia,2019,Europe,40.5,41.2,10.4,336.8
+Slovakia,2000,Europe,36.6,45.7,12.6,456.5
+Slovakia,2001,Europe,39.9,40.5,11.3,439.4
+Slovakia,2002,Europe,37.3,38.6,10.7,405.8
+Slovakia,2003,Europe,35.0,38.4,10.6,438.9
+Slovakia,2004,Europe,33.7,36.1,10.3,430.1
+Slovakia,2005,Europe,32.4,29.0,11.9,426.2
+Slovakia,2006,Europe,40.5,37.8,12.4,452.6
+Slovakia,2007,Europe,38.6,42.7,11.7,430.1
+Slovakia,2008,Europe,42.5,41.1,12.7,450.5
+Slovakia,2009,Europe,39.7,44.1,11.6,464.0
+Slovakia,2010,Europe,33.3,33.7,13.2,452.0
+Slovakia,2011,Europe,36.9,33.2,11.4,471.9
+Slovakia,2012,Europe,38.4,41.1,12.9,462.2
+Slovakia,2013,Europe,39.8,36.4,13.5,461.6
+Slovakia,2014,Europe,37.2,39.9,12.3,459.0
+Slovakia,2015,Europe,35.4,30.8,10.0,397.6
+Slovakia,2016,Europe,34.9,35.6,12.4,454.1
+Slovakia,2017,Europe,40.3,33.3,14.6,466.0
+Slovakia,2018,Europe,36.4,37.7,12.8,461.3
+Slovakia,2019,Europe,36.6,44.3,10.9,459.5
+Slovenia,2000,Europe,30.5,26.6,5.1,385.8
+Slovenia,2001,Europe,31.1,27.2,5.6,353.7
+Slovenia,2002,Europe,29.0,19.2,7.4,376.4
+Slovenia,2003,Europe,32.0,31.0,6.2,398.7
+Slovenia,2004,Europe,34.9,26.1,6.0,393.2
+Slovenia,2005,Europe,25.5,27.3,6.2,338.9
+Slovenia,2006,Europe,24.5,32.4,7.3,441.6
+Slovenia,2007,Europe,22.4,19.4,7.6,365.1
+Slovenia,2008,Europe,31.4,24.9,7.8,403.4
+Slovenia,2009,Europe,27.8,33.5,7.4,398.5
+Slovenia,2010,Europe,18.7,34.0,6.5,393.1
+Slovenia,2011,Europe,25.3,27.2,5.8,377.1
+Slovenia,2012,Europe,19.7,30.7,6.9,377.0
+Slovenia,2013,Europe,32.6,27.0,6.3,389.7
+Slovenia,2014,Europe,34.0,36.4,5.6,399.5
+Slovenia,2015,Europe,27.8,31.1,6.9,406.6
+Slovenia,2016,Europe,31.5,28.9,6.6,409.9
+Slovenia,2017,Europe,27.6,32.2,6.9,411.7
+Slovenia,2018,Europe,28.9,32.0,6.5,447.8
+Slovenia,2019,Europe,25.9,22.4,7.3,409.1
+Spain,2000,Europe,34.2,48.9,9.8,267.4
+Spain,2001,Europe,37.9,37.2,8.4,233.3
+Spain,2002,Europe,37.7,30.6,6.9,236.2
+Spain,2003,Europe,38.1,37.8,9.2,253.3
+Spain,2004,Europe,31.1,33.7,8.9,241.1
+Spain,2005,Europe,35.0,33.7,10.5,255.9
+Spain,2006,Europe,35.6,37.8,8.2,220.0
+Spain,2007,Europe,32.8,35.2,10.5,224.5
+Spain,2008,Europe,38.6,39.7,8.7,282.1
+Spain,2009,Europe,35.3,32.1,8.7,237.9
+Spain,2010,Europe,35.6,37.0,7.3,210.5
+Spain,2011,Europe,31.2,39.8,9.2,224.8
+Spain,2012,Europe,36.6,41.5,10.9,275.2
+Spain,2013,Europe,33.8,35.4,10.0,224.4
+Spain,2014,Europe,36.2,37.1,10.8,220.6
+Spain,2015,Europe,35.4,37.3,12.0,273.8
+Spain,2016,Europe,34.8,34.1,10.9,259.6
+Spain,2017,Europe,33.6,37.5,11.9,270.8
+Spain,2018,Europe,34.1,31.3,10.9,252.9
+Spain,2019,Europe,40.4,42.4,9.5,264.9
+Sweden,2000,Europe,14.0,20.7,6.0,248.7
+Sweden,2001,Europe,17.5,27.8,4.7,243.4
+Sweden,2002,Europe,17.2,27.9,6.0,244.0
+Sweden,2003,Europe,19.2,29.5,4.4,251.4
+Sweden,2004,Europe,16.2,28.5,7.3,271.5
+Sweden,2005,Europe,23.8,27.3,7.3,253.9
+Sweden,2006,Europe,19.8,22.7,7.6,243.4
+Sweden,2007,Europe,13.0,30.6,7.5,289.2
+Sweden,2008,Europe,16.4,26.3,6.6,233.3
+Sweden,2009,Europe,14.8,28.9,5.4,208.9
+Sweden,2010,Europe,12.5,28.8,5.5,263.2
+Sweden,2011,Europe,20.6,31.2,6.6,273.9
+Sweden,2012,Europe,13.5,30.0,7.8,267.0
+Sweden,2013,Europe,13.3,22.1,6.7,246.9
+Sweden,2014,Europe,25.4,23.2,5.3,272.0
+Sweden,2015,Europe,16.3,40.1,5.7,298.8
+Sweden,2016,Europe,14.8,28.9,6.8,246.9
+Sweden,2017,Europe,22.8,31.3,6.1,301.4
+Sweden,2018,Europe,15.2,34.5,7.4,262.6
+Sweden,2019,Europe,18.5,25.8,5.3,285.6
+Switzerland,2000,Europe,27.5,19.6,4.4,397.4
+Switzerland,2001,Europe,22.5,18.6,6.2,373.4
+Switzerland,2002,Europe,31.8,25.4,7.0,421.9
+Switzerland,2003,Europe,27.1,20.2,8.2,429.9
+Switzerland,2004,Europe,30.7,24.5,8.2,458.5
+Switzerland,2005,Europe,24.0,24.1,8.2,416.6
+Switzerland,2006,Europe,29.7,20.3,6.8,412.2
+Switzerland,2007,Europe,34.6,19.1,6.0,425.4
+Switzerland,2008,Europe,28.7,22.1,6.6,413.8
+Switzerland,2009,Europe,30.5,18.0,7.8,392.4
+Switzerland,2010,Europe,27.8,29.1,4.1,448.5
+Switzerland,2011,Europe,28.2,22.4,6.5,440.0
+Switzerland,2012,Europe,29.8,26.3,7.6,464.4
+Switzerland,2013,Europe,31.2,21.3,5.3,406.6
+Switzerland,2014,Europe,29.3,21.5,7.5,395.8
+Switzerland,2015,Europe,28.2,27.1,6.3,426.3
+Switzerland,2016,Europe,32.8,29.9,8.1,439.0
+Switzerland,2017,Europe,24.0,24.2,5.7,406.2
+Switzerland,2018,Europe,27.8,28.6,6.3,428.3
+Switzerland,2019,Europe,34.1,26.0,6.6,448.7
+Ukraine,2000,Europe,39.5,23.5,7.3,366.7
+Ukraine,2001,Europe,34.7,25.6,7.1,362.5
+Ukraine,2002,Europe,41.6,17.0,7.5,386.5
+Ukraine,2003,Europe,40.7,23.8,8.0,366.9
+Ukraine,2004,Europe,28.2,16.9,8.8,334.4
+Ukraine,2005,Europe,33.4,21.4,7.5,342.1
+Ukraine,2006,Europe,26.7,22.3,7.7,345.3
+Ukraine,2007,Europe,33.1,23.4,6.9,375.7
+Ukraine,2008,Europe,37.4,24.7,7.6,324.0
+Ukraine,2009,Europe,30.9,13.9,8.0,350.6
+Ukraine,2010,Europe,41.9,18.2,7.4,337.3
+Ukraine,2011,Europe,44.3,23.5,9.4,383.7
+Ukraine,2012,Europe,33.7,20.1,5.5,329.0
+Ukraine,2013,Europe,34.7,22.4,9.4,378.0
+Ukraine,2014,Europe,32.7,17.9,7.5,385.9
+Ukraine,2015,Europe,35.7,21.2,10.0,390.1
+Ukraine,2016,Europe,36.7,16.9,9.3,352.2
+Ukraine,2017,Europe,34.8,16.5,10.1,384.8
+Ukraine,2018,Europe,33.9,17.6,7.8,365.1
+Ukraine,2019,Europe,28.3,24.9,9.5,367.8
+United Kingdom,2000,Europe,27.5,29.1,8.3,517.5
+United Kingdom,2001,Europe,24.2,23.6,7.6,458.9
+United Kingdom,2002,Europe,27.6,20.2,7.9,501.8
+United Kingdom,2003,Europe,25.2,18.1,8.2,502.8
+United Kingdom,2004,Europe,26.9,26.4,6.8,524.0
+United Kingdom,2005,Europe,26.6,28.8,6.8,493.0
+United Kingdom,2006,Europe,27.6,26.6,7.9,535.3
+United Kingdom,2007,Europe,20.9,25.8,6.4,521.9
+United Kingdom,2008,Europe,27.7,31.9,9.8,521.6
+United Kingdom,2009,Europe,25.4,31.4,7.2,509.6
+United Kingdom,2010,Europe,25.5,21.4,10.3,535.2
+United Kingdom,2011,Europe,25.5,20.6,8.0,519.4
+United Kingdom,2012,Europe,33.2,34.3,8.4,570.0
+United Kingdom,2013,Europe,27.8,29.8,8.5,517.8
+United Kingdom,2014,Europe,32.4,25.3,7.6,509.7
+United Kingdom,2015,Europe,30.2,29.3,9.2,540.5
+United Kingdom,2016,Europe,22.3,31.3,9.1,532.5
+United Kingdom,2017,Europe,24.1,23.4,9.1,507.2
+United Kingdom,2018,Europe,29.6,27.2,8.9,552.5
+United Kingdom,2019,Europe,30.2,27.7,7.5,524.1
+Canada,2000,North America,26.7,42.4,10.9,300.2
+Canada,2001,North America,27.4,37.5,7.5,283.5
+Canada,2002,North America,18.6,48.0,8.0,306.7
+Canada,2003,North America,21.5,35.2,9.6,304.9
+Canada,2004,North America,18.0,45.9,8.2,266.8
+Canada,2005,North America,25.9,40.2,8.0,296.4
+Canada,2006,North America,20.3,41.7,8.0,318.7
+Canada,2007,North America,24.1,41.1,11.3,330.8
+Canada,2008,North America,23.9,41.6,9.4,338.9
+Canada,2009,North America,20.7,45.6,8.7,299.6
+Canada,2010,North America,19.3,36.4,10.1,285.1
+Canada,2011,North America,25.9,46.0,9.2,339.0
+Canada,2012,North America,24.4,46.5,8.5,327.6
+Canada,2013,North America,26.7,41.5,10.1,320.1
+Canada,2014,North America,30.6,46.0,9.4,364.0
+Canada,2015,North America,22.4,44.0,10.5,357.8
+Canada,2016,North America,21.8,50.7,10.9,357.5
+Canada,2017,North America,26.0,47.3,10.4,343.7
+Canada,2018,North America,28.3,44.4,10.8,327.8
+Canada,2019,North America,28.5,44.7,11.6,363.2
+Costa Rica,2000,North America,17.0,25.2,4.5,264.6
+Costa Rica,2001,North America,13.8,27.3,4.7,285.1
+Costa Rica,2002,North America,20.6,24.4,4.8,305.0
+Costa Rica,2003,North America,15.8,25.8,6.1,291.3
+Costa Rica,2004,North America,12.9,16.1,6.3,306.3
+Costa Rica,2005,North America,18.2,19.1,4.4,309.9
+Costa Rica,2006,North America,8.2,24.6,5.3,282.4
+Costa Rica,2007,North America,25.3,25.3,6.0,326.4
+Costa Rica,2008,North America,12.7,18.2,3.9,282.1
+Costa Rica,2009,North America,13.1,22.6,5.5,311.1
+Costa Rica,2010,North America,18.2,22.1,5.8,295.3
+Costa Rica,2011,North America,19.2,23.0,8.3,352.5
+Costa Rica,2012,North America,18.5,27.8,4.8,304.9
+Costa Rica,2013,North America,13.0,26.4,6.9,299.3
+Costa Rica,2014,North America,21.7,24.7,5.0,317.8
+Costa Rica,2015,North America,17.2,30.9,6.0,339.4
+Costa Rica,2016,North America,18.3,30.3,5.5,340.5
+Costa Rica,2017,North America,18.1,21.5,6.4,351.6
+Costa Rica,2018,North America,20.6,21.0,5.6,339.2
+Costa Rica,2019,North America,22.6,20.7,5.5,313.6
+Cuba,2000,North America,24.5,51.2,6.2,286.8
+Cuba,2001,North America,22.7,47.2,4.8,291.7
+Cuba,2002,North America,30.4,51.2,5.8,320.7
+Cuba,2003,North America,31.9,51.0,7.5,317.5
+Cuba,2004,North America,24.7,43.9,8.0,280.7
+Cuba,2005,North America,30.6,49.3,6.1,330.9
+Cuba,2006,North America,34.1,46.4,6.4,318.2
+Cuba,2007,North America,24.0,51.8,6.9,304.8
+Cuba,2008,North America,34.2,42.7,7.2,308.2
+Cuba,2009,North America,25.4,52.4,6.3,297.6
+Cuba,2010,North America,35.1,44.4,5.2,296.2
+Cuba,2011,North America,30.2,49.5,6.4,298.5
+Cuba,2012,North America,25.8,51.0,4.5,307.9
+Cuba,2013,North America,28.3,54.2,7.0,331.2
+Cuba,2014,North America,30.1,41.0,7.1,309.6
+Cuba,2015,North America,33.1,46.6,5.6,334.9
+Cuba,2016,North America,26.7,52.9,5.3,308.2
+Cuba,2017,North America,31.0,49.4,6.5,338.3
+Cuba,2018,North America,22.7,46.8,5.0,278.3
+Cuba,2019,North America,26.9,51.8,6.6,330.1
+Dominican Republic,2000,North America,25.1,44.6,4.2,116.1
+Dominican Republic,2001,North America,22.2,43.7,3.2,146.6
+Dominican Republic,2002,North America,23.6,41.0,5.3,181.5
+Dominican Republic,2003,North America,14.5,42.2,4.1,188.3
+Dominican Republic,2004,North America,27.2,38.7,6.2,171.7
+Dominican Republic,2005,North America,22.9,41.4,5.8,151.2
+Dominican Republic,2006,North America,28.9,40.8,6.2,185.5
+Dominican Republic,2007,North America,21.6,39.0,5.0,165.1
+Dominican Republic,2008,North America,24.0,48.7,3.3,161.1
+Dominican Republic,2009,North America,15.1,38.6,4.8,164.8
+Dominican Republic,2010,North America,19.9,32.3,3.9,160.2
+Dominican Republic,2011,North America,21.2,47.7,6.9,191.8
+Dominican Republic,2012,North America,24.3,42.3,6.9,209.0
+Dominican Republic,2013,North America,21.4,36.4,4.3,165.6
+Dominican Republic,2014,North America,19.1,36.5,5.5,142.9
+Dominican Republic,2015,North America,18.9,48.4,3.0,184.6
+Dominican Republic,2016,North America,22.9,36.8,6.2,162.4
+Dominican Republic,2017,North America,22.8,39.5,5.3,180.6
+Dominican Republic,2018,North America,24.4,43.3,7.0,191.9
+Dominican Republic,2019,North America,22.1,42.7,6.2,165.0
+El Salvador,2000,North America,18.0,25.4,7.3,263.3
+El Salvador,2001,North America,22.2,17.7,5.8,285.4
+El Salvador,2002,North America,16.3,22.0,6.0,297.6
+El Salvador,2003,North America,18.4,27.0,4.1,266.3
+El Salvador,2004,North America,13.6,23.7,5.9,293.0
+El Salvador,2005,North America,19.1,26.5,3.6,281.7
+El Salvador,2006,North America,16.3,25.6,5.2,284.0
+El Salvador,2007,North America,24.4,28.7,5.7,291.7
+El Salvador,2008,North America,22.0,22.8,5.5,287.0
+El Salvador,2009,North America,16.0,24.3,7.1,314.5
+El Salvador,2010,North America,17.4,17.0,3.9,274.2
+El Salvador,2011,North America,15.5,24.0,6.0,304.6
+El Salvador,2012,North America,11.8,23.4,6.0,277.0
+El Salvador,2013,North America,19.6,20.8,5.6,309.2
+El Salvador,2014,North America,16.0,25.4,6.8,292.6
+El Salvador,2015,North America,18.9,20.4,6.5,285.1
+El Salvador,2016,North America,15.6,26.9,6.5,311.6
+El Salvador,2017,North America,13.5,17.3,5.5,269.9
+El Salvador,2018,North America,19.0,23.8,5.9,269.9
+El Salvador,2019,North America,24.2,27.7,7.9,313.8
+Guatemala,2000,North America,12.9,24.7,5.2,113.8
+Guatemala,2001,North America,18.4,28.9,4.2,117.2
+Guatemala,2002,North America,18.6,33.9,7.2,142.9
+Guatemala,2003,North America,19.1,33.2,6.7,147.4
+Guatemala,2004,North America,26.2,28.1,7.4,173.2
+Guatemala,2005,North America,16.0,27.2,6.3,148.0
+Guatemala,2006,North America,18.4,24.1,6.5,148.4
+Guatemala,2007,North America,19.2,21.5,7.8,169.3
+Guatemala,2008,North America,18.0,28.9,8.2,169.9
+Guatemala,2009,North America,18.5,23.2,8.8,159.2
+Guatemala,2010,North America,16.7,26.0,6.6,110.6
+Guatemala,2011,North America,20.0,32.6,6.5,170.6
+Guatemala,2012,North America,17.7,27.5,6.8,160.7
+Guatemala,2013,North America,18.0,33.5,6.0,154.7
+Guatemala,2014,North America,26.2,33.5,5.8,159.3
+Guatemala,2015,North America,22.2,25.1,7.0,162.5
+Guatemala,2016,North America,15.2,28.0,6.1,160.1
+Guatemala,2017,North America,20.7,29.8,8.2,168.0
+Guatemala,2018,North America,19.2,31.9,5.7,145.0
+Guatemala,2019,North America,15.7,34.5,7.7,163.8
+Haiti,2000,North America,26.3,29.7,4.9,259.2
+Haiti,2001,North America,26.1,27.1,4.1,255.0
+Haiti,2002,North America,20.7,21.7,5.9,233.7
+Haiti,2003,North America,21.9,26.4,6.5,271.8
+Haiti,2004,North America,19.9,21.4,7.6,259.2
+Haiti,2005,North America,23.4,16.0,5.1,238.9
+Haiti,2006,North America,21.5,20.4,5.7,228.5
+Haiti,2007,North America,30.3,13.6,6.6,269.1
+Haiti,2008,North America,22.3,19.7,6.2,244.4
+Haiti,2009,North America,23.4,21.1,3.5,260.4
+Haiti,2010,North America,27.1,24.6,7.2,306.4
+Haiti,2011,North America,17.8,24.2,5.2,242.6
+Haiti,2012,North America,22.6,27.8,5.7,303.8
+Haiti,2013,North America,21.8,19.4,5.6,243.1
+Haiti,2014,North America,22.6,22.1,5.7,258.9
+Haiti,2015,North America,19.7,19.8,5.7,251.4
+Haiti,2016,North America,15.9,26.2,8.1,257.1
+Haiti,2017,North America,25.1,22.4,4.6,255.6
+Haiti,2018,North America,27.6,24.5,6.9,289.4
+Haiti,2019,North America,27.1,23.8,7.4,311.6
+Honduras,2000,North America,5.6,39.2,5.1,230.7
+Honduras,2001,North America,10.5,43.2,3.3,221.2
+Honduras,2002,North America,4.0,33.5,3.7,239.8
+Honduras,2003,North America,12.0,36.3,3.6,248.5
+Honduras,2004,North America,6.7,42.1,2.6,208.9
+Honduras,2005,North America,10.7,41.5,4.1,218.9
+Honduras,2006,North America,8.9,42.3,4.7,212.5
+Honduras,2007,North America,9.4,37.0,4.5,206.5
+Honduras,2008,North America,8.0,47.8,5.5,227.6
+Honduras,2009,North America,7.1,41.1,5.1,183.2
+Honduras,2010,North America,14.6,44.7,4.8,262.2
+Honduras,2011,North America,11.5,38.4,4.8,237.7
+Honduras,2012,North America,5.6,40.6,4.1,215.0
+Honduras,2013,North America,7.7,41.0,3.6,224.6
+Honduras,2014,North America,6.5,44.1,4.1,256.9
+Honduras,2015,North America,4.0,39.6,6.2,203.7
+Honduras,2016,North America,15.9,38.7,4.2,217.5
+Honduras,2017,North America,5.9,39.6,5.2,213.6
+Honduras,2018,North America,6.2,39.9,4.7,242.1
+Honduras,2019,North America,7.2,44.9,4.0,217.2
+Jamaica,2000,North America,10.2,37.6,7.1,210.4
+Jamaica,2001,North America,7.6,34.4,4.5,184.2
+Jamaica,2002,North America,5.3,34.5,5.5,190.5
+Jamaica,2003,North America,12.2,35.0,4.6,238.8
+Jamaica,2004,North America,8.7,32.3,4.5,209.3
+Jamaica,2005,North America,14.7,34.7,4.7,230.5
+Jamaica,2006,North America,16.0,31.8,6.4,185.3
+Jamaica,2007,North America,14.6,33.1,3.6,199.1
+Jamaica,2008,North America,13.8,28.5,5.0,196.7
+Jamaica,2009,North America,17.0,34.9,6.0,245.8
+Jamaica,2010,North America,11.1,31.9,3.1,206.4
+Jamaica,2011,North America,14.5,35.5,5.5,219.5
+Jamaica,2012,North America,4.0,30.4,5.6,215.7
+Jamaica,2013,North America,16.6,34.5,5.7,209.4
+Jamaica,2014,North America,8.1,25.3,2.9,156.5
+Jamaica,2015,North America,4.0,32.8,3.5,203.8
+Jamaica,2016,North America,9.5,32.6,5.9,191.8
+Jamaica,2017,North America,10.0,32.3,4.5,208.3
+Jamaica,2018,North America,11.6,38.6,6.2,251.7
+Jamaica,2019,North America,10.5,33.9,5.3,229.3
+Mexico,2000,North America,23.8,37.0,7.8,295.6
+Mexico,2001,North America,24.6,33.2,9.8,344.6
+Mexico,2002,North America,28.2,37.7,10.2,337.6
+Mexico,2003,North America,27.0,30.1,8.1,326.1
+Mexico,2004,North America,26.1,30.0,9.3,305.4
+Mexico,2005,North America,28.4,31.5,8.5,320.0
+Mexico,2006,North America,31.8,35.2,8.8,351.7
+Mexico,2007,North America,25.7,35.8,9.5,371.6
+Mexico,2008,North America,28.0,36.3,8.4,322.5
+Mexico,2009,North America,22.2,33.7,7.8,340.0
+Mexico,2010,North America,22.2,35.2,8.9,324.4
+Mexico,2011,North America,28.7,30.1,8.1,328.0
+Mexico,2012,North America,26.0,30.0,9.6,306.9
+Mexico,2013,North America,28.5,39.6,6.8,334.1
+Mexico,2014,North America,27.5,32.1,9.1,326.4
+Mexico,2015,North America,26.3,34.0,10.2,365.8
+Mexico,2016,North America,28.0,35.9,8.2,332.0
+Mexico,2017,North America,23.9,37.7,10.8,359.2
+Mexico,2018,North America,22.5,28.2,10.3,338.9
+Mexico,2019,North America,24.8,39.1,11.2,384.4
+Panama,2000,North America,12.7,28.5,3.2,249.1
+Panama,2001,North America,15.5,20.3,2.1,226.9
+Panama,2002,North America,8.8,28.9,3.2,257.8
+Panama,2003,North America,11.5,29.7,2.4,287.2
+Panama,2004,North America,18.6,19.9,4.4,246.0
+Panama,2005,North America,9.0,28.0,4.5,245.4
+Panama,2006,North America,18.5,25.6,5.5,255.9
+Panama,2007,North America,22.6,22.8,4.4,318.0
+Panama,2008,North America,14.6,22.8,2.1,282.6
+Panama,2009,North America,17.6,24.4,3.8,229.8
+Panama,2010,North America,12.6,25.7,4.3,258.1
+Panama,2011,North America,16.9,22.9,4.4,271.3
+Panama,2012,North America,15.2,26.9,3.8,290.4
+Panama,2013,North America,16.8,22.1,2.8,257.5
+Panama,2014,North America,9.7,26.5,3.1,211.5
+Panama,2015,North America,11.7,18.9,3.4,218.3
+Panama,2016,North America,16.5,26.8,4.0,260.7
+Panama,2017,North America,16.2,17.2,4.7,238.5
+Panama,2018,North America,12.0,27.6,5.2,281.2
+Panama,2019,North America,14.9,20.5,4.4,289.7
+United States,2000,North America,32.4,28.0,6.5,324.7
+United States,2001,North America,27.6,27.6,9.0,290.8
+United States,2002,North America,33.6,33.9,7.9,335.3
+United States,2003,North America,29.5,37.0,6.9,313.0
+United States,2004,North America,27.3,37.0,10.5,336.2
+United States,2005,North America,30.5,33.3,6.9,275.2
+United States,2006,North America,30.9,32.6,7.7,304.3
+United States,2007,North America,36.5,26.9,8.9,326.2
+United States,2008,North America,29.4,30.7,6.7,308.6
+United States,2009,North America,36.0,31.5,8.1,310.9
+United States,2010,North America,32.3,38.3,6.5,297.1
+United States,2011,North America,29.4,33.9,7.1,314.2
+United States,2012,North America,29.5,31.9,8.8,272.2
+United States,2013,North America,29.4,32.1,7.9,307.3
+United States,2014,North America,28.6,40.9,7.6,317.3
+United States,2015,North America,35.1,27.0,8.0,325.4
+United States,2016,North America,32.6,35.1,7.3,325.7
+United States,2017,North America,37.1,29.3,8.4,351.0
+United States,2018,North America,31.2,40.3,7.8,329.7
+United States,2019,North America,32.7,33.9,7.8,352.2
+Australia,2000,Oceania,20.3,35.5,13.4,106.5
+Australia,2001,Oceania,23.1,39.4,13.1,125.0
+Australia,2002,Oceania,20.7,34.6,11.3,135.1
+Australia,2003,Oceania,22.2,35.1,12.7,71.1
+Australia,2004,Oceania,22.8,33.1,11.4,94.5
+Australia,2005,Oceania,22.0,39.6,13.4,108.5
+Australia,2006,Oceania,25.9,35.5,12.4,108.3
+Australia,2007,Oceania,28.7,35.3,11.8,113.0
+Australia,2008,Oceania,26.1,37.3,10.7,72.1
+Australia,2009,Oceania,25.5,34.7,12.6,119.7
+Australia,2010,Oceania,23.4,41.8,10.0,96.4
+Australia,2011,Oceania,23.9,45.7,11.3,128.7
+Australia,2012,Oceania,24.0,34.3,12.2,77.3
+Australia,2013,Oceania,22.9,44.6,10.4,82.7
+Australia,2014,Oceania,22.7,35.9,12.1,111.2
+Australia,2015,Oceania,22.4,39.9,12.2,138.6
+Australia,2016,Oceania,27.0,38.4,12.5,127.5
+Australia,2017,Oceania,23.5,40.3,12.1,145.4
+Australia,2018,Oceania,26.3,34.4,11.9,104.2
+Australia,2019,Oceania,18.0,45.1,13.6,125.6
+Fiji,2000,Oceania,8.2,23.1,3.7,180.6
+Fiji,2001,Oceania,11.8,25.7,5.1,180.9
+Fiji,2002,Oceania,17.2,21.3,7.1,207.3
+Fiji,2003,Oceania,7.6,18.4,6.4,238.0
+Fiji,2004,Oceania,8.7,22.3,5.0,210.3
+Fiji,2005,Oceania,15.5,21.0,6.2,220.5
+Fiji,2006,Oceania,4.0,25.6,8.7,213.1
+Fiji,2007,Oceania,7.0,18.5,6.0,228.1
+Fiji,2008,Oceania,14.1,24.2,6.1,202.5
+Fiji,2009,Oceania,13.1,32.5,5.3,206.7
+Fiji,2010,Oceania,14.3,26.2,5.8,193.3
+Fiji,2011,Oceania,6.2,24.1,4.7,199.1
+Fiji,2012,Oceania,9.7,24.0,7.8,238.2
+Fiji,2013,Oceania,16.9,18.9,5.5,229.5
+Fiji,2014,Oceania,5.8,25.7,4.9,193.1
+Fiji,2015,Oceania,13.1,16.9,6.8,204.5
+Fiji,2016,Oceania,10.3,25.6,5.6,224.7
+Fiji,2017,Oceania,15.0,28.6,5.1,234.5
+Fiji,2018,Oceania,15.0,20.3,5.3,191.5
+Fiji,2019,Oceania,14.7,25.3,7.9,232.5
+New Zealand,2000,Oceania,20.3,12.0,9.4,201.1
+New Zealand,2001,Oceania,17.8,19.7,10.7,211.4
+New Zealand,2002,Oceania,21.1,13.4,9.1,172.9
+New Zealand,2003,Oceania,25.9,15.9,10.5,228.3
+New Zealand,2004,Oceania,23.1,20.1,12.2,209.7
+New Zealand,2005,Oceania,20.3,24.9,10.6,208.0
+New Zealand,2006,Oceania,19.1,22.7,7.4,158.1
+New Zealand,2007,Oceania,24.4,11.8,9.6,204.1
+New Zealand,2008,Oceania,19.3,20.0,10.7,206.6
+New Zealand,2009,Oceania,13.1,24.7,10.5,204.7
+New Zealand,2010,Oceania,18.8,15.1,12.4,217.4
+New Zealand,2011,Oceania,25.2,24.2,10.2,255.4
+New Zealand,2012,Oceania,26.4,27.3,9.5,211.3
+New Zealand,2013,Oceania,26.0,23.3,10.3,214.8
+New Zealand,2014,Oceania,16.9,27.1,10.6,202.4
+New Zealand,2015,Oceania,21.3,18.1,9.8,198.5
+New Zealand,2016,Oceania,23.6,24.4,10.4,263.4
+New Zealand,2017,Oceania,22.3,21.0,11.1,245.7
+New Zealand,2018,Oceania,18.2,30.4,10.9,219.3
+New Zealand,2019,Oceania,26.5,26.3,12.8,273.2
+Papua New Guinea,2000,Oceania,10.7,33.4,10.1,89.6
+Papua New Guinea,2001,Oceania,7.6,35.7,9.7,47.8
+Papua New Guinea,2002,Oceania,8.6,29.6,10.8,84.5
+Papua New Guinea,2003,Oceania,14.1,37.2,9.7,96.9
+Papua New Guinea,2004,Oceania,15.5,32.7,9.5,67.6
+Papua New Guinea,2005,Oceania,10.9,34.9,10.3,54.9
+Papua New Guinea,2006,Oceania,15.5,36.3,9.2,104.0
+Papua New Guinea,2007,Oceania,16.2,34.3,10.0,114.2
+Papua New Guinea,2008,Oceania,13.5,40.2,10.4,36.9
+Papua New Guinea,2009,Oceania,9.9,37.0,11.0,106.0
+Papua New Guinea,2010,Oceania,17.8,40.5,10.2,121.7
+Papua New Guinea,2011,Oceania,16.7,30.6,11.3,120.2
+Papua New Guinea,2012,Oceania,17.4,41.8,13.4,132.8
+Papua New Guinea,2013,Oceania,12.5,37.1,10.9,113.6
+Papua New Guinea,2014,Oceania,15.3,27.4,10.2,76.5
+Papua New Guinea,2015,Oceania,6.8,36.7,12.6,81.7
+Papua New Guinea,2016,Oceania,17.8,28.7,10.1,95.8
+Papua New Guinea,2017,Oceania,15.9,40.2,10.6,115.4
+Papua New Guinea,2018,Oceania,13.8,36.0,9.7,90.0
+Papua New Guinea,2019,Oceania,14.1,26.6,11.4,98.5
+Samoa,2000,Oceania,24.0,42.7,5.2,86.0
+Samoa,2001,Oceania,24.6,38.6,5.4,82.7
+Samoa,2002,Oceania,25.5,44.4,4.3,42.8
+Samoa,2003,Oceania,28.5,45.6,5.7,67.9
+Samoa,2004,Oceania,30.1,41.5,6.2,81.8
+Samoa,2005,Oceania,22.7,41.6,4.2,55.8
+Samoa,2006,Oceania,27.3,41.0,5.1,56.8
+Samoa,2007,Oceania,27.9,45.6,6.1,100.3
+Samoa,2008,Oceania,27.7,49.1,4.4,62.3
+Samoa,2009,Oceania,28.0,43.2,7.2,65.1
+Samoa,2010,Oceania,29.1,51.6,4.9,69.7
+Samoa,2011,Oceania,32.9,44.8,4.8,70.6
+Samoa,2012,Oceania,29.0,49.2,3.2,66.8
+Samoa,2013,Oceania,25.0,52.6,6.0,100.2
+Samoa,2014,Oceania,24.4,43.8,3.2,76.1
+Samoa,2015,Oceania,31.1,43.6,4.8,125.9
+Samoa,2016,Oceania,25.3,45.7,7.2,96.9
+Samoa,2017,Oceania,24.7,53.9,4.7,90.9
+Samoa,2018,Oceania,25.3,44.8,6.5,55.9
+Samoa,2019,Oceania,28.5,50.1,5.7,113.1
+Solomon Islands,2000,Oceania,18.6,37.4,10.6,118.0
+Solomon Islands,2001,Oceania,17.5,37.3,11.9,109.0
+Solomon Islands,2002,Oceania,19.2,31.1,13.3,184.4
+Solomon Islands,2003,Oceania,21.5,34.9,12.3,119.1
+Solomon Islands,2004,Oceania,15.5,44.9,9.8,139.7
+Solomon Islands,2005,Oceania,15.9,37.8,11.4,152.8
+Solomon Islands,2006,Oceania,16.5,31.4,11.0,138.7
+Solomon Islands,2007,Oceania,11.5,39.3,9.7,148.6
+Solomon Islands,2008,Oceania,12.9,41.7,13.9,151.1
+Solomon Islands,2009,Oceania,22.2,36.8,12.6,187.9
+Solomon Islands,2010,Oceania,15.9,39.8,11.3,173.1
+Solomon Islands,2011,Oceania,14.8,40.8,12.5,163.6
+Solomon Islands,2012,Oceania,10.1,36.1,12.9,149.8
+Solomon Islands,2013,Oceania,15.2,40.4,12.1,131.5
+Solomon Islands,2014,Oceania,18.1,36.2,11.5,126.1
+Solomon Islands,2015,Oceania,20.5,34.0,12.2,180.8
+Solomon Islands,2016,Oceania,16.1,37.9,11.9,140.7
+Solomon Islands,2017,Oceania,11.8,43.3,13.0,163.8
+Solomon Islands,2018,Oceania,17.3,33.2,12.8,137.9
+Solomon Islands,2019,Oceania,18.5,38.7,12.4,174.7
+Tonga,2000,Oceania,26.5,18.9,8.0,158.8
+Tonga,2001,Oceania,24.1,22.3,9.7,186.7
+Tonga,2002,Oceania,24.6,16.0,10.2,153.6
+Tonga,2003,Oceania,21.8,24.7,10.8,179.7
+Tonga,2004,Oceania,26.2,15.9,8.7,180.4
+Tonga,2005,Oceania,22.0,22.9,9.7,170.3
+Tonga,2006,Oceania,24.6,16.9,10.8,202.8
+Tonga,2007,Oceania,21.5,20.6,11.3,199.1
+Tonga,2008,Oceania,28.4,15.4,11.3,202.2
+Tonga,2009,Oceania,28.9,18.9,10.7,172.2
+Tonga,2010,Oceania,20.3,18.3,9.0,153.4
+Tonga,2011,Oceania,16.3,13.8,10.5,151.5
+Tonga,2012,Oceania,27.1,10.9,12.4,225.1
+Tonga,2013,Oceania,16.6,10.3,10.4,140.2
+Tonga,2014,Oceania,22.6,19.8,8.2,190.9
+Tonga,2015,Oceania,24.8,12.7,11.9,212.3
+Tonga,2016,Oceania,23.0,22.7,9.8,164.3
+Tonga,2017,Oceania,24.7,19.0,10.4,198.9
+Tonga,2018,Oceania,25.7,18.0,10.8,222.7
+Tonga,2019,Oceania,25.3,21.6,10.2,190.0
+Vanuatu,2000,Oceania,7.0,39.7,11.1,142.1
+Vanuatu,2001,Oceania,7.7,44.8,11.4,167.4
+Vanuatu,2002,Oceania,12.5,35.6,11.1,177.1
+Vanuatu,2003,Oceania,6.8,33.8,11.3,140.6
+Vanuatu,2004,Oceania,15.3,37.5,10.8,192.2
+Vanuatu,2005,Oceania,13.1,41.9,10.3,185.8
+Vanuatu,2006,Oceania,14.7,37.6,10.8,189.1
+Vanuatu,2007,Oceania,15.5,36.2,11.8,173.4
+Vanuatu,2008,Oceania,7.1,41.1,11.2,157.7
+Vanuatu,2009,Oceania,9.2,40.2,11.6,198.9
+Vanuatu,2010,Oceania,13.2,37.4,12.5,228.4
+Vanuatu,2011,Oceania,12.4,37.0,11.5,176.1
+Vanuatu,2012,Oceania,8.0,39.5,11.5,164.8
+Vanuatu,2013,Oceania,16.5,50.0,11.8,195.4
+Vanuatu,2014,Oceania,12.8,41.2,11.4,193.8
+Vanuatu,2015,Oceania,14.1,35.6,12.3,182.5
+Vanuatu,2016,Oceania,19.3,36.9,9.7,205.4
+Vanuatu,2017,Oceania,8.6,54.9,13.1,226.7
+Vanuatu,2018,Oceania,10.1,42.5,12.6,196.3
+Vanuatu,2019,Oceania,11.3,36.9,12.4,206.5
+Argentina,2000,South America,13.5,56.6,8.4,213.8
+Argentina,2001,South America,15.3,56.0,8.2,159.2
+Argentina,2002,South America,13.5,54.3,7.0,186.3
+Argentina,2003,South America,19.2,65.9,9.4,214.5
+Argentina,2004,South America,16.2,55.4,8.1,189.9
+Argentina,2005,South America,17.6,61.8,7.2,224.5
+Argentina,2006,South America,17.8,56.2,6.9,222.8
+Argentina,2007,South America,12.0,65.3,10.0,221.8
+Argentina,2008,South America,16.6,57.4,6.8,211.2
+Argentina,2009,South America,13.7,57.7,10.3,216.1
+Argentina,2010,South America,24.5,64.7,8.9,246.2
+Argentina,2011,South America,22.7,57.4,7.5,210.6
+Argentina,2012,South America,11.9,54.9,7.6,210.2
+Argentina,2013,South America,17.4,57.2,7.5,190.7
+Argentina,2014,South America,11.8,54.3,6.4,188.5
+Argentina,2015,South America,17.4,56.5,8.3,220.4
+Argentina,2016,South America,18.4,57.7,8.7,221.6
+Argentina,2017,South America,10.2,63.5,9.0,218.7
+Argentina,2018,South America,18.3,64.2,7.0,257.8
+Argentina,2019,South America,14.2,54.7,6.4,176.7
+Bolivia,2000,South America,23.3,32.0,4.1,188.0
+Bolivia,2001,South America,16.0,29.7,7.9,193.4
+Bolivia,2002,South America,22.4,35.1,5.9,201.4
+Bolivia,2003,South America,23.9,35.1,5.9,184.1
+Bolivia,2004,South America,21.4,39.1,4.7,189.1
+Bolivia,2005,South America,19.0,29.1,4.7,163.6
+Bolivia,2006,South America,24.6,40.0,5.3,197.5
+Bolivia,2007,South America,22.5,41.4,6.8,200.5
+Bolivia,2008,South America,25.7,32.8,6.4,183.7
+Bolivia,2009,South America,18.8,33.0,5.5,170.9
+Bolivia,2010,South America,22.5,34.7,5.0,211.2
+Bolivia,2011,South America,25.6,34.5,6.3,226.4
+Bolivia,2012,South America,27.2,38.3,5.5,245.1
+Bolivia,2013,South America,22.6,39.1,6.6,209.6
+Bolivia,2014,South America,26.8,31.7,4.1,220.5
+Bolivia,2015,South America,26.3,35.3,6.7,204.7
+Bolivia,2016,South America,29.8,36.0,5.4,234.8
+Bolivia,2017,South America,28.2,41.9,4.4,208.2
+Bolivia,2018,South America,22.6,37.7,7.7,213.0
+Bolivia,2019,South America,23.1,36.9,7.3,240.5
+Brazil,2000,South America,29.1,46.0,2.7,341.2
+Brazil,2001,South America,38.6,49.4,3.3,366.8
+Brazil,2002,South America,42.5,48.9,2.2,415.1
+Brazil,2003,South America,41.6,50.0,2.3,381.3
+Brazil,2004,South America,34.4,51.5,2.9,395.3
+Brazil,2005,South America,31.4,60.0,0.9,333.9
+Brazil,2006,South America,37.8,53.2,4.3,417.7
+Brazil,2007,South America,35.1,44.6,3.9,370.8
+Brazil,2008,South America,35.7,46.3,2.6,377.9
+Brazil,2009,South America,35.3,50.6,4.0,381.6
+Brazil,2010,South America,36.1,50.8,3.1,337.9
+Brazil,2011,South America,36.9,55.7,2.4,357.8
+Brazil,2012,South America,36.6,52.3,3.1,393.7
+Brazil,2013,South America,32.1,49.0,2.9,360.4
+Brazil,2014,South America,39.0,57.0,3.0,398.8
+Brazil,2015,South America,42.6,51.3,3.0,410.2
+Brazil,2016,South America,38.5,52.2,4.0,392.8
+Brazil,2017,South America,30.6,53.7,4.8,371.9
+Brazil,2018,South America,36.8,46.2,3.7,397.1
+Brazil,2019,South America,40.0,52.7,2.8,387.2
+Chile,2000,South America,32.1,47.2,8.4,186.2
+Chile,2001,South America,24.2,54.3,7.6,203.2
+Chile,2002,South America,28.2,48.5,7.0,234.1
+Chile,2003,South America,22.9,55.4,7.6,213.7
+Chile,2004,South America,33.9,56.1,7.2,255.8
+Chile,2005,South America,24.5,48.7,8.7,238.6
+Chile,2006,South America,27.7,47.0,7.8,203.9
+Chile,2007,South America,21.0,51.0,6.2,217.3
+Chile,2008,South America,23.8,48.3,8.7,213.8
+Chile,2009,South America,33.5,56.8,6.3,254.3
+Chile,2010,South America,32.1,49.9,6.0,240.8
+Chile,2011,South America,25.6,58.1,8.4,216.4
+Chile,2012,South America,21.0,51.1,8.1,194.8
+Chile,2013,South America,30.2,46.7,9.0,241.0
+Chile,2014,South America,37.7,54.1,9.7,288.4
+Chile,2015,South America,31.2,46.6,8.2,224.4
+Chile,2016,South America,30.8,49.4,8.6,239.1
+Chile,2017,South America,28.5,53.3,4.5,230.2
+Chile,2018,South America,29.1,60.0,8.3,279.8
+Chile,2019,South America,26.7,52.0,7.1,239.0
+Colombia,2000,South America,33.8,49.6,4.5,311.0
+Colombia,2001,South America,26.9,52.4,4.3,302.4
+Colombia,2002,South America,32.0,55.2,3.7,297.8
+Colombia,2003,South America,29.7,61.3,4.5,347.4
+Colombia,2004,South America,30.8,63.3,2.9,352.6
+Colombia,2005,South America,36.0,53.0,5.1,336.0
+Colombia,2006,South America,35.0,60.6,5.6,335.6
+Colombia,2007,South America,26.0,54.8,3.2,307.9
+Colombia,2008,South America,30.8,54.8,5.5,350.8
+Colombia,2009,South America,34.2,54.6,4.2,364.4
+Colombia,2010,South America,28.2,56.7,4.8,328.1
+Colombia,2011,South America,37.9,55.6,5.1,342.4
+Colombia,2012,South America,30.5,56.9,5.7,343.9
+Colombia,2013,South America,36.1,59.0,4.1,335.1
+Colombia,2014,South America,25.3,58.1,5.4,334.0
+Colombia,2015,South America,32.7,63.6,4.7,354.5
+Colombia,2016,South America,32.1,58.8,3.1,313.5
+Colombia,2017,South America,28.3,60.6,3.7,327.8
+Colombia,2018,South America,34.8,53.8,3.2,310.9
+Colombia,2019,South America,38.0,57.3,4.0,304.9
+Ecuador,2000,South America,26.9,35.4,3.4,316.1
+Ecuador,2001,South America,28.9,37.1,3.4,329.6
+Ecuador,2002,South America,30.7,44.5,6.0,322.3
+Ecuador,2003,South America,24.4,38.1,7.1,309.0
+Ecuador,2004,South America,22.3,38.5,4.5,323.0
+Ecuador,2005,South America,21.9,34.9,5.0,267.0
+Ecuador,2006,South America,16.8,35.0,3.9,282.1
+Ecuador,2007,South America,31.0,40.8,4.2,313.4
+Ecuador,2008,South America,28.5,38.3,4.1,297.6
+Ecuador,2009,South America,29.6,40.4,5.9,315.2
+Ecuador,2010,South America,26.1,37.8,5.3,287.0
+Ecuador,2011,South America,32.0,37.2,5.3,301.3
+Ecuador,2012,South America,24.3,30.2,6.4,306.4
+Ecuador,2013,South America,22.6,40.9,5.2,295.0
+Ecuador,2014,South America,20.4,36.0,6.3,304.3
+Ecuador,2015,South America,21.8,38.1,5.7,311.6
+Ecuador,2016,South America,22.7,35.6,5.5,315.1
+Ecuador,2017,South America,31.8,39.0,4.1,315.7
+Ecuador,2018,South America,26.8,36.8,4.5,294.1
+Ecuador,2019,South America,28.1,42.2,5.2,309.5
+Guyana,2000,South America,20.1,53.5,9.2,117.5
+Guyana,2001,South America,22.3,51.2,6.4,125.5
+Guyana,2002,South America,21.2,55.3,8.8,138.1
+Guyana,2003,South America,17.2,44.7,7.3,100.5
+Guyana,2004,South America,17.2,54.3,9.6,124.6
+Guyana,2005,South America,16.2,58.4,7.8,118.6
+Guyana,2006,South America,11.5,45.8,9.1,111.9
+Guyana,2007,South America,23.8,61.9,8.1,140.4
+Guyana,2008,South America,18.8,53.6,9.4,118.7
+Guyana,2009,South America,25.1,45.4,8.8,155.0
+Guyana,2010,South America,20.6,55.7,7.1,154.1
+Guyana,2011,South America,23.7,50.4,6.3,102.9
+Guyana,2012,South America,17.7,45.4,8.7,128.8
+Guyana,2013,South America,20.1,52.5,9.8,145.4
+Guyana,2014,South America,27.9,51.0,8.8,133.3
+Guyana,2015,South America,19.0,57.1,9.1,160.3
+Guyana,2016,South America,23.3,50.9,5.6,82.1
+Guyana,2017,South America,27.2,49.2,9.9,144.4
+Guyana,2018,South America,17.1,56.6,9.8,158.4
+Guyana,2019,South America,18.4,57.1,8.9,174.5
+Paraguay,2000,South America,36.3,33.0,3.7,292.9
+Paraguay,2001,South America,40.6,25.9,6.8,267.6
+Paraguay,2002,South America,35.9,27.9,3.7,254.0
+Paraguay,2003,South America,33.3,33.9,4.2,252.7
+Paraguay,2004,South America,31.7,32.7,5.7,284.5
+Paraguay,2005,South America,33.0,30.5,6.6,269.5
+Paraguay,2006,South America,33.9,30.4,6.1,276.3
+Paraguay,2007,South America,30.9,27.8,4.4,309.3
+Paraguay,2008,South America,36.2,23.1,5.2,246.7
+Paraguay,2009,South America,43.7,32.5,5.2,315.2
+Paraguay,2010,South America,39.1,27.1,4.6,252.5
+Paraguay,2011,South America,34.5,29.9,5.6,287.9
+Paraguay,2012,South America,36.8,29.9,6.9,258.0
+Paraguay,2013,South America,35.4,25.4,6.4,296.2
+Paraguay,2014,South America,33.3,22.0,8.1,311.0
+Paraguay,2015,South America,40.1,26.5,6.7,299.9
+Paraguay,2016,South America,37.2,36.1,8.5,316.5
+Paraguay,2017,South America,37.4,36.5,6.2,298.3
+Paraguay,2018,South America,36.4,38.0,7.7,264.3
+Paraguay,2019,South America,42.6,30.2,4.7,319.2
+Peru,2000,South America,23.7,21.7,8.0,171.9
+Peru,2001,South America,24.6,18.3,6.0,115.9
+Peru,2002,South America,20.3,19.3,9.4,126.4
+Peru,2003,South America,21.3,27.4,7.1,153.2
+Peru,2004,South America,20.8,29.9,8.7,137.6
+Peru,2005,South America,18.2,18.2,6.9,144.9
+Peru,2006,South America,17.3,23.4,8.5,169.0
+Peru,2007,South America,27.9,27.4,7.6,164.0
+Peru,2008,South America,18.4,30.2,8.3,180.8
+Peru,2009,South America,25.6,20.1,7.5,148.7
+Peru,2010,South America,20.9,21.1,10.0,183.8
+Peru,2011,South America,28.9,15.4,7.3,146.4
+Peru,2012,South America,30.6,31.5,8.0,181.8
+Peru,2013,South America,23.5,29.6,9.4,202.0
+Peru,2014,South America,23.6,19.4,7.8,140.8
+Peru,2015,South America,25.7,26.5,11.2,199.2
+Peru,2016,South America,23.1,19.8,9.0,178.0
+Peru,2017,South America,15.1,18.4,7.3,173.3
+Peru,2018,South America,25.8,20.8,9.3,197.7
+Peru,2019,South America,21.4,24.1,8.8,172.1
+Uruguay,2000,South America,18.4,52.7,3.7,327.3
+Uruguay,2001,South America,18.5,49.3,4.5,367.6
+Uruguay,2002,South America,15.8,49.7,4.8,342.8
+Uruguay,2003,South America,16.3,46.8,3.0,325.7
+Uruguay,2004,South America,21.7,58.8,4.2,370.0
+Uruguay,2005,South America,19.8,52.5,3.6,365.2
+Uruguay,2006,South America,20.2,44.5,5.3,361.8
+Uruguay,2007,South America,14.8,47.2,6.2,364.2
+Uruguay,2008,South America,25.0,46.0,4.2,347.3
+Uruguay,2009,South America,15.2,48.1,4.8,320.1
+Uruguay,2010,South America,15.7,48.7,6.1,356.6
+Uruguay,2011,South America,19.9,50.1,3.9,350.7
+Uruguay,2012,South America,21.3,55.8,6.3,421.6
+Uruguay,2013,South America,25.5,51.3,4.9,377.3
+Uruguay,2014,South America,19.0,49.3,3.4,358.4
+Uruguay,2015,South America,16.0,50.8,3.4,368.0
+Uruguay,2016,South America,13.4,59.2,4.2,367.3
+Uruguay,2017,South America,18.1,47.4,4.4,367.9
+Uruguay,2018,South America,17.0,55.3,5.2,357.0
+Uruguay,2019,South America,19.1,54.4,6.1,413.5
+Venezuela,2000,South America,27.6,25.8,3.2,346.8
+Venezuela,2001,South America,30.6,26.5,1.7,347.6
+Venezuela,2002,South America,31.4,32.1,1.6,353.5
+Venezuela,2003,South America,33.4,24.7,2.0,360.6
+Venezuela,2004,South America,31.4,35.8,2.9,394.5
+Venezuela,2005,South America,28.3,30.6,0.7,365.0
+Venezuela,2006,South America,26.7,34.9,2.1,396.1
+Venezuela,2007,South America,28.8,30.2,0.9,376.3
+Venezuela,2008,South America,31.9,35.0,0.3,373.8
+Venezuela,2009,South America,36.3,38.0,1.5,425.3
+Venezuela,2010,South America,26.5,27.1,3.7,352.9
+Venezuela,2011,South America,31.2,29.7,4.8,393.6
+Venezuela,2012,South America,37.4,34.0,1.8,425.0
+Venezuela,2013,South America,31.6,33.7,3.2,421.7
+Venezuela,2014,South America,26.1,38.3,1.0,352.2
+Venezuela,2015,South America,25.7,32.7,2.7,382.4
+Venezuela,2016,South America,24.2,28.5,3.5,388.5
+Venezuela,2017,South America,26.5,30.7,3.7,401.0
+Venezuela,2018,South America,21.5,34.1,2.1,330.4
+Venezuela,2019,South America,36.5,31.1,3.7,419.0

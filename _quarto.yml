@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - data/*.json
+    - data/*.csv
 
 website:
   title: "CVD Predictors"
