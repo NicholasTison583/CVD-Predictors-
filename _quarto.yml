@@ -1,0 +1,18 @@
+project:
+  type: website
+  resources:
+    - data/*.json
+
+website:
+  title: "CVD Predictors"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
