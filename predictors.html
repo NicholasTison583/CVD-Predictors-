@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Why Is the Cardiovascular Disease Burden So Different? – CVD Predictors</title>
+<title>Behavioral Predictors of Cardiovascular Disease – CVD Predictors</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -88,11 +88,11 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Why Is the Cardiovascular Disease Burden So Different?</h1>
+<h1 class="title">Behavioral Predictors of Cardiovascular Disease</h1>
 </div>
 
 
@@ -109,157 +109,61 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="observatory-page story-page page-columns page-full">
+<div class="observatory-page story-page">
   <nav class="page-tabs" aria-label="Project pages">
     <a href="index.html">Map</a>
     <a href="states.html">U.S. States</a>
     <a href="smoking.html">Smoking</a>
     <a href="fitness.html">Fitness</a>
-    <a href="predictors.html">Predictors</a>
+    <a href="predictors.html" aria-current="page">Predictors</a>
     <a href="about.html">About</a>
   </nav>
 
   <header class="story-heading">
-    <p class="story-kicker">COUNTRY COMPARISON · 2021</p>
-    <h1>Why Is the Cardiovascular Disease Burden So Different?</h1>
-    <p>
-      Russia and the United States have dramatically different cardiovascular mortality rates. In 2021, Russia recorded approximately 622.5 cardiovascular deaths per 100,000 people, compared with 273.3 per 100,000 in the United States. This difference raises an important question: what factors might help explain why cardiovascular disease affects populations at such different rates? By comparing behavioral and health-related predictors such as tobacco use, alcohol consumption, physical inactivity, and hypertension, we can investigate whether these factors are associated with differences in cardiovascular mortality around the world.
-    </p>
+    <p class="story-kicker">BEHAVIORAL RISK ANALYSIS</p>
+    <h1>Predictors of Cardiovascular Disease</h1>
+    <p>The joined sources contain 2,206 country-year mortality records across 116 countries from 2000 to 2023. Each selected predictor uses only country-years with a matching WHO value.</p>
   </header>
 
-  <section class="story-section" aria-labelledby="mortality-gap-heading">
+  <section class="story-section" aria-labelledby="smoking-analysis-heading">
     <div class="story-section-heading">
       <div>
-        <p class="story-kicker">THE MORTALITY GAP</p>
-        <h2 id="mortality-gap-heading" class="anchored">Russia and the United States</h2>
+        <p class="story-kicker">COUNTRY-YEAR ANALYSIS · 2000–2023</p>
+        <h2 id="smoking-analysis-heading" class="anchored">Behavioral predictors and CVD mortality</h2>
       </div>
-      <div class="ratio-callout"><strong>2.3×</strong><span>Russia's rate compared with the U.S.</span></div>
     </div>
-
-    <figure class="country-rate-chart figure" aria-labelledby="country-rate-title">
-      <figcaption id="country-rate-title">
-        <strong>CVD deaths per 100,000 people</strong>
-        <span>2021 · common scale from 0 to 650</span>
-      </figcaption>
-      <div class="country-rate-plot" role="img" aria-label="Russia: 622.5 cardiovascular deaths per 100,000 people. United States: 273.3 per 100,000 people. Russia's rate is approximately 2.3 times higher.">
-        <div class="country-rate-row">
-          <span class="country-rate-name">Russia</span>
-          <div class="country-rate-track"><span class="country-rate-fill russia-rate"></span></div>
-          <strong>622.5</strong>
+    <div class="scatter-card">
+      <div class="scatter-controls">
+        <div class="scatter-field">
+          <label for="predictorSelect">Predictor</label>
+          <select id="predictorSelect">
+            <option value="Tobacco">Tobacco use (%)</option>
+            <option value="PhysicalInactivity">Physical inactivity (%)</option>
+          </select>
         </div>
-        <div class="country-rate-row">
-          <span class="country-rate-name">United States</span>
-          <div class="country-rate-track"><span class="country-rate-fill us-rate"></span></div>
-          <strong>273.3</strong>
-        </div>
+        <div class="scatter-field"><label for="yearSelect">Year</label><select id="yearSelect"></select></div>
+        <div class="scatter-field"><label for="regionSelect">WHO region</label><select id="regionSelect"></select></div>
+        <div class="scatter-field"><label for="countrySelect">Country</label><select id="countrySelect"></select></div>
       </div>
-      <div class="country-rate-axis" aria-hidden="true"><span>0</span><span>200</span><span>400</span><span>600</span><span>650 deaths per 100,000</span></div>
-      <p class="chart-caveat">The 2.3× value is the ratio of the two reported rates, not an estimate of what any single risk factor contributes.</p>
-    </figure>
-  </section>
-
-  <section class="story-section" aria-labelledby="predictors-heading">
-    <div class="story-section-heading">
-      <div>
-        <p class="story-kicker">POTENTIAL PREDICTORS</p>
-        <h2 id="predictors-heading" class="anchored">What might be associated with the gap?</h2>
+      <div class="axis-summary">
+        <div><strong>Y-axis:</strong> CVD mortality rate (per 100,000)</div>
+        <div><strong>X-axis:</strong> Selectable predictor</div>
+      </div>
+      <div class="regression-stats" aria-live="polite" aria-label="Regression statistics">
+        <div><span>Observations (n)</span><strong id="statN">Loading</strong></div>
+        <div><span>Correlation (r)</span><strong id="statR">-</strong></div>
+        <div><span>R-squared</span><strong id="statR2">-</strong></div>
+        <div><span>OLS equation</span><strong id="statEquation">-</strong></div>
+      </div>
+      <p class="data-source-note">Available WHO country-year values are plotted; unmatched values are omitted for the selected predictor. Tobacco values between WHO estimate years are interpolated. WHO inactivity estimates cover adults aged 18+.</p>
+      <div class="scatter-plot-wrap">
+        <svg id="cvdScatter" viewbox="0 0 900 500" role="img" aria-label="Scatter plot of selected behavioral predictor and cardiovascular mortality by country-year, with a linear regression line"></svg>
+        <div id="scatterTooltip" class="scatter-tooltip" aria-live="polite"></div>
       </div>
     </div>
-    <p class="story-copy">These figures offer hypotheses to investigate, not a complete explanation. The estimates refer to different years and populations, and comparable U.S. values are not included in the information available here.</p>
-
-    <div class="predictor-grid">
-      <article class="predictor-card">
-        <p class="predictor-value">44.3%</p>
-        <h3 class="anchored">Hypertension</h3>
-        <p>Estimated among Russian adults aged 30–79 in 2019. High blood pressure is a major CVD risk factor.</p>
-      </article>
-      <article class="predictor-card">
-        <p class="predictor-value">55%</p>
-        <h3 class="anchored">High systolic blood pressure</h3>
-        <p>Estimated share of Russia's CVD deaths attributable to high systolic blood pressure in the 2019 profile.</p>
-      </article>
-      <article class="predictor-card">
-        <p class="predictor-value">27.8%</p>
-        <h3 class="anchored">Tobacco use</h3>
-        <p>Estimated among people aged 15 and older in Russia in 2022.</p>
-      </article>
-      <article class="predictor-card">
-        <p class="predictor-value">~10 g/day</p>
-        <h3 class="anchored">Salt intake</h3>
-        <p>Estimated average adult intake in Russia in 2019, versus the WHO recommended maximum of 5 g/day.</p>
-      </article>
-    </div>
-
-    <div class="candidate-factors">
-      <h3 class="anchored">Other factors to test</h3>
-      <ul>
-        <li>Alcohol consumption and harmful use</li>
-        <li>Physical inactivity</li>
-        <li>Obesity and diet</li>
-        <li>Healthcare access and socioeconomic conditions</li>
-      </ul>
-      <p>These are recognized behavioral, health, or social factors, but this comparison does not show that any one factor caused the Russia–U.S. difference.</p>
-    </div>
   </section>
-
-  <section class="story-section" aria-labelledby="snapshot-heading">
-    <p class="story-kicker">COMPARISON SNAPSHOT</p>
-    <h2 id="snapshot-heading" class="anchored">What the available figures show</h2>
-    <div class="story-table-wrap">
-      
-<table class="story-table caption-top table">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th" scope="col">Measure</th>
-<th data-quarto-table-cell-role="th" scope="col">Russia</th>
-<th data-quarto-table-cell-role="th" scope="col">United States</th>
-<th data-quarto-table-cell-role="th" scope="col">Year / note</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<th data-quarto-table-cell-role="th" scope="row">CVD mortality per 100,000</th>
-<td>622.5</td>
-<td>273.3</td>
-<td>2021</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th" scope="row">Hypertension prevalence</th>
-<td>44.3%</td>
-<td>Not provided</td>
-<td>Ages 30–79, 2019</td>
-</tr>
-<tr class="odd">
-<th data-quarto-table-cell-role="th" scope="row">Tobacco use</th>
-<td>27.8%</td>
-<td>Not provided</td>
-<td>Ages 15+, 2022</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th" scope="row">Average salt intake</th>
-<td>About 10 g/day</td>
-<td>Not provided</td>
-<td>Russia, 2019; WHO maximum 5 g/day</td>
-</tr>
-<tr class="odd">
-<th data-quarto-table-cell-role="th" scope="row">CVD deaths attributed to high systolic blood pressure</th>
-<td>55%</td>
-<td>Not provided</td>
-<td>Russia profile, 2019</td>
-</tr>
-</tbody>
-</table>
-
-    </div>
-    <p class="chart-caveat">Sources and years differ by measure. “Not provided” means a comparable estimate was not included here; it does not mean the value is zero.</p>
-  </section>
-
-  <aside class="story-caution">
-    <h2 class="anchored">Association is not a single-cause explanation</h2>
-    <p>Alcohol, tobacco, inactivity, hypertension, diet, obesity, healthcare access, and socioeconomic conditions can overlap and interact. Country-level comparisons cannot establish that one factor explains the entire mortality gap, and they should not be used to infer an individual's risk.</p>
-  </aside>
-
 </div>
+<script src="tobacco-chart.js"></script>
 
 
 

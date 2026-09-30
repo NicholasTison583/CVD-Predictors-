@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3eaf8885052e939fbbbe2bfb513fc417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6973e2e791077bd0fd1414f8ce3cbb23.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -109,7 +109,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<div class="observatory-page story-page">
+    <nav class="page-tabs" aria-label="Project pages">
+        <a href="index.html">Map</a>
+        <a href="states.html">U.S. States</a>
+        <a href="smoking.html">Smoking</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="predictors.html">Predictors</a>
+
+        <p>A global cardiovascular health project exploring how behavioral risk factors relate to cardiovascular mortality.</p>
+    
+
+    <section class="story-section" aria-labelledby="author-heading">
+        <div class="story-section-heading">
+            <div>
+                <p class="story-kicker">AUTHOR</p>
+                <h2 id="author-heading" class="anchored">Nicholas Tison</h2>
+            </div>
+        </div>
+        <ul class="about-links">
+            <li><strong>GitHub profile:</strong> <a href="https://github.com/NicholasTison583" target="_blank" rel="noopener noreferrer">github.com/NicholasTison583</a></li>
+            <li><strong>College:</strong> <a href="https://www.ncf.edu/" target="_blank" rel="noopener noreferrer">New College of Florida</a></li>
+            <li><strong>Project repository:</strong> <a href="https://github.com/NicholasTison583/finish" target="_blank" rel="noopener noreferrer">NicholasTison583/finish</a></li>
+        </ul>
+    </section>
+
+    <section class="story-section" aria-labelledby="sources-heading">
+        <div class="story-section-heading">
+            <div>
+                <p class="story-kicker">DATA SOURCES</p>
+                <h2 id="sources-heading" class="anchored">Sources used in this project</h2>
+            </div>
+        </div>
+        <ul class="about-links">
+            <li><strong>Tobacco prevalence:</strong> <a href="https://ghoapi.azureedge.net/api/M_Est_tob_curr_std?$filter=Dim1%20eq%20%27SEX_BTSX%27" target="_blank" rel="noopener noreferrer">WHO Global Health Observatory tobacco-use estimates</a></li>
+            <li><strong>Physical inactivity:</strong> <a href="https://ghoapi.azureedge.net/api/NCD_PAC?$filter=Dim1%20eq%20%27SEX_BTSX%27%20and%20Dim2%20eq%20%27AGEGROUP_YEARS18-PLUS%27" target="_blank" rel="noopener noreferrer">WHO Global Health Observatory physical-activity estimates</a></li>
+            <li><strong>CVD mortality:</strong> <a href="https://ourworldindata.org/grapher/cardiovascular-disease-death-rate-who-mdb" target="_blank" rel="noopener noreferrer">Our World in Data, cardiovascular disease death rate</a></li>
+            <li><strong>U.S. state health measures:</strong> <a href="https://data.cdc.gov/d/hn4x-zwk7" target="_blank" rel="noopener noreferrer">CDC BRFSS Physical Activity and Nutrition</a> and <a href="https://data.cdc.gov/d/dttw-5yxu" target="_blank" rel="noopener noreferrer">BRFSS Prevalence Data</a></li>
+            <li><strong>U.S. heart-disease mortality:</strong> <a href="https://data.cdc.gov/d/th8y-thx5" target="_blank" rel="noopener noreferrer">CDC Heart Disease Mortality Data, 2021–2023</a></li>
+        </ul>
+    </section>
+</nav></div>
 
 
 
@@ -187,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/NicholasTison583\.github\.io\/finish\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
