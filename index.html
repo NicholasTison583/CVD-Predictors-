@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cardiovascular Disease Around the World – CVD Predictors</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3eaf8885052e939fbbbe2bfb513fc417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cardiovascular Disease Around the World</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="observatory-page page-columns page-full">
+  <nav class="page-tabs" aria-label="Project pages">
+    <a href="index.html" aria-current="page">Map</a>
+    <a href="story.html">Story</a>
+  </nav>
+
+  <div class="intro-block">
+    <p class="report-kicker">GLOBAL HEALTH DASHBOARD</p>
+    <h1>Cardiovascular Disease Death Rates Across the World</h1>
+    <p class="lead-text">Interactive visualization of age-standardized cardiovascular disease mortality by country in 2024. Hover over any country to inspect the rate and confidence range.</p>
+  </div>
+
+  <div class="summary-cards" aria-label="Global map statistics">
+    <article class="summary-card">
+      <h2 class="anchored">COUNTRIES REPORTED</h2>
+      <p>200</p>
+    </article>
+    <article class="summary-card">
+      <h2 class="anchored">AVERAGE RATE</h2>
+      <p>249.1</p>
+    </article>
+    <article class="summary-card">
+      <h2 class="anchored">HIGHEST RATE</h2>
+      <p><span>Marshall Islands</span> 715.3</p>
+    </article>
+    <article class="summary-card">
+      <h2 class="anchored">DATA YEAR</h2>
+      <p>2024</p>
+    </article>
+  </div>
+
+  <section class="report-section page-columns page-full" aria-labelledby="section-map-title">
+  <div class="map-card page-columns page-full">
+    <div class="map-heading">
+      <div>
+        <p class="map-eyebrow">WORLD MAP</p>
+        <h2 id="section-map-title" class="anchored">Age-standardized mortality rate</h2>
+      </div>
+      <div class="map-heading-tools">
+        <span class="source-badge">World Heart Observatory</span>
+        <div class="map-tools" aria-label="Map zoom controls">
+          <button type="button" class="map-control" id="zoom-out" aria-label="Zoom out">−</button>
+          <button type="button" class="map-control" id="zoom-in" aria-label="Zoom in">+</button>
+          <button type="button" class="map-control secondary" id="reset-view" aria-label="Reset map view">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="map-body page-columns page-full">
+      <div class="map-stack">
+        <svg id="world-map" viewbox="0 0 960 500" role="img" aria-labelledby="map-title map-description" aria-describedby="map-instructions">
+          <title id="map-title">World map of cardiovascular disease death rates</title>
+          <desc id="map-description">A choropleth world map showing age-standardized cardiovascular disease deaths per 100,000 people by country.</desc>
+        </svg>
+      </div>
+
+      <aside class="map-stat-panel" aria-live="polite">
+        <p class="stat-label">Selected country</p>
+        <h3 id="map-country-name" class="anchored">Global overview</h3>
+        <div class="stat-value" id="map-country-rate">Age-standardized mortality</div>
+        <p id="map-country-note">Hover or focus a country to view its country-level cardiovascular disease burden.</p>
+      </aside>
+    </div>
+
+    <div class="map-toolbar" aria-label="Map status">
+      <div id="map-status" class="map-status" role="status" aria-live="polite">Loading country data…</div>
+    </div>
+
+    <div id="map-instructions" class="sr-only">
+      Use the Tab key to move through countries. Press Enter or Space to read the highlighted country details.
+    </div>
+
+    <div class="legend" aria-label="Color legend from lower to higher death rates">
+      <span class="legend-label">Lower</span>
+      <div class="legend-gradient" aria-hidden="true"></div>
+      <span class="legend-label">Higher</span>
+    </div>
+  </div>
+
+  </section>
+
+  <section class="report-section country-research-section page-columns page-full" aria-labelledby="culture-heading">
+    <div class="insight-card culture-panel page-columns page-full">
+      <h2 id="culture-heading" class="anchored">Culture, behavior, and the burden of CVD</h2>
+      <p>
+        The most important statistical point is that absolute deaths and death rates tell different stories. China and India show very
+        large total CVD burdens because of their large populations, while Russia has a much higher CVD death rate per capita than
+        the United States. These differences suggest that public health risk is shaped not only by population size, but also by diet,
+        smoking, activity patterns, hypertension, alcohol use, healthcare access, and broader social conditions.
+      </p>
+
+      <div class="country-table-wrap">
+        
+<table class="country-burden-table caption-top table" aria-label="Cardiovascular disease deaths, rates, and related risk factors in four countries">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" scope="col">Country</th>
+<th data-quarto-table-cell-role="th" scope="col">CVD deaths</th>
+<th data-quarto-table-cell-role="th" scope="col">Deaths per 100,000</th>
+<th data-quarto-table-cell-role="th" scope="col">Key cultural / risk factors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" scope="row">China</th>
+<td>5.02 million</td>
+<td>—</td>
+<td>High sodium intake, urban dietary transition, sedentary lifestyles, tobacco use, rising hypertension.</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th" scope="row">India</th>
+<td>2.86 million</td>
+<td>—</td>
+<td>Dietary transition, tobacco exposure, low physical activity, urbanization, unequal access to prevention.</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" scope="row">Russia</th>
+<td>903,200</td>
+<td>622.5</td>
+<td>Tobacco use, alcohol consumption, hypertension, diet, physical inactivity, socioeconomic deprivation.</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th" scope="row">United States</th>
+<td>920,884</td>
+<td>273.3</td>
+<td>Obesity, high blood pressure, diabetes, smoking, physical inactivity, processed food patterns.</td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+
+      <div class="country-briefs">
+        <article class="country-brief">
+          <h3 class="anchored">China</h3>
+          <p>China had approximately 5.02 million CVD deaths in 2021, the largest number among individual countries in the WHO dataset. Stroke followed by ischemic heart disease remained major drivers of mortality.</p>
+          <ul>
+            <li>About 27.3% of adults aged 30–79 had hypertension in 2019.</li>
+            <li>About 23.1% of adults aged 15+ used tobacco in 2022.</li>
+            <li>Urbanization and dietary change have been linked to higher sodium intake and more sedentary behavior.</li>
+          </ul>
+        </article>
+        <article class="country-brief">
+          <h3 class="anchored">India</h3>
+          <p>India had approximately 2.86 million CVD deaths in 2021, with a major burden concentrated among people aged 40–69. This indicates that risk is shaped by both environmental exposure and social conditions.</p>
+          <ul>
+            <li>About 220 million people were estimated to have hypertension.</li>
+            <li>Only about 12% of people with hypertension had blood pressure under control.</li>
+            <li>WHO highlights unhealthy diet, tobacco, alcohol, low physical activity, and rapid urbanization as major drivers.</li>
+          </ul>
+        </article>
+        <article class="country-brief">
+          <h3 class="anchored">Russia</h3>
+          <p>Russia had 903,200 CVD deaths in 2021, with a rate of 622.5 per 100,000, far above the U.S. rate of 273.3. This suggests a different epidemiologic profile, shaped by behavioral risks and healthcare access.</p>
+          <ul>
+            <li>Tobacco, alcohol, and hypertension are major contributors.</li>
+            <li>Diet and physical inactivity are also important factors.</li>
+            <li>WHO's European analysis links CVD risk to socioeconomic deprivation, air pollution, and weak prevention.</li>
+          </ul>
+        </article>
+        <article class="country-brief">
+          <h3 class="anchored">United States</h3>
+          <p>The United States had 920,884 CVD deaths in 2021, with a rate of 273.3 per 100,000. The burden remains very large even though the rate is lower than Russia's, reflecting a high-risk population with persistent obesity, diabetes, and vascular disease.</p>
+          <ul>
+            <li>Obesity, smoking, hypertension, and diabetes remain core drivers.</li>
+            <li>Dietary patterns high in sodium, saturated fat, and processed foods strongly contribute.</li>
+            <li>Healthcare access and prevention quality influence how effectively risk is managed.</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="research-model-note">
+        A more precise research model would not claim that "culture itself causes CVD." Instead, it would analyze how cultural and environmental factors shape measurable behavior and physiological risk factors such as diet, smoking, physical inactivity, hypertension, and obesity, which then influence cardiovascular outcomes.
+      </aside>
+    </div>
+  </section>
+
+  <section class="smoking-panel" aria-labelledby="smoking-heading">
+    <h2 id="smoking-heading" class="anchored">Smoking and cardiovascular disease</h2>
+    <p class="smoking-intro">
+      Tobacco use is a measurable behavioral risk factor: people who smoke have about a <strong>2–4 times higher risk of coronary heart disease and stroke</strong> than people who do not smoke. Even smoking fewer than five cigarettes a day can produce early signs of cardiovascular harm.
+    </p>
+
+    <div class="smoking-stats" aria-label="Cardiovascular risks associated with smoking">
+      <article class="smoking-stat">
+        <h3 class="anchored">2–4×</h3>
+        <p>higher risk of coronary heart disease among people who smoke</p>
+      </article>
+      <article class="smoking-stat">
+        <h3 class="anchored">2–4×</h3>
+        <p>higher risk of stroke compared with people who do not smoke</p>
+      </article>
+      <article class="smoking-stat">
+        <h3 class="anchored">1 in 4</h3>
+        <p>U.S. cardiovascular disease deaths attributed to smoking</p>
+      </article>
+      <article class="smoking-stat">
+        <h3 class="anchored">25–30%</h3>
+        <p>higher coronary heart disease risk for nonsmokers exposed to secondhand smoke</p>
+      </article>
+    </div>
+
+    <figure class="evidence-graph figure" aria-labelledby="smoking-chart-title">
+      <figcaption id="smoking-chart-title">
+        <strong>Relative risk linked to tobacco exposure</strong>
+        <span>Percent higher than the comparison group</span>
+      </figcaption>
+      <div class="graph-plot" role="img" aria-label="Smoking is associated with 100 to 300 percent higher coronary heart disease risk and stroke risk. Secondhand smoke is associated with 20 to 30 percent higher stroke risk.">
+        <div class="graph-row">
+          <span class="graph-label">Smoking: coronary heart disease</span>
+          <div class="graph-track"><span class="range-segment" style="--range-start: 33.33%; --range-width: 66.67%;"></span></div>
+          <strong class="graph-value">100–300%</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">Smoking: stroke</span>
+          <div class="graph-track"><span class="range-segment" style="--range-start: 33.33%; --range-width: 66.67%;"></span></div>
+          <strong class="graph-value">100–300%</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">Secondhand smoke: stroke</span>
+          <div class="graph-track"><span class="range-segment" style="--range-start: 6.67%; --range-width: 3.33%;"></span></div>
+          <strong class="graph-value">20–30%</strong>
+        </div>
+      </div>
+      <div class="graph-axis" aria-hidden="true"><span class="graph-axis-spacer"></span><div class="graph-ticks"><span>0%</span><span>100%</span><span>200%</span><span>300% higher risk</span></div><span class="graph-axis-spacer"></span></div>
+      <p class="graph-note">Ranges convert the cited 2–4× risks to percent higher than the comparison group; secondhand-smoke risk is shown separately.</p>
+    </figure>
+
+    <p class="smoking-process">Tobacco exposure <span aria-hidden="true">→</span> blood-vessel damage <span aria-hidden="true">→</span> plaque and clot formation <span aria-hidden="true">→</span> reduced blood flow <span aria-hidden="true">→</span> heart attack or stroke</p>
+
+    <p class="smoking-note">
+      Smoking can damage vessel linings, promote atherosclerosis and clotting, raise triglycerides, lower HDL cholesterol, and nicotine can increase blood pressure. Secondhand smoke is also harmful: it is associated with a 20–30% higher stroke risk and, in the United States, about 34,000 premature coronary-heart-disease deaths and more than 8,000 stroke deaths among nonsmokers each year. These relative-risk estimates describe changes in an individual's risk, not a multiplication of total deaths; population deaths also depend on smoking prevalence, age, other risks, and healthcare. <strong>Source: CDC.</strong>
+    </p>
+  </section>
+
+  <section class="smoking-panel alcohol-panel" aria-labelledby="alcohol-heading">
+    <h2 id="alcohol-heading" class="anchored">Alcohol consumption and cardiovascular disease</h2>
+    <p class="smoking-intro">
+      <strong>Alcohol consumption is another behavioral factor associated with cardiovascular disease. According to the World Health Organization, approximately 474,000 cardiovascular-disease deaths worldwide were attributable to alcohol consumption in 2019. Alcohol is also associated with increased blood pressure, which is an important risk factor for heart disease and stroke. WHO identifies harmful alcohol use as one of the major behavioral risk factors for cardiovascular disease, along with tobacco use, physical inactivity, and unhealthy diet. Therefore, alcohol consumption can be examined as a potential predictor of differences in cardiovascular disease rates between populations.</strong>
+    </p>
+
+    <div class="smoking-stats" aria-label="Alcohol and cardiovascular disease statistics">
+      <article class="smoking-stat">
+        <h3 class="anchored">474,000</h3>
+        <p>worldwide CVD deaths attributable to alcohol in 2019</p>
+      </article>
+      <article class="smoking-stat">
+        <h3 class="anchored">2.6 million</h3>
+        <p>worldwide deaths from all causes attributable to alcohol in 2019</p>
+      </article>
+      <article class="smoking-stat">
+        <h3 class="anchored">200+</h3>
+        <p>diseases, injuries, and health conditions associated with alcohol</p>
+      </article>
+      <article class="smoking-stat">
+        <h3 class="anchored">4.2 million</h3>
+        <p>CVD deaths in the WHO European Region in 2019, 42.5% of all deaths</p>
+      </article>
+    </div>
+
+    <figure class="evidence-graph figure" aria-labelledby="alcohol-chart-title">
+      <figcaption id="alcohol-chart-title">
+        <strong>Alcohol-attributable deaths worldwide, 2019</strong>
+        <span>Deaths, in millions; CVD deaths are a subset of all-cause deaths</span>
+      </figcaption>
+      <div class="graph-plot" role="img" aria-label="In 2019, alcohol was attributable to 2.6 million deaths from all causes, including 0.474 million cardiovascular disease deaths.">
+        <div class="graph-row">
+          <span class="graph-label">All causes</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 100%;"></span></div>
+          <strong class="graph-value">2.6m</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">Cardiovascular disease</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 18.23%;"></span></div>
+          <strong class="graph-value">0.474m</strong>
+        </div>
+      </div>
+      <div class="graph-axis" aria-hidden="true"><span class="graph-axis-spacer"></span><div class="graph-ticks"><span>0</span><span>0.65m</span><span>1.3m</span><span>1.95m</span><span>2.6m deaths</span></div><span class="graph-axis-spacer"></span></div>
+      <p class="graph-note">WHO global estimates for 2019. The cardiovascular figure is included within the all-cause total, not additional to it.</p>
+    </figure>
+
+    <p class="smoking-process">Alcohol consumption <span aria-hidden="true">→</span> increased blood pressure <span aria-hidden="true">→</span> cardiovascular damage <span aria-hidden="true">→</span> increased risk of heart disease or stroke</p>
+
+    <p class="smoking-note">
+      Alcohol can also contribute to atrial fibrillation, hypertension, and coronary heart disease. The CDC identifies excessive alcohol use as a heart-disease risk factor. The WHO European Region's CVD total describes the regional burden; it is not a count of deaths attributable to alcohol. <strong>Sources: WHO and CDC.</strong>
+    </p>
+  </section>
+
+  <section class="physical-panel" aria-labelledby="physical-heading">
+    <h2 id="physical-heading" class="anchored">Physical activity and cardiovascular health</h2>
+    <p class="physical-intro">
+      Physical activity is a practical predictor for international comparisons because it is measured more consistently than general “fitness.”<br>
+      In 2022, <strong>31% of adults worldwide—about 1.8 billion people—were insufficiently active.</strong>
+    </p>
+
+    <div class="physical-stats" aria-label="Physical activity and cardiovascular health statistics">
+      <article class="physical-stat">
+        <h3 class="anchored">20–30%</h3>
+        <p>higher risk of death among insufficiently active people</p>
+      </article>
+      <article class="physical-stat">
+        <h3 class="anchored">150 min</h3>
+        <p>of moderate activity recommended weekly for adults, or 75 minutes vigorous</p>
+      </article>
+      <article class="physical-stat">
+        <h3 class="anchored">14% lower</h3>
+        <p>coronary heart disease risk associated with meeting minimum activity levels</p>
+      </article>
+      <article class="physical-stat">
+        <h3 class="anchored">47.2%</h3>
+        <p>of U.S. adults met federal aerobic activity guidelines in 2024</p>
+      </article>
+    </div>
+
+    <figure class="evidence-graph figure" aria-labelledby="activity-chart-title">
+      <figcaption id="activity-chart-title">
+        <strong>Activity snapshots</strong>
+        <span>Share of population (%)</span>
+      </figcaption>
+      <div class="graph-plot" role="img" aria-label="In 2022, 31 percent of adults worldwide were insufficiently active. In 2024, 47.2 percent of U.S. adults met federal aerobic activity guidelines.">
+        <div class="graph-row">
+          <span class="graph-label">Worldwide adults insufficiently active (2022)</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 62%;"></span></div>
+          <strong class="graph-value">31%</strong>
+        </div>
+        <div class="graph-row">
+          <span class="graph-label">U.S. adults meeting aerobic guidelines (2024)</span>
+          <div class="graph-track"><span class="bar-fill" style="width: 94.4%;"></span></div>
+          <strong class="graph-value">47.2%</strong>
+        </div>
+      </div>
+      <div class="graph-axis" aria-hidden="true"><span class="graph-axis-spacer"></span><div class="graph-ticks"><span>0%</span><span>12.5%</span><span>25%</span><span>37.5%</span><span>50%</span></div><span class="graph-axis-spacer"></span></div>
+      <p class="graph-note">Different populations and measures are shown on the same percentage scale; the bars are not a direct comparison of the same group.</p>
+    </figure>
+
+    <p class="physical-process">Physical inactivity <span aria-hidden="true">→</span> higher blood pressure, blood glucose, blood lipids, and obesity <span aria-hidden="true">→</span> increased CVD risk</p>
+
+    <p class="physical-note">
+      Regular activity is associated with lower cardiovascular mortality and lower risk of hypertension, type 2 diabetes, and obesity. A WHO review found about a 14% reduction in coronary heart disease risk at the recommended minimum level, and about 25% among highly active people. WHO recommends at least 150 minutes of moderate activity or 75 minutes of vigorous activity per week, or an equivalent combination. These are population-level associations, not guarantees for an individual. <strong>Sources: WHO and CDC.</strong>
+    </p>
+  </section>
+
+  <div class="methodology-grid">
+    <section class="methodology-card" aria-labelledby="methodology-heading">
+      <h2 id="methodology-heading" class="anchored">Methodology</h2>
+      <p>Values represent age-standardized cardiovascular disease death rates per 100,000 population, both sexes combined, as reported in the World Heart Observatory dataset.</p>
+    </section>
+    <section class="methodology-card" aria-labelledby="interpretation-heading">
+      <h2 id="interpretation-heading" class="anchored">Interpretation</h2>
+      <p>Darker regions indicate a higher burden of CVD mortality. The map supports zoom, pan, and hover inspection for detailed country-level comparisons.</p>
+    </section>
+  </div>
+
+  <section class="glossary-panel" aria-labelledby="glossary-heading">
+    <h2 id="glossary-heading" class="anchored">Common CVD terms explained</h2>
+    <p>These terms are frequently used in cardiovascular disease research and public health discussions. They help explain how risk, disease progression, and mortality are measured.</p>
+    <dl class="glossary-list">
+      <div><dt>Cardiovascular disease (CVD)</dt><dd>A group of disorders affecting the heart and blood vessels.</dd></div>
+      <div><dt>Coronary heart disease</dt><dd>A condition involving narrowed or blocked blood vessels that supply the heart.</dd></div>
+      <div><dt>Stroke</dt><dd>Brain injury caused when blood flow is blocked or a blood vessel bleeds.</dd></div>
+      <div><dt>Hypertension</dt><dd>Persistently elevated blood pressure, which increases strain on the heart and vessels.</dd></div>
+      <div><dt>Age-standardized mortality rate</dt><dd>A death rate adjusted to a common age distribution so populations can be compared more fairly.</dd></div>
+      <div><dt>Risk factor</dt><dd>A behavior or condition associated with a higher likelihood of disease; association alone does not prove causation.</dd></div>
+    </dl>
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script>
+  const statusNode = document.getElementById('map-status');
+  const mapCountryName = document.getElementById('map-country-name');
+  const mapCountryRate = document.getElementById('map-country-rate');
+  const mapCountryNote = document.getElementById('map-country-note');
+
+  function updateMapStat(countryName, valueText, noteText) {
+    mapCountryName.textContent = countryName || 'Global overview';
+    mapCountryRate.textContent = valueText || 'Age-standardized mortality';
+    mapCountryNote.textContent = noteText || 'Hover or focus a country to view its country-level cardiovascular disease burden.';
+  }
+
+  const normalizeName = (value) =>
+    (value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/&/g, 'and')
+      .replace(/[^a-z0-9\s]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+  const aliasNames = {
+    'cote d ivoire': 'Cote d Ivoire',
+    'congo kinshasa': 'Congo - Kinshasa',
+    'congo brazzaville': 'Congo - Brazzaville',
+    'vatican city': 'Vatican City',
+    'saint lucia': 'St. Lucia',
+    'saint vincent and the grenadines': 'St. Vincent & Grenadines',
+    'saint kitts and nevis': 'St. Kitts & Nevis',
+    'saint pierre and miquelon': 'St. Pierre & Miquelon',
+    'saint helena': 'St. Helena',
+    'united states of america': 'United States',
+    'united kingdom': 'United Kingdom',
+    'north macedonia': 'North Macedonia',
+    'myanmar': 'Myanmar (Burma)',
+    'myanmar burma': 'Myanmar (Burma)',
+    'eswatini': 'Eswatini',
+    'sao tome and principe': 'São Tomé & Príncipe',
+    'palestinian territories': 'Palestinian Territories',
+    'cape verde': 'Cape Verde',
+    'czech republic': 'Czechia',
+    'bahamas': 'Bahamas',
+    'dominican republic': 'Dominican Republic',
+    'guinea bissau': 'Guinea-Bissau',
+    'antigua and barbuda': 'Antigua & Barbuda',
+    'barbados': 'Barbados',
+    'grenada': 'Grenada',
+    'tanzania': 'Tanzania',
+    'timor leste': 'Timor-Leste',
+    'trinidad and tobago': 'Trinidad & Tobago',
+    'united states virgin islands': 'U.S. Virgin Islands',
+    'us virgin islands': 'U.S. Virgin Islands',
+    'northern mariana islands': 'Northern Mariana Islands',
+    'guam': 'Guam',
+    'marshall islands': 'Marshall Islands',
+    'bahrain': 'Bahrain',
+    'singapore': 'Singapore',
+    'maldives': 'Maldives',
+    'andorra': 'Andorra',
+    'tonga': 'Tonga',
+    'bermuda': 'Bermuda',
+    'malta': 'Malta',
+    'mauritius': 'Mauritius',
+    'kiribati': 'Kiribati',
+    'seychelles': 'Seychelles',
+    'comoros': 'Comoros',
+    'samoa': 'Samoa',
+    'serbia': 'Serbia',
+    'russian federation': 'Russia'
+  };
+
+  function updateStatus(countryName, valueText, confidenceRange) {
+    const detail = valueText
+      ? `${countryName}: ${valueText} age-standardized deaths per 100,000 people. 95% confidence range: ${confidenceRange}.`
+      : `${countryName}: no data available.`;
+    statusNode.textContent = detail;
+  }
+
+  function showCountry(country) {
+    const rate = Number(country.value).toFixed(1);
+    const lower = Number(country.lower);
+    const upper = Number(country.upper);
+    const confidenceRange = Number.isFinite(lower) && Number.isFinite(upper)
+      ? `${lower.toFixed(1)} to ${upper.toFixed(1)}`
+      : 'not available';
+
+    updateStatus(country.country_name, rate, confidenceRange);
+    updateMapStat(
+      country.country_name,
+      `${rate} per 100,000`,
+      `95% confidence range: ${confidenceRange} per 100,000 people.`
+    );
+  }
+
+  async function loadData() {
+    const [geoResponse, countryResponse, alpha3Response] = await Promise.all([
+      fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson'),
+      fetch('data/world-heart-map-data.json'),
+      fetch('data/country-alpha3-alpha2.json')
+    ]);
+
+    const world = await geoResponse.json();
+    const payload = await countryResponse.json();
+    const alpha3Map = await alpha3Response.json();
+
+    const alpha3ToCountryCode = new Map(
+      Object.entries(alpha3Map || {}).map(([alpha3, alpha2]) => [String(alpha3).toUpperCase(), String(alpha2).toUpperCase()])
+    );
+
+    return { world, countries: payload.data || [], alpha3ToCountryCode };
+  }
+
+  function resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode) {
+    const named = feature?.properties?.name;
+    const key = normalizeName(named);
+    const direct = countryByName.get(key) || countryByName.get(aliasNames[key] ? normalizeName(aliasNames[key]) : key);
+    if (direct) return direct;
+
+    const iso3 = String(feature?.id || '').toUpperCase();
+    const iso2 = alpha3ToCountryCode.get(iso3) || null;
+    if (iso2) return countryByCode.get(iso2) || null;
+
+    return null;
+  }
+
+  loadData()
+    .then(({ world, countries, alpha3ToCountryCode }) => {
+      const countryByName = new Map();
+      const countryByCode = new Map();
+
+      countries.forEach((entry) => {
+        const key = normalizeName(entry.country_name);
+        const aliasKey = normalizeName(aliasNames[key] || entry.country_name);
+        countryByName.set(key, entry);
+        countryByName.set(aliasKey, entry);
+        countryByCode.set(String(entry.country_code || '').toUpperCase(), entry);
+      });
+
+      const min = d3.min(countries, (d) => Number(d.value));
+      const max = d3.max(countries, (d) => Number(d.value));
+
+      const colorScale = d3
+        .scaleSequential()
+        .domain([min, max])
+        .interpolator(d3.interpolateRgbBasis(['#e6f0fb', '#9bbdf0', '#4b86d6', '#174d9c']));
+
+      const svg = d3.select('#world-map');
+      const featureCollection = {
+        type: 'FeatureCollection',
+        features: world.features.filter((feature) => feature.properties?.name && feature.properties.name !== 'Antarctica')
+      };
+
+      const projection = d3.geoMercator().fitSize([960, 500], featureCollection);
+      const path = d3.geoPath(projection);
+      const zoom = d3.zoom()
+        .scaleExtent([1, 8])
+        .on('zoom', (event) => {
+          mapRoot.attr('transform', event.transform);
+        });
+
+      const mapRoot = svg.append('g').attr('class', 'map-root');
+      svg.call(zoom);
+
+      mapRoot.selectAll('path.country-path')
+        .data(featureCollection.features)
+        .join('path')
+        .attr('class', 'country-path')
+        .attr('d', path)
+        .attr('fill', (feature) => {
+          const country = resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode);
+          return country ? colorScale(Number(country.value)) : '#dfe2e6';
+        })
+        .attr('stroke', '#f5f7fa')
+        .attr('stroke-width', 0.75)
+        .attr('tabindex', (feature) => {
+          const country = resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode);
+          return country ? 0 : -1;
+        })
+        .attr('role', 'button')
+        .attr('aria-label', (feature) => {
+          const country = resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode);
+          if (!country) return `${feature.properties.name}: no data available.`;
+          return `${country.country_name}: ${Number(country.value).toFixed(2)} age-standardized deaths per 100,000 people.`;
+        })
+        .on('mouseenter', function (event, feature) {
+          const country = resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode);
+          if (!country) return;
+          showCountry(country);
+          this.style.filter = 'brightness(0.96)';
+        })
+        .on('mouseleave', function () {
+          this.style.filter = 'none';
+          statusNode.textContent = 'Country data ready.';
+          updateMapStat('Global overview', 'Age-standardized mortality', 'Hover or focus a country to view its country-level cardiovascular disease burden.');
+        })
+        .on('focus', function (event, feature) {
+          const country = resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode);
+          if (!country) return;
+          showCountry(country);
+        })
+        .on('blur', function () {
+          statusNode.textContent = 'Country data ready.';
+          updateMapStat('Global overview', 'Age-standardized mortality', 'Hover or focus a country to view its country-level cardiovascular disease burden.');
+        })
+        .on('keydown', function (event, feature) {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            const country = resolveCountry(feature, countryByName, countryByCode, alpha3ToCountryCode);
+            if (country) showCountry(country);
+          }
+        });
+
+      document.getElementById('zoom-in').addEventListener('click', () => {
+        svg.transition().duration(250).call(zoom.scaleBy, 1.5);
+      });
+
+      document.getElementById('zoom-out').addEventListener('click', () => {
+        svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.5);
+      });
+
+      document.getElementById('reset-view').addEventListener('click', () => {
+        svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity);
+      });
+
+      statusNode.textContent = 'Country data ready.';
+    })
+    .catch((error) => {
+      console.error('Map data could not be loaded:', error);
+      statusNode.textContent = 'Map data failed to load.';
+    });
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
